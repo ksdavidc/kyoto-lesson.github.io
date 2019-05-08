@@ -1,3 +1,8 @@
+
 p {
-   color: blue;
-} 
+    color:rgb(89, 105, 131);
+    font-size:20px;
+    font-family:'open sans';
+    font-weight: 300;
+    text-align: justify;
+}
