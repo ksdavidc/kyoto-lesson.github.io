@@ -90,13 +90,20 @@ body {
   margin: 40px auto;
   color: rgb(89, 105, 131);
 }
-a {
+.main a, .footer a {
     color: inherit; /* blue colors for links too */
+    font-weight: 400;
+    transition-property: color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
+}
+.main a:hover, .footer a:hover {
+    color: rgb(83, 147, 204);
 }
 
 .main img {
   float: left;
-  margin: 50px 80px 50px 0;
+  margin: 20px 20px 60px 0px;
 }
 
 .footer { 
