@@ -100,10 +100,16 @@ body {
 .main a:hover, .footer a:hover {
     color: rgb(83, 147, 204);
 }
-
 .main img {
-  float: left;
+  /* float: left; */
   margin: 20px 20px 60px 0px;
+  max-width: 940px;
+}
+
+#profilepic {
+  margin: 20px;
+  max-width: 100px;
+  float: left
 }
 
 .footer { 
