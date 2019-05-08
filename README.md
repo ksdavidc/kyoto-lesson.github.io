@@ -2,6 +2,7 @@
 
 Pour enregistrer vos changements:
 -----------------------------------
+cd github/kyoto-lesson.github.io/
 git add --all
 git commit -m "[remplir]"
 git push -u origin master
