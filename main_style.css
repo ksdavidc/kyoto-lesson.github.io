@@ -140,22 +140,22 @@ body {
   } */
   
   
-  .footer { 
+  footer { 
     background: rgb(45, 112, 172);
-    height: 100px; 
+    height: 50px;
     padding-bottom: 100px;
   }
   
-  .footer img {
+  footer img {
       max-width: 25px;
       float: left;
       margin: 20px 10px 0px 0;
     }
   
-  .footer p { 
+  footer p { 
     color: #fff;
     font-size: 14px;  
-    height: 100px; 
+    height: 50px; 
     line-height: 80px;
     margin: 0;  
   }
