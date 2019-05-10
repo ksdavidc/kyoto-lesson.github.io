@@ -1,8 +1,161 @@
 
-p {
-    color: rgb(89, 105, 131);
-    font-size: 20px;
-    font-family: 'Open Sans';
+body {
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     text-align: justify;
-}
+  }
+  
+  header {
+    padding: 20px 0;
+  }
+  
+  header .row,
+  footer .row {
+    display: flex;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  header p {
+    padding: 0 20px;
+    margin: 0;
+  }
+  
+  .navpart li {
+    color: rgb(106, 132, 161);
+    height: 80px;
+    line-height: 80px; 
+    padding: 0 1rem;
+    margin: 0 0 3rem 0;
+    transition: background .5s; 
+    font-size: 1.5rem;
+  }
+  
+  .navpart a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+    font-weight: 500;
+  }
+  
+  .navpart li:hover {
+  background: rgb(83, 147, 204);
+  color: #fff;
+  /* cursor: pointer;  */
+  transition: background .5s;  
+  }
+  
+  
+  .jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('https://kyoto-lesson.github.io/img/entry-header11-1910x184.png');
+    background-size: cover;
+    color: #ffffff;
+    height: 500px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+  }
+  
+  .jumbotron h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .jumbotron h3 {
+    margin: 0 0 20px;
+    color: #fff;
+  }
+  
+  section .row img {
+    margin: 0 0 30px;
+    width: 100%;
+  }
+  
+  .col-md-6 {
+    margin: 0 0 30px;
+  }
+  
+  .btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    color: #fbd1d5;
+    text-shadow: none;
+    background-color: #ffffff;
+  }
+  
+  .btn.btn-primary:hover {
+    color: #ffffff;
+    background-color: #fbd1d5;
+  }
+  
+  .btn-secondary {
+    background-color: #E8DFE0;
+    color: #ffffff;
+    margin: 0 0 30px;
+  }
+  
+  
+  .main {
+    color: rgb(89, 105, 131);
+  }
+  
+  .main p{
+    font-size: 1.25rem;  
+    line-height: 1.5rem; 
+  }
+  .main ul, li{
+    font-size: 1.25rem;  
+    line-height: 1.75rem; 
+  }
+  
+  .main a, .footer a {
+    color: inherit; /* blue colors for links too */
+    font-weight: 400;
+    transition-property: color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
+  }
+  .main a:hover, .footer a:hover {
+    color: rgb(83, 147, 204);
+  }
+  .main h2 {
+    font-size: 2rem;  
+    line-height: 5rem; 
+    font-weight: 600;
+  }
+  /* .main h3 {
+    font-size: 1.5rem;  
+    line-height: 4rem; 
+    font-weight: 500;
+  } */
+  
+  
+  .footer { 
+    background: rgb(45, 112, 172);
+    height: 100px; 
+    padding-bottom: 100px;
+  }
+  
+  .footer img {
+      max-width: 25px;
+      float: left;
+      margin: 20px 10px 0px 0;
+    }
+  
+  .footer p { 
+    color: #fff;
+    font-size: 14px;  
+    height: 100px; 
+    line-height: 80px;
+    margin: 0;  
+  }
