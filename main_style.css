@@ -85,37 +85,17 @@ body {
     margin: 0 0 30px;
   }
   
-  .btn.btn-primary {
-    border-radius: 2px;
-    border: 0px;
-    color: #fbd1d5;
-    text-shadow: none;
-    background-color: #ffffff;
-  }
-  
-  .btn.btn-primary:hover {
-    color: #ffffff;
-    background-color: #fbd1d5;
-  }
-  
-  .btn-secondary {
-    background-color: #E8DFE0;
-    color: #ffffff;
-    margin: 0 0 30px;
-  }
-  
-  
   .main {
     color: rgb(89, 105, 131);
   }
   
   .main p{
-    font-size: 1.25rem;  
-    line-height: 1.5rem; 
+    font-size: 1.1rem;  
+    line-height: 1.35rem; 
   }
   .main ul, li{
-    font-size: 1.25rem;  
-    line-height: 1.75rem; 
+    font-size: 1.1rem;  
+    line-height: 1.35rem; 
   }
   
   .main a, .footer a {
@@ -139,6 +119,11 @@ body {
     font-weight: 500;
   } */
   
+  .img_kyoto {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
   
   footer { 
     background: rgb(45, 112, 172);
