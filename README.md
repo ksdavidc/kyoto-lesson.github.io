@@ -1,5 +1,13 @@
 # kyoto-lesson.github.io
 
+JavaScript Intro
+-----------------------------------
+Create a folder movie_search
+Create a folder images
+Create index.html
+Create index.js
+
+
 Pour enregistrer vos changements:
 -----------------------------------
 JUN

@@ -1,4 +1,7 @@
 
+html {
+  scroll-behavior: smooth;
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -126,7 +129,7 @@ body {
   }
   
   footer { 
-    background: rgb(45, 112, 172);
+    background: rgb(83, 147, 204);
     height: 50px;
     padding-bottom: 130px;
   }
