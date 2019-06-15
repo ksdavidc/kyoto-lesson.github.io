@@ -20,6 +20,17 @@ const searchMovie = (event) => {
     event.preventDefault();
 };
 
+
+// const searchMovie = (event) => {
+//   fetch(`http://www.omdbapi.com/?s=${event.currentTarget.value}&apikey=adf1f2d7`)
+//     .then(response => response.json())
+//     .then((data) => {
+//       console.log(data);
+//     })
+//   }
+
+// console.log('hello world')
 const list = document.querySelector(".row");
 const input = document.querySelector("form input");
-input.addEventListener("keyup", searchMovie);
+list.addEventListener("click", (event) => {alert("list clicked!")})
+// input.addEventListener("keyup", searchMovie);
