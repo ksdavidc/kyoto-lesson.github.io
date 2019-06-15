@@ -1,0 +1,18 @@
+ body{
+    background-image: url("./img/IntelcoreI9.jpg");
+    background-size: cover;    
+}
+article{
+border: 1px solid black;
+}
+.Middle_school{
+color: red;
+}
+#third{
+    color: green;
+} 
+
+body{
+    background-image: url("./img/IntelcoreI9.jpg");
+    background-size: cover;    
+}
