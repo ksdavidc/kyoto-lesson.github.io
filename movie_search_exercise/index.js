@@ -7,6 +7,9 @@ const searchMovie = (event) => {
     let index = 0;
     let item = "";
     for (index=0; index<10;  index++){
+
+      item = `<div class="col-xs-4"><div class="shadow p-4 m-3 text-center"><img src='${data.Search[index].Poster}' alt="movie"><p class="m-0 mt-3">'${data.Search[index].Title}'</p></div></div>`;
+
       // create item html element
       list.insertAdjacentHTML('beforeend', item);
     }
@@ -15,6 +18,7 @@ const searchMovie = (event) => {
   event.preventDefault();
 };
 
-// select class row save as list
-// select element form input save as input
+const list = document.querySelector(".row");
+const input = document.querySelector("form input");
 input.addEventListener("keyup", searchMovie);
+// input.addEventListener("click", (event) => {alert("you've just clicked!")});
