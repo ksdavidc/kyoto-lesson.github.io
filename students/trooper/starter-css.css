@@ -1,0 +1,5 @@
+.jumbotron{
+    background-image: url( https://s3.amazonaws.com/codecademy-content/courses/learn-bootstrap-components/mock+website+assets/boots_jumbotron.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+  }
