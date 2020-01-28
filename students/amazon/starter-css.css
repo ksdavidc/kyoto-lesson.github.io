@@ -1,0 +1,14 @@
+.red{
+    color: red;
+    font-size: 100px;
+}
+.ReadMoreButton{
+border: solid 1px blue;
+font-size: 30px;
+background-color: gold;
+}
+.LessText{
+    border: solid 1px green;
+    background-color: orange;
+    font-size: 30px;
+}
