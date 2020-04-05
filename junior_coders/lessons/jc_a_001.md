@@ -1,5 +1,5 @@
 <header>
-<h1>a_001 Introduction to the computer and ScratchJr</h1>
+<h1>a-001 Introduction to the computer and ScratchJr</h1>
 </header>
 
 * [Review Agenda](#review-agenda)

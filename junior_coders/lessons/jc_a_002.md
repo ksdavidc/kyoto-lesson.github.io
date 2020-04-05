@@ -1,5 +1,5 @@
 <header>
-<h1>a_002 Simple two-line maze</h1>
+<h1>a-002 Simple two-line maze</h1>
 </header>
 
 

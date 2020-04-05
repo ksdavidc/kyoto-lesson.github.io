@@ -1,5 +1,5 @@
 <header>
-<h1>Saturday 3:30pm - Class Notes: a. Getting Started with Scratch Jr</h1>
+<h1>Saturday 3:30pm: (a) Getting Started with Scratch Jr</h1>
 </header>
 
 - [11th April](#11th-april)
