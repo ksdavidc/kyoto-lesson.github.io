@@ -1,4 +1,7 @@
 * [Class 3: Further Mazes](#class-3-further-mazes)
+    * [Main Kyoto Coding Page](#main-kyoto-coding-page)
+    * [Monday PM index](#monday-pm-index)
+    * [Lesson index](#lesson-index)
   * [Review new anti-corona procedures](#review-new-anti-corona-procedures)
   * [Confirm and Set up Discord.](#confirm-and-set-up-discord)
   * [Black](#black)
@@ -12,9 +15,11 @@
 
 # Class 3: Further Mazes
 
-[Main Kyoto Coding Page](./index.html)
-[Monday PM index](../junior_coders/monday_pm/index.html)
-[Lesson index](../junior_coders/lessons/index.html)
+### [Main Kyoto Coding Page](./index.html)
+
+### [Monday PM index](../monday_pm/index.html)
+
+### [Lesson index](../lessons/index.html)
 
 ## Review new anti-corona procedures
 
