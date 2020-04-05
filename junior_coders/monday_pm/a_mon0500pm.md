@@ -1,5 +1,5 @@
 <header>
-<h1>Monday 5:00pm: (a) Getting Started with Scratch Jr</h1>
+<h1>Monday 5:00pm: [Module-a] Getting Started with Scratch Jr</h1>
 </header>
 
 - [23rd March](#23rd-march)
