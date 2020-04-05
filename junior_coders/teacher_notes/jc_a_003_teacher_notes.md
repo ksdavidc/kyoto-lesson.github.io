@@ -1,3 +1,5 @@
+[Main Kyoto Coding Page](../../index.html)||Junior Coders:|[Monday PM index](../monday_pm/index.html)|[Lesson index](../lessons/index.html)
+
 * [Class 3: Further Mazes](#class-3-further-mazes)
     * [Main Kyoto Coding Page](#main-kyoto-coding-page)
     * [Monday PM index](#monday-pm-index)
@@ -14,14 +16,6 @@
   * [Homework](#homework)
 
 # Class 3: Further Mazes
-
-### [Main Kyoto Coding Page](../../index.index.html)
-
-### [Monday PM index](../monday_pm/index.html)
-
-### [Lesson index](../lessons/index.html)
-
-## Review new anti-corona procedures
 
 * temps and washing hands
 * don't touch
