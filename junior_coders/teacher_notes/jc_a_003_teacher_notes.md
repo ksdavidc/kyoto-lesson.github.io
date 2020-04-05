@@ -15,7 +15,7 @@
 
 # Class 3: Further Mazes
 
-### [Main Kyoto Coding Page](./index.html)
+### [Main Kyoto Coding Page](../../index.index.html)
 
 ### [Monday PM index](../monday_pm/index.html)
 
