@@ -1,9 +1,6 @@
 [Main Kyoto Coding Page](../../index.html)||Junior Coders:|[Monday PM index](../monday_pm/index.html)|[Lesson index](../lessons/index.html)
 
 * [Class 3: Further Mazes](#class-3-further-mazes)
-    * [Main Kyoto Coding Page](#main-kyoto-coding-page)
-    * [Monday PM index](#monday-pm-index)
-    * [Lesson index](#lesson-index)
   * [Review new anti-corona procedures](#review-new-anti-corona-procedures)
   * [Confirm and Set up Discord.](#confirm-and-set-up-discord)
   * [Black](#black)
@@ -15,7 +12,6 @@
   * [contact trigger block](#contact-trigger-block)
   * [Homework](#homework)
 
-# Class 3: Further Mazes
 
 * temps and washing hands
 * don't touch
