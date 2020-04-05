@@ -12,6 +12,10 @@
 
 # Class 3: Further Mazes
 
+[Main Kyoto Coding Page](./index.html)
+[Monday PM index](./junior_coders/monday_pm/index.html)
+[Lesson index](./junior_coders/lessons/index.html)
+
 ## Review new anti-corona procedures
 
 * temps and washing hands
