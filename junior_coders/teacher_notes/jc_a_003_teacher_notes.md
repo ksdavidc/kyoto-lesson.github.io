@@ -1,17 +1,17 @@
 [Main Kyoto Coding Page](../../index.html)||Junior Coders:|[Monday PM index](../monday_pm/index.html)|[Lesson index](../lessons/index.html)
 
-* [Class 3: Further Mazes](#class-3-further-mazes)
-  * [Review new anti-corona procedures](#review-new-anti-corona-procedures)
-  * [Confirm and Set up Discord.](#confirm-and-set-up-discord)
-  * [Black](#black)
-  * [Maze Demo](#maze-demo)
-  * [Review Homework: Making a Maze](#review-homework-making-a-maze)
-  * [Scratching Black](#scratching-black)
-  * [characters visible/invisible blocks](#characters-visibleinvisible-blocks)
-  * [sending message blocks](#sending-message-blocks)
-  * [contact trigger block](#contact-trigger-block)
-  * [Homework](#homework)
+* [Review anti-corona measures](#review-anti-corona-measures)
+* [Confirm and Set up Discord.](#confirm-and-set-up-discord)
+* [Black](#black)
+* [Maze Demo](#maze-demo)
+* [Review Homework: Making a Maze](#review-homework-making-a-maze)
+* [Scratching Black](#scratching-black)
+* [characters visible/invisible blocks](#characters-visibleinvisible-blocks)
+* [sending message blocks](#sending-message-blocks)
+* [contact trigger block](#contact-trigger-block)
+* [Homework](#homework)
 
+## Review anti-corona measures
 
 * temps and washing hands
 * don't touch
