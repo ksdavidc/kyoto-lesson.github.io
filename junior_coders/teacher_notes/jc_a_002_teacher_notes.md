@@ -1,6 +1,6 @@
 [Main Kyoto Coding Page](../../index.html)|Junior Coders:|[Monday PM index](../monday_pm/index.html)|[Lesson index](../lessons/index.html)
 
-<header><h2>a-002 Simple two-line maze</h2> </header>
+<header><h1>Kyoto-Lesson</h1><h2>a-002 Simple two-line maze</h2> </header>
 
 
 
