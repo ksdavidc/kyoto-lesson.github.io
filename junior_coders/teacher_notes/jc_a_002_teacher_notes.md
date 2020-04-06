@@ -1,14 +1,15 @@
-<header>
-<h1>a-002 Simple two-line maze</h1>
-</header>
+[Main Kyoto Coding Page](../../index.html)|Junior Coders:|[Monday PM index](../monday_pm/index.html)|[Lesson index](../lessons/index.html)
+
+# a-002 Simple two-line maze
 
 
-* [Review Homework: Four Corners](#review-homework-four-corners)
-* [Simple two-line maze](#simple-two-line-maze)
-* [Recording sounds and making characters disappear](#recording-sounds-and-making-characters-disappear)
-* [New Screen and Copy characters](#new-screen-and-copy-characters)
-* [Homework](#homework)
 
+- [a-002 Simple two-line maze](#a-002-simple-two-line-maze)
+    - [Review Homework: Four Corners](#review-homework-four-corners)
+    - [Simple two-line maze](#simple-two-line-maze)
+    - [Recording sounds and making characters disappear](#recording-sounds-and-making-characters-disappear)
+    - [New Screen and Copy characters](#new-screen-and-copy-characters)
+    - [Homework](#homework)
 
 ### Review Homework: Four Corners
 
