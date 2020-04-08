@@ -22,7 +22,7 @@
     <a class="navbar-brand" href="https://kyotolesson.com">
       <img src="../../img/01_Nav_stamp_namepacifio_blue_navbar1.png" width="300" class="img-fluid" alt="Kyoto Lesson"></a>
   </h1>
-       <p>HEADER5 {{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+       <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
    <h2>{{ page.title | default: site.title | default: site.github.repository_name }}</h2>
       </header>
 
@@ -42,9 +42,12 @@
       </section>
       <footer>
         {% if site.github.is_project_page %}
-          <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+          <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> 
+          <small>rev. no: 6</small>                
+          </p>
         {% endif %}
         <p><small>leap-year theme<a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
+
       </footer>
     </div>
 
