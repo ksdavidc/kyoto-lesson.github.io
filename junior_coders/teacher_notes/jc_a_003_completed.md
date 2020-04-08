@@ -1,5 +1,5 @@
 
-[Main Kyoto Lesson Page](../../index.html)|Junior Coders:|[Monday PM index](../monday_pm/index.html)|[Lesson index](../lessons/index.html)
+[Home](../../index.html)|Junior Coders:|[Monday PM index](../monday_pm/index.html)|[Lesson index](../lessons/index.html)
 
 
 <header>
