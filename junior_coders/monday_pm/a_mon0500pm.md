@@ -1,16 +1,17 @@
 [Home](https://kyoto-lesson.github.io/)|Junior Coders:|[Monday PM index](../monday_pm)|[Lesson index](../lessons)
 
 <header>
-# Kyoto Lesson
+ <h1>
+   (a) Getting Started with Scratch Jr
+ </h1>
 </header>
 
-* [Getting Started with Scratch Jr](#getting-started-with-scratch-jr)
-    * [March 23rd: First Class](#march-23rd-first-class)
-    * [March 30th: Thank you. Discord.](#march-30th-thank-you-discord)
-    * [April 4th: Prep for Disappearing Dragon](#april-4th-prep-for-disappearing-dragon)
-        * [Postponing the Homework](#postponing-the-homework)
-        * [Moving from Discord to Zoom](#moving-from-discord-to-zoom)
-        * [Disappearing Dragon Maze Demo](#disappearing-dragon-maze-demo)
+* [23rd March: First Class](#23rd-march-first-class)
+* [30th March: Thank you. Discord.](#30th-march-thank-you-discord)
+* [April 4th: Prep for Disappearing Dragon](#april-4th-prep-for-disappearing-dragon)
+  * [Postponing the Homework](#postponing-the-homework)
+  * [Moving from Discord to Zoom](#moving-from-discord-to-zoom)
+  * [Disappearing Dragon Maze Demo](#disappearing-dragon-maze-demo)
 
 
 # Getting Started with Scratch Jr
