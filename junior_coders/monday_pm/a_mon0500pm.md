@@ -5,14 +5,17 @@
 </header>
 
 * [Getting Started with Scratch Jr](#getting-started-with-scratch-jr)
-    * [23rd March: First Class](#23rd-march-first-class)
-    * [30th March: Thank you. Discord.](#30th-march-thank-you-discord)
+    * [March 23rd: First Class](#march-23rd-first-class)
+    * [March 30th: Thank you. Discord.](#march-30th-thank-you-discord)
     * [April 4th: Prep for Disappearing Dragon](#april-4th-prep-for-disappearing-dragon)
+        * [Postponing the Homework](#postponing-the-homework)
+        * [Moving from Discord to Zoom](#moving-from-discord-to-zoom)
+        * [Disappearing Dragon Maze Demo](#disappearing-dragon-maze-demo)
 
 
 # Getting Started with Scratch Jr
 
-## 23rd March: First Class
+## March 23rd: First Class
 
 Class Outline & homework: [Introduction to the computer and ScratchJr](../lessons/jc_a_001.html)
 
@@ -20,7 +23,7 @@ Class Outline & homework: [Introduction to the computer and ScratchJr](../lesson
 This class went very well. The kids were active and eager to participate. Don't forget to provide a snack for your child!!
 
 
-## 30th March: Thank you. Discord.
+## March 30th: Thank you. Discord.
 
 Class Outline & homework: [Simple two-line maze](../lessons/jc_a_002.html)
 
@@ -45,14 +48,3 @@ First, I demonstrated a ScratchJr project demonstating a character eating a cake
 
 
 With these blocks described [here](./../lessons/jc_a_003.html) we have all we need to create the Disappearing Dragon Maze, which we will begin next week.
-
-
-
-
-
-
-
-
-
-
-
