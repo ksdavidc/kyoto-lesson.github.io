@@ -22,7 +22,7 @@
     <a class="navbar-brand" href="https://kyotolesson.com">
       <img src="./img/01_Nav_stamp_namepacifio_blue_navbar1.png" width="300" class="img-fluid" alt="Kyoto Lesson"></a>
   </h1>
-  <h2>{{HEADER page.title | default: site.title | default: site.github.repository_name }}</h2>
+  <h2>HEADER{{ page.title | default: site.title | default: site.github.repository_name }}</h2>
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
       </header>
 
