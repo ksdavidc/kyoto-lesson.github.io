@@ -1,5 +1,5 @@
 
-[Home](../../index.html)|Junior Coders:|[Monday PM index](../monday_pm/index.html)|[Lesson index](../lessons/index.html)
+[Home](https://kyoto-lesson.github.io/)|Junior Coders:|[Monday PM index](../monday_pm)|[Lesson index](../lessons)
 
 
 <header>

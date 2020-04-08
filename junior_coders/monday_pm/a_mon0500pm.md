@@ -1,4 +1,4 @@
-[Home](../../index.html)|Junior Coders:|[Monday PM index](../monday_pm/index.html)|[Lesson index](../lessons/index.html)
+[Home](https://kyoto-lesson.github.io/)|Junior Coders:|[Monday PM index](../monday_pm)|[Lesson index](../lessons)
 
 <header>
 # Kyoto Lesson
@@ -8,9 +8,6 @@
     * [23rd March: First Class](#23rd-march-first-class)
     * [30th March: Thank you. Discord.](#30th-march-thank-you-discord)
     * [April 4th: Prep for Disappearing Dragon](#april-4th-prep-for-disappearing-dragon)
-      * [Postponing the Homework](#postponing-the-homework)
-      * [Moving from Discord to Zoom](#moving-from-discord-to-zoom)
-      * [Disappearing Dragon Maze Demo](#disappearing-dragon-maze-demo)
 
 
 # Getting Started with Scratch Jr
