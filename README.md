@@ -1,1 +1,1 @@
-# Check out [here](https://kyoto-lesson.github.io){:target="_blank"}
+# Check out [here](https://ksdavidc.github.io/kyoto-lesson.github.io/){:target="_blank"}
