@@ -1,12 +1,13 @@
 [Home](https://kyoto-lesson.github.io/)| &nbsp;*Class Notes:* [Monday PM](../monday_pm)|[Saturday PM](../saturday_pm)
 
-<header>
-Junior Coders
-</header>
 
-* [Lesson Topics](#lesson-topics)
-  * [Getting Started with Scratch Jr](#getting-started-with-scratch-jr)
-* [Class Notes](#class-notes)
+# Junior Coders
+
+
+* [Junior Coders](#junior-coders)
+  * [Lesson Topics](#lesson-topics)
+    * [Getting Started with Scratch Jr](#getting-started-with-scratch-jr)
+  * [Class Notes](#class-notes)
 
 ## Lesson Topics
 
