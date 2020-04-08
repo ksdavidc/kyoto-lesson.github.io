@@ -12,7 +12,6 @@ include:
 
 title: Kyoto Lesson
 description: We Can All Learn to Code!
-github.repository_url: ksdavidc.github.io/kyoto-lesson.github.io/
 theme: jekyll-theme-leap-day
 
 markdown: kramdown
