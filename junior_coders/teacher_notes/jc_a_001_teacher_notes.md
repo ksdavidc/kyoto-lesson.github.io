@@ -1,20 +1,22 @@
-<header>
-<h1>a-001 Introduction to the computer and ScratchJr</h1>
-</header>
+[Main Kyoto Coding Page](https://kyoto-lesson.github.io/)|Junior Coders:|[Monday PM index](../monday_pm)|[Lesson index](../lessons)
 
-* [Review Agenda](#review-agenda)
-* [Languages we speak](#languages-we-speak)
-* [Rules, Expectations, What To Do When](#rules-expectations-what-to-do-when)
-  * [Rules](#rules)
-  * [Expectations](#expectations)
-  * [Procedures](#procedures)
-* [Name Game?](#name-game)
-* [We Are Working Together](#we-are-working-together)
-* [Teacher Says](#teacher-says)
-* [Using the tablet](#using-the-tablet)
-* [Open Scratch](#open-scratch)
-* [Snack](#snack)
-* [Homework](#homework)
+# a-001 Introduction to the computer and ScratchJr
+
+
+- [a-001 Introduction to the computer and ScratchJr](#a-001-introduction-to-the-computer-and-scratchjr)
+  - [Review Agenda](#review-agenda)
+  - [Languages we speak](#languages-we-speak)
+  - [Rules, Expectations, What To Do When](#rules-expectations-what-to-do-when)
+    - [Rules](#rules)
+    - [Expectations](#expectations)
+    - [Procedures](#procedures)
+  - [Name Game?](#name-game)
+  - [We Are Working Together](#we-are-working-together)
+  - [Teacher Says](#teacher-says)
+  - [Using the tablet](#using-the-tablet)
+  - [Open Scratch](#open-scratch)
+  - [Snack](#snack)
+  - [Homework](#homework)
 
 
 ## Review Agenda
