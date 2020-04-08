@@ -5,12 +5,12 @@
 </header>
 
 * [Getting Started with Scratch Jr](#getting-started-with-scratch-jr)
-    * [11th April: First Class](#11th-april-first-class)
+    * [April 11th: First Class](#april-11th-first-class)
 
 
 # Getting Started with Scratch Jr
 
-## 11th April
+## April 11th
 
 Class notes & homework: [Introduction to the computer and ScratchJr](../lessons/jc_a_001.html)
 
