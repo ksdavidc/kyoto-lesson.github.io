@@ -1,4 +1,4 @@
-[Home](../../index.html)|[Lesson index](../lessons/index.html)
+[Home](https://kyoto-lesson.github.io/)|[Lesson index](../lessons)
 
 <header>
 # Kyoto Lesson
