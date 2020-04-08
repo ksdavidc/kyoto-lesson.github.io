@@ -1,12 +1,13 @@
-[Home](https://kyoto-lesson.github.io/)|[Monday PM index](../monday_pm)|[Saturday PM index](../saturday_pm)
+[Home](https://kyoto-lesson.github.io/)| &nbsp;*Class Notes:* [Monday PM](../monday_pm)|[Saturday PM](../saturday_pm)
 
 <header>
-# Kyoto Lesson
+Junior Coders
 </header>
 
+* [Lesson Topics](#lesson-topics)
 * [Getting Started with Scratch Jr](#getting-started-with-scratch-jr)
 
-# Lesson Handhouts
+## Lesson Topics
 
 ## Getting Started with Scratch Jr
   * [Introduction to the computer and ScratchJr](./jc_a_001.html)
