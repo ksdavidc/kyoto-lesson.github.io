@@ -1,3 +1,7 @@
+---
+page.title: Junior Coders Lesson Topics
+---
+
 [Home](https://kyoto-lesson.github.io/)| &nbsp;*Class Notes:* [Monday PM](../monday_pm)|[Saturday PM](../saturday_pm)
 
 
