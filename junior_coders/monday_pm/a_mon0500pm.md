@@ -1,3 +1,8 @@
+---
+layout: default
+title: Monday PM Class Notes
+---
+
 [Home](https://kyoto-lesson.github.io/)|Junior Coders:|[Monday PM index](../monday_pm)|[Lesson index](../lessons)
 
 <header>
