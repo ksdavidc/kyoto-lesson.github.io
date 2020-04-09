@@ -19,7 +19,7 @@ title: Monday PM Class Notes
   * [Disappearing Dragon Maze Demo](#disappearing-dragon-maze-demo)
 
 
-* **Getting Started with Scratch Jr **
+**Getting Started with Scratch Jr**
 
 ## March 23rd: First Class
 
