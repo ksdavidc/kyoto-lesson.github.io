@@ -3,7 +3,7 @@ layout: default
 title: Monday PM Class Notes
 ---
 
-[Home](https://kyoto-lesson.github.io/)|Junior Coders:|[Monday PM index](../monday_pm)|[Lesson index](../lessons)
+[Home](../../)|::Junior Coders:|[Monday PM Class Notes](../monday_pm)|[Lesson Topics index](../lessons)
 
 <header>
  <h1>
