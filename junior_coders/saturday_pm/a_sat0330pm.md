@@ -20,6 +20,6 @@ title: Saturday PM Class Notes
 
 ## April 11th
 
-Class notes & homework: [Introduction to the computer and ScratchJr](../lessons/jc_a_001.html)
+Class notes & homework: [Introduction to the Zoom and ScratchJr](junior_coders/saturday_pm/a_sat0330pm.md)
 
-This class went very well. The kids were active and eager to participate. Don't forget to provide a snack for your child!!
+Class Notes coming soon.
