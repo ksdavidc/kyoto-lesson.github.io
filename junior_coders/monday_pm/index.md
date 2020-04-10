@@ -1,4 +1,9 @@
-[Home](https://kyoto-lesson.github.io/)|[Lesson index](../lessons)
+---
+layout: default
+title: Monday PM Class Notes
+---
+
+[Home](../../)|Junior Coders:|[Saturday PM Class Notes](../saturday_pm)|[Monday PM Class Notes](../monday_pm)|[Lesson Topics index](../lessons)
 
 <header>
 # Kyoto Lesson
