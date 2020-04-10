@@ -1,9 +1,9 @@
 
 [Main Kyoto Coding Page](../../index.html)|Junior Coders:|[Monday PM index](../monday_pm/index.html)|[Lesson index](../lessons/index.html)
 
-# a-004 1st Zoom Class, Continue Dragon Maze
+# a-004 Zoom Tutorial
 
-* [a-004 1st Zoom Class, Continue Dragon Maze](#a-004-1st-zoom-class-continue-dragon-maze)
+* [a-004 Zoom Tutorial](#a-004-zoom-tutorial)
   * [Zoom](#zoom)
 
 
@@ -65,6 +65,8 @@ We are going to talk about Sharing screens Next. Come back to speaker view.
 
 I am going to share a picture. Can you see it?
 
+
+
 If you don't see the annotation controls, you may have to go to view options. 
 
 I can clear your drawings, or everything. You can clear your own. 
@@ -83,5 +85,4 @@ First I will draw the board.
 * chatting
 * whiteboard
 
-
-
+[junior_coders/teacher_notes/jc_a_003_MVIMG_20200406_112932.jpg](junior_coders/teacher_notes/jc_a_003_MVIMG_20200406_112932.jpg)

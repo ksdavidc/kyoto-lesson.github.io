@@ -1,11 +1,19 @@
-[Home](https://kyoto-lesson.github.io/)|Junior Coders:|[Monday PM index](../monday_pm)|[Lesson index](../lessons)
+[---
+layout: default
+title: Saturday PM Class Notes
+---
+
+[Home](../../)|::Junior Coders:|[Saturday PM Class Notes](../saturday_pm)|[Lesson Topics index](../lessons)
 
 <header>
-# Kyoto Lesson
+ <h1>
+   [Junior Coders](../../)
+ </h1>
 </header>
 
+
 * [Getting Started with Scratch Jr](#getting-started-with-scratch-jr)
-    * [April 11th: First Class](#april-11th-first-class)
+  * [April 11th](#april-11th)
 
 
 # Getting Started with Scratch Jr
