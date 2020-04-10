@@ -3,7 +3,7 @@ layout: default
 title: Monday PM Class Notes
 ---
 
-[Home](../../)|::Junior Coders:|[Monday PM Class Notes](../monday_pm)|[Lesson Topics index](../lessons)
+[[Home](../../)|Junior Coders:|[Saturday PM Class Notes](../saturday_pm)|[Monday PM Class Notes](../monday_pm)|[Lesson Topics index](../lessons)
 
 <header>
  <h1>
