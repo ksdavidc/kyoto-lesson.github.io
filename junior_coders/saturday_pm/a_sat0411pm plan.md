@@ -19,8 +19,7 @@ title: Saturday PM Class Notes
   * [Rules, Expectations, What To Do When](#rules-expectations-what-to-do-when)
 * [Game: **Teacher Says**](#game-teacher-says)
 * [Using Zoom](#using-zoom)
-* [Game: **Prep for Black**](#game-prep-for-black)
-  * [Game: **Black**](#game-black)
+* [Game: Black](#game-black)
 * [ScratchJr Intro](#scratchjr-intro)
 * [Homework](#homework)
 
@@ -90,21 +89,9 @@ In the future I plan to go over:
 
 See [Zoom Topic](../lessons/Using%20Zoom.md)
 
-## Game: **Prep for Black**
+## Game: Black
 
-I want to play a group game called black. To play it, we need to practice drawing 3 shapes, a cross, and two "cutout" shapes.
-
-Let's practice. Everyone choose a different color. draw, anywhere you want. 
-
-First I will draw the board.
-
-### Game: **Black**
-
-Clear the board. Play the game taking turns.
-
-* You can choose one of the three shapes
-* You must not continue the main road into the wall
-
+See [Zoom Topic](../lessons/Game:%20Black.md)
 
 
 
