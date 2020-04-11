@@ -18,12 +18,7 @@ title: Saturday PM Class Notes
   * [Languages we speak](#languages-we-speak)
   * [Rules, Expectations, What To Do When](#rules-expectations-what-to-do-when)
 * [Game: **Teacher Says**](#game-teacher-says)
-* [Zoom](#zoom)
-  * [Chat](#chat)
-    * [Game: **"What you like"**](#game-what-you-like)
-    * [Game: **Teacher Says, Zoom style**](#game-teacher-says-zoom-style)
-    * [Game: **Teacher Says, advanced version**](#game-teacher-says-advanced-version)
-  * [Sharing screens](#sharing-screens)
+* [Using Zoom](#using-zoom)
 * [Game: **Prep for Black**](#game-prep-for-black)
   * [Game: **Black**](#game-black)
 * [ScratchJr Intro](#scratchjr-intro)
@@ -34,12 +29,16 @@ title: Saturday PM Class Notes
 
 ### Review Agenda
 
-* Zoom
-* Class Setup
-* Scratch
+
+*  [Class Setup](#class-setup)
+* [Game: **Teacher Says**](#game-teacher-says)
+* [Using Zoom](#using-zoom)
+* [Game: **Black**](#game-black)
+* [ScratchJr Intro](#scratchjr-intro)
+* [Homework](#homework)
+
 
 ### Languages we speak
-
 
 We then talked about which languages we speak.
 
@@ -87,9 +86,9 @@ In the future I plan to go over:
 
 
 
-##
+## Using Zoom
 
-See [Zoom Topic](../lessons/jc_a_004.md)
+See [Zoom Topic](../lessons/Using%20Zoom.md)
 
 ## Game: **Prep for Black**
 
