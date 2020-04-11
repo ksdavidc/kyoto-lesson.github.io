@@ -1,0 +1,40 @@
+---
+layout: default
+title: Game: Black
+---
+
+[Home](../../)|Junior Coders:|[Saturday PM Class Notes](../saturday_pm)|[Monday PM Class Notes](../monday_pm)|[Lesson Topics index](../lessons)
+
+# Game: Black
+
+<header>
+ <h1>
+   [Junior Coders](../../)
+ </h1>
+</header>
+
+
+## **Prep for Black**
+
+I want to play a group game called black. To play it, we need to practice drawing 3 shapes, a cross, and two "cutout" shapes.
+
+First here is the grid:
+
+![share the grid](/jc_a_gameBlack.gridForBlack.jpg).
+
+Let's practice. Everyone choose a different color. draw, anywhere you want. 
+
+![alt-text](../teacher_notes/jc_a_003_MVIMG_20200406_121950.jpg "Hover text")
+
+First I will draw the board.
+
+## **Black**
+
+Clear the board. Play the game taking turns.
+Here is what a finished board might look like:
+
+![look like](/jc_a_005_gameBlack.completeBoard.jpg).
+
+* You can choose one of the three shapes
+* You must not continue the main road into the wall
+

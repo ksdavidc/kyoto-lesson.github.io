@@ -11,15 +11,42 @@ title: Saturday PM Class Notes
  </h1>
 </header>
 
-<h1> Getting Started with Scratch Jr </h1>
+<h1> April 11 Saturday Intro Class </h1>
 
-* [April 11th](#april-11th)
+* [Using Zoom](#using-zoom)
+* [Game: Black](#game-black)
+* [ScratchJr Intro](#scratchjr-intro)
+* [Homework](#homework)
 
 
 
+## Using Zoom
 
-## April 11th: First Class. Zoom.
+See [Lesson Topics: Zoom](../lessons/usingZoom.html) for a full description.
 
-Class notes & homework: [Introduction to the Zoom and ScratchJr](../lessons/jc_a_004.html)
+This was the first time using Zoom, so there was a lot of adjustment to the interface. We didn't cover everything in the Zoom topic, but focused on using Chat to send messages, and played the "I Like" game.
 
-Class Notes coming soon.
+## Game: Black
+
+See [Zoom Topic](../lessons/gameBlack.html)
+
+
+
+## ScratchJr Intro
+
+
+![scratchjrinterface](./jc_a_001_scratchjrinterface.jpg)
+
+Reviewed]
+
+- green start button
+- blue motion buttons
+- How to choose a background
+
+
+## Homework
+
+The homework assignment was to "discover" with scratchjr.
+
+
+
