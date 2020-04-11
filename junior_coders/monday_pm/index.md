@@ -11,6 +11,6 @@ title: Monday PM Class Notes
  </h1>
 </header>
 
-# Class Notes (Monday 5:00~7:00pm)
+# Monday PM Class Notes (5:00~7:00pm)
 
 * [Getting Started with Scratch Jr](./a_mon0500pm.html)
