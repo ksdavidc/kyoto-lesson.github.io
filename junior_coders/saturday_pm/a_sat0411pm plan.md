@@ -87,11 +87,11 @@ In the future I plan to go over:
 
 ## Using Zoom
 
-See [Zoom Topic](../lessons/Using%20Zoom.html)
+See [Zoom Topic](../lessons/usingZoom.html)
 
 ## Game: Black
 
-See [Zoom Topic](../lessons/Game:%20Black.html)
+See [Zoom Topic](../lessons/gameBlack.html)
 
 
 
