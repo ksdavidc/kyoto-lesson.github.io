@@ -18,14 +18,8 @@ title: Saturday PM Class Notes
   * [Languages we speak](#languages-we-speak)
   * [Rules, Expectations, What To Do When](#rules-expectations-what-to-do-when)
 * [Game: **Teacher Says**](#game-teacher-says)
-* [Zoom](#zoom)
-  * [Chat](#chat)
-    * [Game: **"What you like"**](#game-what-you-like)
-    * [Game: **Teacher Says, Zoom style**](#game-teacher-says-zoom-style)
-    * [Game: **Teacher Says, advanced version**](#game-teacher-says-advanced-version)
-  * [Sharing screens](#sharing-screens)
-* [Game: **Prep for Black**](#game-prep-for-black)
-  * [Game: **Black**](#game-black)
+* [Using Zoom](#using-zoom)
+* [Game: Black](#game-black)
 * [ScratchJr Intro](#scratchjr-intro)
 * [Homework](#homework)
 
@@ -34,12 +28,16 @@ title: Saturday PM Class Notes
 
 ### Review Agenda
 
-* Zoom
-* Class Setup
-* Scratch
+
+*  [Class Setup](#class-setup)
+* [Game: **Teacher Says**](#game-teacher-says)
+* [Using Zoom](#using-zoom)
+* [Game: **Black**](#game-black)
+* [ScratchJr Intro](#scratchjr-intro)
+* [Homework](#homework)
+
 
 ### Languages we speak
-
 
 We then talked about which languages we speak.
 
@@ -87,25 +85,13 @@ In the future I plan to go over:
 
 
 
-##
+## Using Zoom
 
-See [Zoom Topic](../lessons/jc_a_004.md)
+See [Zoom Topic](../lessons/usingZoom.html)
 
-## Game: **Prep for Black**
+## Game: Black
 
-I want to play a group game called black. To play it, we need to practice drawing 3 shapes, a cross, and two "cutout" shapes.
-
-Let's practice. Everyone choose a different color. draw, anywhere you want. 
-
-First I will draw the board.
-
-### Game: **Black**
-
-Clear the board. Play the game taking turns.
-
-* You can choose one of the three shapes
-* You must not continue the main road into the wall
-
+See [Zoom Topic](../lessons/gameBlack.html)
 
 
 
