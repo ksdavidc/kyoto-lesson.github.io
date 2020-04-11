@@ -2,17 +2,6 @@
 layout: default
 title: Lesson Topics
 ---
-
-[Home](../../)|Junior Coders:|[Saturday PM Class Notes](../saturday_pm)|[Monday PM Class Notes](../monday_pm)|[Lesson Topics index](../lessons)
-
-<header>
- <h1>
-   [Junior Coders](../../)
- </h1>
-</header>
-
-<h1>Lesson Topics</h1>
-
 * [Getting Started with Scratch Jr](#getting-started-with-scratch-jr)
 
 

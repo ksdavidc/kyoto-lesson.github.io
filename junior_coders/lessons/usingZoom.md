@@ -2,20 +2,18 @@
 layout: default
 title: Zoom
 ---
+* [Responding to Invitation](#responding-to-invitation)
+* [Once in:](#once-in)
+* [Gallery View](#gallery-view)
+* [Speaker View](#speaker-view)
+* [Meeting controls](#meeting-controls)
+* [Chat](#chat)
+  * [Game: **"What you like"**](#game-what-you-like)
+  * [Game: **Teacher Says, Zoom style**](#game-teacher-says-zoom-style)
+  * [Game: **Teacher Says, advanced version**](#game-teacher-says-advanced-version)
+* [Sharing screens](#sharing-screens)
 
-[Home](../../)|Junior Coders:|[Saturday PM Class Notes](../saturday_pm)|[Monday PM Class Notes](../monday_pm)|[Lesson Topics index](../lessons)
-
-# Zoom
-
-<header>
- <h1>
-   [Junior Coders](../../)
- </h1>
-</header>
-
-
-
-## responding to invitation
+## Responding to Invitation
 
     * Invitation may come directly to app, or by email or via a calendar reminder
     * Each meeting has a meeting id

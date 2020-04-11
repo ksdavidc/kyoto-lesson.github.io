@@ -1,18 +1,7 @@
 ---
 layout: default
-title: Saturday PM Class Notes
+title: April 11 Saturday Intro Class 
 ---
-
-[Home](../../)|Junior Coders:|[Saturday PM Class Notes](../saturday_pm)|[Monday PM Class Notes](../monday_pm)|[Lesson Topics index](../lessons)
-
-<header>
- <h1>
-   [Junior Coders](../../)
- </h1>
-</header>
-
-<h1> April 11 Saturday Intro Class </h1>
-
 * [Class Setup](#class-setup)
   * [Review Agenda](#review-agenda)
   * [Languages we speak](#languages-we-speak)

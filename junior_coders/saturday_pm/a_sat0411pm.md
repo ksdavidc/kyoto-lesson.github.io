@@ -2,17 +2,6 @@
 layout: default
 title: Saturday PM Class Notes
 ---
-
-[Home](../../)|Junior Coders:|[Saturday PM Class Notes](../saturday_pm)|[Monday PM Class Notes](../monday_pm)|[Lesson Topics index](../lessons)
-
-<header>
- <h1>
-   [Junior Coders](../../)
- </h1>
-</header>
-
-<h1> April 11 Saturday Intro Class </h1>
-
 * [Using Zoom](#using-zoom)
 * [Game: Black](#game-black)
 * [ScratchJr Intro](#scratchjr-intro)
