@@ -1,88 +1,139 @@
 <!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-{% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
-    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
-    <!--[if lt IE 9]>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	{% seo %}
+	<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+	<script src="https://code.jquery.com/jquery-3.3.0.min.js"
+		integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
+	<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+	<!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
     <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<style>
+		#banner {
+			right: 0%;
+			top: 140px;
 
-  </head>
-  <body>
-
-
-      <header>
-  <h1>
-    <a class="navbar-brand" href="https://kyotolesson.com">
-      <img src="../../img/01_Nav_stamp_namepacifio_blue_navbar1.png" width="300" class="img-fluid" alt="Kyoto Lesson"></a>
-  </h1>
-       <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
-   <h2>{{ page.title | default: site.title | default: site.github.repository_name }}</h2>
-      </header>
-
-      <div id="banner">
-        <span id="logo"></span>
-        <a href="../../" class="button fork"><strong>Main Page</strong></a>
-      </div><!-- end banner -->
-
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
+		}
 
 
-      <section>
-
-<table>
-  <tbody>
-    <tr>
-      <td><a href="../../">Home</a></td>
-      <td>Junior Coders:</td>
-      <td><a href="../saturday_pm">Saturday PM Class Notes</a></td>
-      <td><a href="../monday_pm">Monday PM Class Notes</a></td>
-      <td><a href="../lessons">Lesson Topics index</a></td>
-    </tr>
-  </tbody>
-</table>
+		.ournav {
+			width: 100%;
+			background-color: beige;
+			padding: 0px 0px 0px 0px;
+			align-items: center;
+			margin: 10px 0 10px 0;
+		}
 
 
+		.ournav-links {
+			list-style: none;
+			display: flex;
+			justify-content: space-around;
+			margin: 0px 0px;
+			padding: 0px 0px;
+		}
 
-<header>
- <h1>
-<a href="../../">Junior Coders</a>
- </h1>
-</header>
-<h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+		.ournav-item {
+			padding: 5px 5px;
+			margin: 0px 0px;
+			border: 1px solid beige;
+		}
 
-        {{ content }}
+		.ournav-item a {
+			display: inline-block;
+			text-decoration: none;
+		}
 
-      </section>
-      <footer>
-        {% if site.github.is_project_page %}
-          <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> 
-          <small>rev. no: 6</small>                
-          </p>
-        {% endif %}
-        <p><small>leap-year theme<a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
+		.ournav-item:hover {
+			background-color: lightblue;
+			border: 1px solid blue;
+		}
 
-      </footer>
-    </div>
+		.ournav-item:hover a {
+			color: darkgreen;
+		}
 
-    {% if site.google_analytics %}
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		header {
+			padding-left: 0px;
+			display: flex;
+			justify-content: space-around;
+
+		}
+
+		header#header1 h1 {
+			width: 50%;
+		}
+	</style>
+</head>
+
+<body>
+
+
+
+	<div id="banner">
+		<a href="../../" class="button fork"><strong>Main Page</strong></a>
+	</div><!-- end banner -->
+
+	<div class="wrapper">
+		<nav>
+			<ul></ul>
+		</nav>
+
+
+		<section>
+
+			<div class="ournav">
+				<ul class="ournav-links">
+					<li class="ournav-item">Junior Coders:</li>
+					<li class="ournav-item"><a href="../saturday_pm">Saturday PM Class Notes</a></li>
+					<li li class="ournav-item"><a href="../monday_pm">Monday PM Class Notes</a></li>
+					<li class="ournav-item"><a href="../lessons">Lesson Topics index</a></li>
+				</ul>
+			</div>
+
+
+			<header id="header1">
+				<h1 class="ournav">
+					<a class="navbar-brand ournav-item" href="https://kyotolesson.com">
+						<img src="../../img/01_Nav_stamp_namepacifio_blue_navbar1.png" width="300"  alt="Kyoto Lesson" style="vertical-align: middle;"></a>
+						&nbsp;
+						<a class="ournav-item" href="../../">Junior Coders</a>
+				</h1>
+				<!--			<p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+				<h2>{{ page.title | default: site.title | default: site.github.repository_name }}</h2>-->
+			</header>
+			<h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+
+			{{ content }}
+
+		</section>
+		<footer>
+			{% if site.github.is_project_page %}
+			<p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
+				<small>rev. no: 7</small>
+			</p>
+			{% endif %}
+			<p><small>leap-year theme<a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
+
+		</footer>
+	</div>
+
+	{% if site.google_analytics %}
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
         ga('create', '{{ site.google_analytics }}', 'auto');
         ga('send', 'pageview');
-      </script>
-    {% endif %}
-  </body>
+	</script>
+	{% endif %}
+</body>
+
 </html>
