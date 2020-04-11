@@ -11,10 +11,9 @@ title: Lesson Topics
  </h1>
 </header>
 
-# Lesson Topics
+<h1>Lesson Topics</h1>
 
-* [Lesson Topics](#lesson-topics)
-  * [Getting Started with Scratch Jr](#getting-started-with-scratch-jr)
+* [Getting Started with Scratch Jr](#getting-started-with-scratch-jr)
 
 
 
