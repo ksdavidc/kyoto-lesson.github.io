@@ -1,10 +1,5 @@
 
-[Home](../../)|Junior Coders:|[Saturday PM Class Notes](../saturday_pm)|[Monday PM Class Notes](../monday_pm)|[Lesson Topics index](../lessons)
-
-# a-004 Zoom Tutorial
-
-* [a-004 Zoom Tutorial](#a-004-zoom-tutorial)
-  * [Zoom](#zoom)
+* [Zoom](#zoom)
 
 
 ## Zoom

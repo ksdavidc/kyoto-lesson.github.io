@@ -2,15 +2,6 @@
 layout: default
 title: Monday PM Class Notes
 ---
-
-[[Home](../../)|Junior Coders:|[Saturday PM Class Notes](../saturday_pm)|[Monday PM Class Notes](../monday_pm)|[Lesson Topics index](../lessons)
-
-<header>
- <h1>
-   [Junior Coders](../../)
- </h1>
-</header>
-
 * [March 23rd: First Class](#march-23rd-first-class)
 * [March 30th: Thank you. Discord.](#march-30th-thank-you-discord)
 * [April 4th: Prep for Disappearing Dragon](#april-4th-prep-for-disappearing-dragon)

@@ -2,16 +2,8 @@
 layout: default
 title: Game: Black
 ---
-
-[Home](../../)|Junior Coders:|[Saturday PM Class Notes](../saturday_pm)|[Monday PM Class Notes](../monday_pm)|[Lesson Topics index](../lessons)
-
-# Game: Black
-
-<header>
- <h1>
-   [Junior Coders](../../)
- </h1>
-</header>
+* [**Prep for Black**](#prep-for-black)
+* [**Black**](#black)
 
 
 ## **Prep for Black**
