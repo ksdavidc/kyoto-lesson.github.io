@@ -6,7 +6,9 @@ title: Saturday PM Class Notes
 [Home](../../)|Junior Coders:|[Saturday PM Class Notes](../saturday_pm)|[Monday PM Class Notes](../monday_pm)|[Lesson Topics index](../lessons)
 
 <header>
-# Kyoto Lesson
+ <h1>
+   [Junior Coders](../../)
+ </h1>
 </header>
 
 # Class Notes (Saturday 3:30~5:30pm)

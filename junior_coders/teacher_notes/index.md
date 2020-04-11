@@ -1,7 +1,9 @@
 [Home](https://kyoto-lesson.github.io/)|[Lesson index](../lessons)
 
 <header>
-# Kyoto Lesson
+ <h1>
+   [Junior Coders](../../)
+ </h1>
 </header>
 
 # Lesson Handhouts
