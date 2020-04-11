@@ -13,33 +13,18 @@ title: Saturday PM Class Notes
 
 <h1> April 11 Saturday Intro Class </h1>
 
-* [Class Setup](#class-setup)
-  * [Review Agenda](#review-agenda)
-  * [Languages we speak](#languages-we-speak)
-  * [Rules, Expectations, What To Do When](#rules-expectations-what-to-do-when)
-* [Game: **Teacher Says**](#game-teacher-says)
 * [Using Zoom](#using-zoom)
 * [Game: Black](#game-black)
 * [ScratchJr Intro](#scratchjr-intro)
 * [Homework](#homework)
 
 
-## Class Setup
-
-### Review Agenda
-
-
-*  [Class Setup](#class-setup)
-* [Game: **Teacher Says**](#game-teacher-says)
-* [Using Zoom](#using-zoom)
-* [Game: **Black**](#game-black)
-* [ScratchJr Intro](#scratchjr-intro)
-* [Homework](#homework)
-
 
 ## Using Zoom
 
-See [Zoom Topic](../lessons/usingZoom.html)
+See [Lesson Topics: Zoom](../lessons/usingZoom.html) for a full description.
+
+This was the first time using Zoom, so there was a lot of adjustment to the interface. We didn't cover everything in the Zoom topic, but focused on using Chat to send messages, and played the "I Like" game.
 
 ## Game: Black
 
