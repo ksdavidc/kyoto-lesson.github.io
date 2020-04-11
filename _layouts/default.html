@@ -37,14 +37,9 @@
       </nav>
 
 
-
-
-
       <section>
 
-    <div class="wrapper">
-      <nav>
-      <table>
+<table>
   <tbody>
     <tr>
       <td><a href="../../">Home</a></td>
@@ -56,19 +51,14 @@
   </tbody>
 </table>
 
-        <ul>
-        
-        </ul>
-      </nav>
 
-
-<h1>{{ page.description | default: site.description | default: site.github.project_tagline }}</h1>
 
 <header>
  <h1>
-   [Junior Coders](../../)
+<a href="../../">Junior Coders</a>
  </h1>
 </header>
+<h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
 
         {{ content }}
 
