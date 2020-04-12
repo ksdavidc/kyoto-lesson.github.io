@@ -26,7 +26,7 @@ See [Zoom Topic](../lessons/gameBlack.html)
 
 ![scratchjrinterface](./jc_a_001_scratchjrinterface.jpg)
 
-Reviewed]
+Reviewed:
 
 - green start button
 - blue motion buttons
