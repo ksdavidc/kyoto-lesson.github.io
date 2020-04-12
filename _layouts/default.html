@@ -67,7 +67,20 @@
 		}
 
 		header#header1 h1 {
-			max-width: 600px;
+			width: 100%;
+			max-width: 646px;
+			border-radius: 10px;
+		}
+
+		div#contentHeader h1 {
+			text-decoration: underline;
+			font-size: large;
+			text-align: center;
+		}
+
+		h2 {
+			font-size: medium;
+			margin: 5px 20px;
 		}
 	</style>
 </head>
@@ -87,6 +100,16 @@
 
 
 		<section>
+			<header id="header1">
+				<h1 class="ournav">
+					<a class="navbar-brand ournav-item" href="https://kyotolesson.com">
+						<img src="../../img/01_Nav_stamp_namepacifio_blue_navbar1.png" width="200"  alt="Kyoto Lesson" style="vertical-align: middle;"></a>
+						&nbsp;
+						<a class="ournav-item" href="../../">Junior Coders</a>
+				</h1>
+				<!--			<p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+				<h2>{{ page.title | default: site.title | default: site.github.repository_name }}</h2>-->
+			</header>
 
 			<div class="ournav">
 				<ul class="ournav-links">
@@ -97,19 +120,10 @@
 				</ul>
 			</div>
 
-
-			<header id="header1">
-				<h1 class="ournav">
-					<a class="navbar-brand ournav-item" href="https://kyotolesson.com">
-						<img src="../../img/01_Nav_stamp_namepacifio_blue_navbar1.png" width="300"  alt="Kyoto Lesson" style="vertical-align: middle;"></a>
-						&nbsp;
-						<a class="ournav-item" href="../../">Junior Coders</a>
+			<div id="contentHeader">
+				<h1>{{ page.title | default: site.title | default: site.github.repository_name }}
 				</h1>
-				<!--			<p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
-				<h2>{{ page.title | default: site.title | default: site.github.repository_name }}</h2>-->
-			</header>
-			<h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-
+			</div>
 			{{ content }}
 
 		</section>
