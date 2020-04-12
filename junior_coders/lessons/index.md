@@ -11,4 +11,4 @@ title: Lesson Topics
   * [Simple two-line maze](./jc_a_002.html)
   * [Prep for Disappearing Dragon](./jc_a_003.html)
   * [Using Zoom](./usingZoom.html)
-  * [Game: Black](./gameBlack.md.html)
+  * [Game: Black](./gameBlack.html)
