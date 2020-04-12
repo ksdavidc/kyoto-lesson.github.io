@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started with Scratch Jr.
+title: Getting Started with Scratch Jr. (Monday PM)
 ---
 * [March 23rd: First Class](#march-23rd-first-class)
 * [March 30th: Thank you. Discord.](#march-30th-thank-you-discord)
@@ -8,7 +8,6 @@ title: Getting Started with Scratch Jr.
   * [Postponing the Homework](#postponing-the-homework)
   * [Moving from Discord to Zoom](#moving-from-discord-to-zoom)
   * [Disappearing Dragon Maze Demo](#disappearing-dragon-maze-demo)
-
 
 
 ## March 23rd: First Class
