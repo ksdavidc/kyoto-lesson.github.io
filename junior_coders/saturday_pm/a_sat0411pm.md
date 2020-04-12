@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Saturday PM Class Notes
+title: Getting Started with Scratch Jr. (Saturday PM)
 ---
 * [Using Zoom](#using-zoom)
 * [Game: Black](#game-black)
