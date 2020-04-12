@@ -36,7 +36,7 @@
 			display: flex;
 			justify-content: space-around;
 			margin: 0px 0px;
-			padding: 0px 0px;
+			padding: 0px 0px 0px 0px;
 		}
 
 		.ournav-item {
@@ -76,12 +76,18 @@
 			text-decoration: underline;
 			font-size: large;
 			text-align: center;
+      margin-top: 25px;
 		}
 
 		h2 {
 			font-size: medium;
 			margin: 5px 20px;
 		}
+
+div#contentWrapper ul {
+			padding: 0px 0px 0px 20px;
+}
+
 	</style>
 </head>
 
@@ -124,13 +130,15 @@
 				<h1>{{ page.title | default: site.title | default: site.github.repository_name }}
 				</h1>
 			</div>
-			{{ content }}
 
+      <div id="contentWrapper">
+			{{ content }}
+</div>
 		</section>
 		<footer>
 			{% if site.github.is_project_page %}
 			<p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
-				<small>rev. no: 7</small>
+				<small>theme rev. no: 8</small>
 			</p>
 			{% endif %}
 			<p><small>leap-year theme <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
