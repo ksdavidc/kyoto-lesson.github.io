@@ -15,31 +15,35 @@ title: Zoom
 
 ## Responding to Invitation
 
-    * Invitation may come directly to app, or by email or via a calendar reminder
-    * Each meeting has a meeting id
-    * It may have a password
-    * you may have to choose video and audio settings
-    * You may have to wait for host to let you in 
-    * You may have to join audio or join video, depending on your default settings
-    * You may have to mute if you are using more than one device in a room
+* Invitation may come directly to app, or by email or via a calendar reminder
+* Each meeting has a meeting id
+* It may have a password
+* you may have to choose video and audio settings
+* You may have to wait for host to let you in 
+* You may have to join audio or join video, depending on your default settings
+* You may have to mute if you are using more than one device in a room
 
 ## Once in:
-    * If you don't see the controls at the bottom of the screen, tap once 
+
+* If you don't see the controls at the bottom of the screen, tap once 
 
 ## Gallery View
-    * tablet/phone: swipe to the right to see gallery view. You can see everyone in the meeting
+
+* tablet/phone: swipe to the right to see gallery view. You can see everyone in the meeting
 
 ## Speaker View
-    * Double tap someone to see them
-    * double tap me, and I will appear in speaker view. Is everyone looking at me?
+
+* Double tap someone to see them
+* double tap me, and I will appear in speaker view. Is everyone looking at me?
 
 ## Meeting controls
-    * Tap to see the meeting controls (in either view)
-    * Tap more
-    * At teh top you will see a thumbs up. Click it. A thumbs up will appear in your view. It disappears after a while.
-    * Again, tap more. This time tap raise hand.
-    * You should see your hand is raised. You only see your hand, but I can see everyone's hand.
-    * Everyone lower your hand.
+
+* Tap to see the meeting controls (in either view)
+* Tap more
+* At teh top you will see a thumbs up. Click it. A thumbs up will appear in your view. It disappears after a while.
+* Again, tap more. This time tap raise hand.
+* You should see your hand is raised. You only see your hand, but I can see everyone's hand.
+* Everyone lower your hand.
 
 ## Chat
 
