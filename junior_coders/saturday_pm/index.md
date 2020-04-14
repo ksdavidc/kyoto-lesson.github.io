@@ -2,4 +2,4 @@
 layout: default
 title: Saturday PM Class Notes (3:30~5:30pm)
 ---
-* [Getting Started with Scratch Jr](./a_sat0411pm.html)
+* [Getting Started with Scratch Jr](./a_sat0330pm.html)
