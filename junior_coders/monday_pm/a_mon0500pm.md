@@ -12,7 +12,10 @@ title: Getting Started with Scratch Jr. (Monday PM)
   * [Using Zoom](#using-zoom)
   * [Game: Black](#game-black)
   * [ScratchJr: Making a Character Disappearing](#scratchjr-making-a-character-disappearing)
-    * [Modifying a path in the background](#modifying-a-path-in-the-background)
+    * [Making the maze](#making-the-maze)
+    * [Tic Is Trapped!](#tic-is-trapped)
+  * [Adding The cake](#adding-the-cake)
+  * [Homework](#homework)
 
 
 ## March 23rd: First Class
@@ -61,24 +64,50 @@ See [Zoom Topic](../lessons/gameBlack.html)
 
 ### ScratchJr: Making a Character Disappearing
 
-#### Modifying a path in the background
+#### Making the maze
 
-We went over how to use the select arrow to modify ![the path of a line in the background](./images/Screen%20Shot%202020-04-14%20at%2011.30.36%20AM.png){:height="100px"}.
+*Skill: Modifying a path in the background*
 
-Children made a maze, where the character walks on the line, as in Black. Then they added a dragon and a cake. ![maze with dragon and cake](./images/Screen%20Shot%202020-04-14%20at%2011.41.19%20AM.png){:height="100px"}
+We went over how to use the select arrow to modify the path of a line in the background.
+![the path of a line in the background](./images/Screen%20Shot%202020-04-14%20at%2011.30.36%20AM.png){:height="59px"}
 
+Children made a maze, where the character walks on the line, as in Black. Then they added a dragon and a cake. 
+![maze with dragon and cake](./images/Screen%20Shot%202020-04-14%20at%2011.41.19%20AM.png){:height="59px"}
 
 They made their character walk the maze and try to eat the dragon. 
-![walk to dragon](./images/Screen%20Shot%202020-04-14%20at%2011.44.42%20AM.png){:height="100px"}
+![Tic walks to dragon](./images/Screen%20Shot%202020-04-14%20at%2011.44.42%20AM.png){:height="59px"}
+
+#### Tic Is Trapped!
+
+*Skill: Sending Messages*
 
 But the dragon sends a message:
-![walk to dragon](./images/Screen%20Shot%202020-04-14%20at%2011.47.13%20AM.png){:height="100px"}
+![the dragon sends a message](./images/Screen%20Shot%202020-04-14%20at%2011.47.13%20AM.png){:height="59px"}
 
-and they go home:
-![walk to dragon](./images/Screen%20Shot%202020-04-14%20at%2011.47.25%20AM.png){:height="100px"}
+and Tic is sent home:
+![Tic is sent home](./images/Screen%20Shot%202020-04-14%20at%2011.47.25%20AM.png){:height="59px"}
+
+###  Adding The cake
+
+*Skill: Making Character Disappear*
+
+Tic goes to get the cake first. The cake makes the dragon disappear.
+
+* Cake sends a message:
+![Cake sends a message](./images/Screen%20Shot%202020-04-14%20at%2011.58.43%20AM.png){:height="59px"}
+
+* Dragon gets the message.
+![Dragon gets the message](./images/Screen%20Shot%202020-04-14%20at%2011.58.51%20AM.png){:height="59px"}
 
 
+### Homework
+
+The homework is to play with Zoom and the Maze. Practice:
+
+*Skill: Modifying a path in the background*
+*Skill: Sending Messages*
+*Skill: Making Character Disappear*
 
 
-
-
+We will use these in our next lesson: Bad Jokes!
+![Bad](./images/Screen%20Shot%202020-04-14%20at%2012.48.59%20PM.png)
