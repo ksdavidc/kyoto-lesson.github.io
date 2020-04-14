@@ -104,9 +104,10 @@ Tic goes to get the cake first. The cake makes the dragon disappear.
 
 The homework is to play with Zoom and the Maze. Practice:
 
-*Skill: Modifying a path in the background*
-*Skill: Sending Messages*
-*Skill: Making Character Disappear*
+* *Skill: Modifying a path in the background*
+* *Skill: Sending Messages*
+* *Skill: Making Character Disappear*
+
 
 
 We will use these in our next lesson: Bad Jokes!
