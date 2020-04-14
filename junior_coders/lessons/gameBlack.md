@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Game: Black
+title: "Game: Black"
 ---
 * [**Prep for Black**](#prep-for-black)
 * [**Black**](#black)
