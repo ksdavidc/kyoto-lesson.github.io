@@ -18,7 +18,8 @@ title: Getting Started with Scratch Jr. (Monday PM)
   * [Homework](#homework)
 
 
-## March 23rd: First Class
+## March 23rd: First Class 
+{: .no_toc}
 
 Class Outline & homework: [Introduction to the computer and ScratchJr](../lessons/jc_a_001.html)
 
@@ -27,7 +28,7 @@ This class went very well. The kids were active and eager to participate. Don't 
 
 
 ## March 30th: Thank you. Discord.
-
+{: .toc}
 Class Outline & homework: [Simple two-line maze](../lessons/jc_a_002.html)
 
 Thank you everyone for providing a snack. This week we installed Discord on all the computers, but parents will need to provide an email and password. Please write these down, as it is easy to forget.
