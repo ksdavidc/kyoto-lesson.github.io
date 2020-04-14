@@ -11,7 +11,7 @@ title: Getting Started with Scratch Jr. (Monday PM)
 * [April 13th](#april-13th)
   * [Using Zoom](#using-zoom)
   * [Game: Black](#game-black)
-  * [ScratchJr: Making a Character Disappearing](#scratchjr-making-a-character-disappearing)
+  * [ScratchJr: Making a Character Disappear](#scratchjr-making-a-character-disappear)
     * [Making the maze](#making-the-maze)
     * [Tic Is Trapped!](#tic-is-trapped)
   * [Adding The cake](#adding-the-cake)
@@ -19,16 +19,14 @@ title: Getting Started with Scratch Jr. (Monday PM)
 
 
 ## March 23rd: First Class 
-{: .no_toc}
 
 Class Outline & homework: [Introduction to the computer and ScratchJr](../lessons/jc_a_001.html)
-
 
 This class went very well. The kids were active and eager to participate. Don't forget to provide a snack for your child!!
 
 
 ## March 30th: Thank you. Discord.
-{: .toc}
+
 Class Outline & homework: [Simple two-line maze](../lessons/jc_a_002.html)
 
 Thank you everyone for providing a snack. This week we installed Discord on all the computers, but parents will need to provide an email and password. Please write these down, as it is easy to forget.
@@ -63,7 +61,7 @@ See [Zoom Topic](../lessons/usingZoom.html)
 
 See [Zoom Topic](../lessons/gameBlack.html)
 
-### ScratchJr: Making a Character Disappearing
+### ScratchJr: Making a Character Disappear
 
 #### Making the maze
 
@@ -90,7 +88,7 @@ and Tic is sent home:
 
 ###  Adding The cake
 
-*Skill: Making Character Disappear*
+*Skill: Making Characters Disappear*
 
 Tic goes to get the cake first. The cake makes the dragon disappear.
 
@@ -107,7 +105,7 @@ The homework is to play with Zoom and the Maze. Practice:
 
 * *Skill: Modifying a path in the background*
 * *Skill: Sending Messages*
-* *Skill: Making Character Disappear*
+* *Skill: Making Characters Disappear*
 
 
 
