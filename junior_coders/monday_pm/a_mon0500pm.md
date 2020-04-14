@@ -4,7 +4,7 @@ title: Getting Started with Scratch Jr. (Monday PM)
 ---
 * [March 23rd: First Class](#march-23rd-first-class)
 * [March 30th: Thank you. Discord.](#march-30th-thank-you-discord)
-* [April 4th: Prep for Disappearing Dragon](#april-4th-prep-for-disappearing-dragon)
+* [April 6th: Prep for Disappearing Dragon](#april-6th-prep-for-disappearing-dragon)
   * [Postponing the Homework](#postponing-the-homework)
   * [Moving from Discord to Zoom](#moving-from-discord-to-zoom)
   * [Disappearing Dragon Maze Demo](#disappearing-dragon-maze-demo)
@@ -32,7 +32,7 @@ Class Outline & homework: [Simple two-line maze](../lessons/jc_a_002.html)
 
 Thank you everyone for providing a snack. This week we installed Discord on all the computers, but parents will need to provide an email and password. Please write these down, as it is easy to forget.
 
-## April 4th: Prep for Disappearing Dragon
+## April 6th: Prep for Disappearing Dragon
 
 Class Outline & homework: [Prep for Disappearing Dragon](../lessons/jc_a_003.html)
 
