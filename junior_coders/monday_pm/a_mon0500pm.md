@@ -8,6 +8,11 @@ title: Getting Started with Scratch Jr. (Monday PM)
   * [Postponing the Homework](#postponing-the-homework)
   * [Moving from Discord to Zoom](#moving-from-discord-to-zoom)
   * [Disappearing Dragon Maze Demo](#disappearing-dragon-maze-demo)
+* [Monday April](#monday-april)
+  * [Using Zoom](#using-zoom)
+  * [Game: Black](#game-black)
+  * [ScratchJr: Making a Character Disappearing](#scratchjr-making-a-character-disappearing)
+    * [Modifying a path in the background](#modifying-a-path-in-the-background)
 
 
 ## March 23rd: First Class
@@ -43,3 +48,37 @@ First, I demonstrated a ScratchJr project demonstating a character eating a cake
 
 
 With these blocks described [here](./../lessons/jc_a_003.html) we have all we need to create the Disappearing Dragon Maze, which we will begin next week.
+
+## Monday April
+
+### Using Zoom
+
+See [Zoom Topic](../lessons/usingZoom.html)
+
+### Game: Black
+
+See [Zoom Topic](../lessons/gameBlack.html)
+
+### ScratchJr: Making a Character Disappearing
+
+#### Modifying a path in the background
+
+We went over how to use the select arrow to modify ![the path of a line in the background](./images/Screen%20Shot%202020-04-14%20at%2011.30.36%20AM.png){:height="100px"}.
+
+Children made a maze, where the character walks on the line, as in Black. Then they added a dragon and a cake. ![maze with dragon and cake](./images/Screen%20Shot%202020-04-14%20at%2011.41.19%20AM.png){:height="100px"}
+
+
+They made their character walk the maze and try to eat the dragon. 
+![walk to dragon](./images/Screen%20Shot%202020-04-14%20at%2011.44.42%20AM.png){:height="100px"}
+
+But the dragon sends a message:
+![walk to dragon](./images/Screen%20Shot%202020-04-14%20at%2011.47.13%20AM.png){:height="100px"}
+
+and they go home:
+![walk to dragon](./images/Screen%20Shot%202020-04-14%20at%2011.47.25%20AM.png){:height="100px"}
+
+
+
+
+
+
