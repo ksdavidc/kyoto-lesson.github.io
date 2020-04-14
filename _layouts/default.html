@@ -76,18 +76,32 @@
 			text-decoration: underline;
 			font-size: large;
 			text-align: center;
-      margin-top: 25px;
+			margin-top: 25px;
+			margin-bottom: 20px;
 		}
 
 		h2 {
 			font-size: medium;
-			margin: 5px 20px;
+			margin: 15px 20px 5px 20px;
 		}
 
-div#contentWrapper ul {
+		div#contentWrapper ul {
 			padding: 0px 0px 0px 20px;
-}
+			margin-bottom: 0px;
+		}
 
+		.tag-h2 {
+			text-align: left;
+		}
+
+		.tag-h2 a {
+			font-weight: 900;
+			font-size: small;
+		}
+
+		.tag-h3 {
+			padding: 0px;
+		}
 	</style>
 </head>
 
@@ -131,9 +145,9 @@ div#contentWrapper ul {
 				</h1>
 			</div>
 
-      <div id="contentWrapper">
-			{{ content }}
-</div>
+			<div id="contentWrapper">
+				{{ content }}
+			</div>
 		</section>
 		<footer>
 			{% if site.github.is_project_page %}
