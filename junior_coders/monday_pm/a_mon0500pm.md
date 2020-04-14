@@ -8,7 +8,7 @@ title: Getting Started with Scratch Jr. (Monday PM)
   * [Postponing the Homework](#postponing-the-homework)
   * [Moving from Discord to Zoom](#moving-from-discord-to-zoom)
   * [Disappearing Dragon Maze Demo](#disappearing-dragon-maze-demo)
-* [Monday April](#monday-april)
+* [April 13th](#april-13th)
   * [Using Zoom](#using-zoom)
   * [Game: Black](#game-black)
   * [ScratchJr: Making a Character Disappearing](#scratchjr-making-a-character-disappearing)
@@ -52,7 +52,7 @@ First, I demonstrated a ScratchJr project demonstating a character eating a cake
 
 With these blocks described [here](./../lessons/jc_a_003.html) we have all we need to create the Disappearing Dragon Maze, which we will begin next week.
 
-## Monday April
+## April 13th
 
 ### Using Zoom
 
