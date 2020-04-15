@@ -69,15 +69,15 @@ See [Zoom Topic](../lessons/gameBlack.html)
 
 We went over how to use the select arrow to modify the path of a line in the background.
 
-![the path of a line in the background](./images/Screen%20Shot%202020-04-14%20at%2011.30.36%20AM.png){:height="59px"}
+![the path of a line in the background](./images/Screen%20Shot%202020-04-14%20at%2011.30.36%20AM.png){:height="200px"}
 
 Children made a maze, where the character walks on the line, as in Black. Then they added a dragon and a cake. 
 
-![maze with dragon and cake](./images/Screen%20Shot%202020-04-14%20at%2011.41.19%20AM.png){:height="59px"}
+![maze with dragon and cake](./images/Screen%20Shot%202020-04-14%20at%2011.41.19%20AM.png){:height="200px"}
 
-They made their character walk the maze and try to eat the dragon. 
+They made their character walk the maze and try to eat the [dragon](hjh). 
 
-![Tic walks to dragon](./images/Screen%20Shot%202020-04-14%20at%2011.44.42%20AM.png){:height="59px"}
+[![Tic walks to dragon](./images/Screen%20Shot%202020-04-14%20at%2011.44.42%20AM.png){:height="59px"}](./images/Screen%20Shot%202020-04-14%20at%2011.44.42%20AM.png)
 
 #### Tic Is Trapped!
 
@@ -98,11 +98,11 @@ and Tic is sent home:
 Tic goes to get the cake first. The cake makes the dragon disappear.
 
 * Cake sends a message.
-* 
+
 ![Cake sends a message](./images/Screen%20Shot%202020-04-14%20at%2011.58.43%20AM.png){:height="59px"}
 
 * Dragon gets the message.
-* 
+
 ![Dragon gets the message](./images/Screen%20Shot%202020-04-14%20at%2011.58.51%20AM.png){:height="59px"}
 
 
