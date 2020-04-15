@@ -15,6 +15,12 @@
     <![endif]-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<style>
+		body {
+			background-color: ivory;
+			font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+		}
+
 		#banner {
 			right: 0%;
 			top: 140px;
@@ -50,15 +56,6 @@
 			text-decoration: none;
 		}
 
-		.ournav-item:hover {
-			background-color: lightblue;
-			border: 1px solid blue;
-		}
-
-		.ournav-item:hover a {
-			color: darkgreen;
-		}
-
 		header {
 			padding-left: 0px;
 			display: flex;
@@ -90,13 +87,40 @@
 			margin-bottom: 0px;
 		}
 
+
+
+		a,
+		nav ul a {
+			color: #3399cc;
+		}
+
+		nav ul li:hover {}
+
+		a:hover,
+		nav ul a:hover {
+			color: #3e71b2;
+			background-color: #ffe788;
+			/* border: 1px solid blue; */
+		}
+
+		nav ul .tag-h1 a:hover {
+			color: darkgreen;
+			/* background-color: lightblue;
+			border: none;*/
+		}
+
 		.tag-h2 {
 			text-align: left;
+			/* border-left: 3px #3f72b2 solid; */
+			padding: 5px 0px 0px 0px;
+			margin-bottom: 4px;
 		}
 
 		.tag-h2 a {
 			font-weight: 900;
-			font-size: small;
+			font-size: 14px;
+			border-left: 3px #3f72b2 solid;
+			padding: 0px 0px 0px 3px;
 		}
 
 		.tag-h3 {
@@ -152,7 +176,7 @@
 		<footer>
 			{% if site.github.is_project_page %}
 			<p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
-				<small>theme rev. no: 8</small>
+				<small>theme rev. no: 9</small>
 			</p>
 			{% endif %}
 			<p><small>leap-year theme <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
