@@ -121,4 +121,4 @@ The homework is to play with Zoom and the Maze. Practice:
 
 We will use these in our next lesson: Bad Jokes!
 
-![Bad](./images/Screen%20Shot%202020-04-14%20at%2012.48.59%20PM.png)
+![Bad](./images/2020-04-13/Screen%20Shot%202020-04-14%20at%2012.48.59%20PM.png)
