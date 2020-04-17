@@ -7,7 +7,6 @@ The Friendly Ocean
 : It waves.
 
 
-
 Why Birds Fly
 : Why do birds fly to warmer climates in the winter?
 : It’s much easier than walking!
