@@ -17,7 +17,7 @@ This was the first time using Zoom, so there was a lot of adjustment to the inte
 
 ## Game: Black
 
-See [Zoom Topic](../lessons/gameBlack.html)
+See [Topic: Game: Black](../lessons/gameBlack.html)
 
 
 
