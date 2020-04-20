@@ -92,7 +92,7 @@ This requires 2 messages:
     * Sends one YELLOW message
 ![alt-text](images/2020-04-27/CakeSendsMessage.jpg "Hover text")
     * Two Dragons get the same YELLOW message
-      * **Green Dragon** gets the YELLOW message to disapear
+      * **Green Dragon** gets the YELLOW message to disappear
 ![alt-text](images/2020-04-27/Dragon1GetsYellowMessage.jpg "Hover text")
       * **Blue Dragon** gets YELLOW message to disappear
 ![alt-text](images/2020-04-27/Dragon2GetsYellowMessage.jpg "Hover text")
