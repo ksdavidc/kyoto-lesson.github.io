@@ -27,7 +27,7 @@ title: "Dragon Maze Part 2"
 
 ## But, you have two dragons. You need to decide
 * If something hits the **Green Dragon** (on path), what happens?
-* If something hits the Cake, what happen?
+* If something hits the **Cake**, what happen?
 * If something hits the **Blue Dragon** (at exit), what happens?
 
 ## For example
