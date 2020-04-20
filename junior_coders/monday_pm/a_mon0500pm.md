@@ -17,13 +17,13 @@ title: Getting Started with Scratch Jr. (Monday PM)
     * [Making the maze](#making-the-maze)
     * [Tic Is Trapped!](#tic-is-trapped)
   * [Disappearing Dragons](#disappearing-dragons)
-  * [Homework](#homework)
+  * [April 13 Homework](#april-13-homework)
 * [April 20th](#april-20th)
   * [Sending Messages by Making a Conversation](#sending-messages-by-making-a-conversation)
   * [Continue the conversation](#continue-the-conversation)
   * [The KEYS to Messages](#the-keys-to-messages)
     * [Advanced Keys](#advanced-keys)
-  * [Homework](#homework-1)
+  * [April 20 Homework](#april-20-homework)
   * [Going to a different Screen](#going-to-a-different-screen)
   * [The Dragon Maze almost solved](#the-dragon-maze-almost-solved)
   * [Zoom problems](#zoom-problems)
@@ -123,7 +123,7 @@ Tic goes to get the cake first. The cake makes the dragon disappear.
 ![Dragon gets the message](./images/2020-04-13/Screen%20Shot%202020-04-14%20at%2011.58.51%20AM.png){:height="59px"}
 
 
-### Homework
+### April 13 Homework
 
 The homework is to play with Zoom and the Maze. Practice:
 
@@ -171,7 +171,7 @@ We also talked about how to make a longer conversation:
 * The same message can go to more than one character, too. That is, more than one character can receive the message when it is sent.
 * Sometimes you even send messages to yourself!
 
-### Homework
+### April 20 Homework
 
 The homework was to make a longer conversation by sending several messages back and forth between characters as above. If you need something for the characters to say, [here](../lessons/JokesForBadJokes.md) are some jokes to use.
 
