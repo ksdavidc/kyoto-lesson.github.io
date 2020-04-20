@@ -13,7 +13,8 @@ title: "Dragon Maze Part 2"
 * [How to Do It](#how-to-do-it)
   * [Setup](#setup-1)
   * [If Green Dragon Is Touched. One Character Sends Two Messages](#if-green-dragon-is-touched-one-character-sends-two-messages)
-    * [See how it works:](#see-how-it-works)
+    * [The KEY to how it works:](#the-key-to-how-it-works)
+      * [Advanced notes:](#advanced-notes)
   * [Cake Is Touched. One Message to Two Characters](#cake-is-touched-one-message-to-two-characters)
   * [Blue Dragon Is Touched. Reusing Orange Message.](#blue-dragon-is-touched-reusing-orange-message)
 * [The last step is program Tic to walk the path.](#the-last-step-is-program-tic-to-walk-the-path)
@@ -81,11 +82,14 @@ This requires 2 messages:
     * **Blue Dragon** gets RED message to become visible: 
 ![alt-text](images/2020-04-27/Dragon2GetsRedMessage.jpg "Hover text")
 
-#### See how it works: 
+#### The KEY to how it works: 
 * Each message has 2 parts, sending and receiving. 
-* A character can send more than one message. 
-* The same message can go to more than one character, too. 
-* This is what is going to happen with the cake, next.
+* One character sends. The other receives, and acts.
+##### Advanced notes:
+* One character can send more than one message, for example to different characters, or the same character. 
+* The same message can go to more than one character, too. That is, more than one character can receive the message when it is sent.
+* Sometimes you even send messages to yourself!
+
 
 ### Cake Is Touched. One Message to Two Characters
 * If something hits the **cake**, all dragons disappear.
