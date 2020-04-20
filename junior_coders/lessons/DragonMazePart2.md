@@ -6,12 +6,8 @@ title: "Dragon Maze Part 2"
 * [Imagine just one dragon and one cake](#imagine-just-one-dragon-and-one-cake)
 * [But, you have two dragons. You need to decide](#but-you-have-two-dragons-you-need-to-decide)
 * [For example](#for-example)
-  * [Setup](#setup)
-  * [Dragon 1](#dragon-1)
-  * [Cake](#cake)
-  * [Dragon 2](#dragon-2)
 * [How to Do It](#how-to-do-it)
-  * [Setup](#setup-1)
+  * [Setup](#setup)
   * [If Green Dragon Is Touched. One Character Sends Two Messages](#if-green-dragon-is-touched-one-character-sends-two-messages)
     * [The KEY to how it works](#the-key-to-how-it-works)
       * [Advanced notes:](#advanced-notes)
@@ -26,31 +22,27 @@ title: "Dragon Maze Part 2"
 * If something hits the cake, send a message to Dragon to disappear. Make yourself (cake) disappear.
 
 ## But, you have two dragons. You need to decide
-* If something hits the **Green Dragon** (on path), what happens?
-* If something hits the **Cake**, what happen?
-* If something hits the **Blue Dragon** (at exit), what happens?
+1. If something hits the **Green Dragon** (on path), what happens?
+2. If something hits the **Cake**, what happen?
+3. If something hits the **Blue Dragon** (at exit), what happens?
+4. Where do characters start?
 
 ## For example
 
 ![alt-text](images/2020-04-27/finishedSetup.jpg "Hover text")
 
-### Setup
 
-* Start with **Blue Dragon** invisible
-* Start with everyone the right size and correct position
-* Don't worry about the path/background yet
+1. Green Dragon
+   * If something hits the **Green Dragon**, send a message to **Tic** to go home, you disappear, but another dragon appears.
+1. Cake
+   * If something hits the cake, all dragons disappear.
+1. Blue Dragon
+   * If something hits the **Blue Dragon** (when he is visible), send a message to **Tic** to go home
 
-### Dragon 1
-* If something hits the **Green Dragon**, send a message to **Tic** to go home, you disappear, but another dragon appears.
-
-
-### Cake
-* If something hits the cake, all dragons disappear.
-
-
-### Dragon 2
-* If something hits the **Blue Dragon** (when he is visible), send a message to **Tic** to go home
-
+1. Starting Setup
+   * Start with **Blue Dragon** invisible
+   * Start with everyone the right size and correct position
+   * Don't worry about the path/background yet
 
 ## How to Do It
 
@@ -75,7 +67,7 @@ title: "Dragon Maze Part 2"
 
 ### If Green Dragon Is Touched. One Character Sends Two Messages
 This requires 2 messages:
-* If something hits the **Green Dragon**, send a ORANGE message to cat to go home, and then he disappears
+* If something hits the **Green Dragon**, send a ORANGE message to **Tic** to go home, and then he disappears
 * if something hits the **Green Dragon**, send RED message to other dragon to appear
 
     * **Green Dragon** sends 2 messages
