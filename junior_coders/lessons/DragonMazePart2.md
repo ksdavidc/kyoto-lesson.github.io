@@ -3,9 +3,9 @@ layout: default
 title: "Dragon Maze Part 2"
 ---
 
-* [Imagine just one dragon and one cake:](#imagine-just-one-dragon-and-one-cake)
-* [But, you have two dragons. You need to decide:](#but-you-have-two-dragons-you-need-to-decide)
-* [For example:](#for-example)
+* [Imagine just one dragon and one cake](#imagine-just-one-dragon-and-one-cake)
+* [But, you have two dragons. You need to decide](#but-you-have-two-dragons-you-need-to-decide)
+* [For example](#for-example)
   * [Setup](#setup)
   * [Dragon 1](#dragon-1)
   * [Cake](#cake)
@@ -13,26 +13,24 @@ title: "Dragon Maze Part 2"
 * [How to Do It](#how-to-do-it)
   * [Setup](#setup-1)
   * [If Green Dragon Is Touched. One Character Sends Two Messages](#if-green-dragon-is-touched-one-character-sends-two-messages)
-    * [The KEY to how it works:](#the-key-to-how-it-works)
+    * [The KEY to how it works](#the-key-to-how-it-works)
       * [Advanced notes:](#advanced-notes)
   * [Cake Is Touched. One Message to Two Characters](#cake-is-touched-one-message-to-two-characters)
-  * [Blue Dragon Is Touched. Reusing Orange Message.](#blue-dragon-is-touched-reusing-orange-message)
-* [The last step is program Tic to walk the path.](#the-last-step-is-program-tic-to-walk-the-path)
+  * [Blue Dragon Is Touched. Reusing Orange Message](#blue-dragon-is-touched-reusing-orange-message)
+* [The last step is program Tic to walk the path](#the-last-step-is-program-tic-to-walk-the-path)
 
 
 
-## Imagine just one dragon and one cake:
+## Imagine just one dragon and one cake
 * If something hits the dragon, send a message to Tic (please go back)
 * If something hits the cake, send a message to Dragon to disappear. Make yourself (cake) disappear.
 
-## But, you have two dragons. You need to decide: 
+## But, you have two dragons. You need to decide
 * If something hits the Blue Dragon (on path), what happens?
 * If something hits the Cake, what happen?
 * If something hits the Green Dragon (at exit), what happens?
 
-
-
-## For example: 
+## For example
 
 ### Setup
 (start with green dragon invisible)
@@ -82,7 +80,7 @@ This requires 2 messages:
     * **Blue Dragon** gets RED message to become visible: 
 ![alt-text](images/2020-04-27/Dragon2GetsRedMessage.jpg "Hover text")
 
-#### The KEY to how it works: 
+#### The KEY to how it works
 * Each message has 2 parts, sending and receiving. 
 * One character sends. The other receives, and acts.
 ##### Advanced notes:
@@ -101,7 +99,7 @@ This requires 2 messages:
       * Blue Dragon gets YELLOW message to disappear
 ![alt-text](images/2020-04-27/Dragon2GetsYellowMessage.jpg "Hover text")
 
-### Blue Dragon Is Touched. Reusing Orange Message.
+### Blue Dragon Is Touched. Reusing Orange Message
 * If something hits the **Blue Dragon**, he sends a message to **Tic** to go home. 
 * I could send a NEW message color, but I can also just USE THE SAME ORANGE MESSAGE that the **Green Dragon** sent to **Tic**. It will do the same thing to the **Tic**. 
 * In other words, it doesn't matter WHO sends the ORANGE message to **Tic**, if he gets ANY orange message, he goes home!!!!
@@ -109,7 +107,7 @@ This requires 2 messages:
 ![alt-text](images/2020-04-27/BlueDragonSendsOrangeMessage.jpg "Hover text")
 
 
-## The last step is program Tic to walk the path. 
+## The last step is program Tic to walk the path
 
 First, add the background with the paths. 
 
