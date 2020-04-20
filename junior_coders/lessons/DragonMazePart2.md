@@ -22,7 +22,7 @@ title: "Dragon Maze Part 2"
 
 
 ## Imagine just one dragon and one cake
-* If something hits the dragon, send a message to Tic (please go back)
+* If something hits the dragon, send a message to Tic to return home
 * If something hits the cake, send a message to Dragon to disappear. Make yourself (cake) disappear.
 
 ## But, you have two dragons. You need to decide
@@ -33,9 +33,10 @@ title: "Dragon Maze Part 2"
 ## For example
 
 ### Setup
-(start with green dragon invisible)
-(start with everyone the right size and correct position)
-(Don't worry about the path/background yet)
+
+* Start with green dragon invisible
+* Start with everyone the right size and correct position
+* Don't worry about the path/background yet
 
 ### Dragon 1
 * If something hits the green dragon, send a message to Tic to go home, you disappear, but another dragon appears.
@@ -54,6 +55,7 @@ title: "Dragon Maze Part 2"
 ### Setup
 
 * Forget about background for now
+  
 1. Start with everyone at the right position
 2. Make everyone the right size
 3. Start with **Blue Dragon** invisible
