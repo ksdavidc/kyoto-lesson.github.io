@@ -12,3 +12,5 @@ title: Lesson Topics
   * [Prep for Disappearing Dragon](./jc_a_003.html)
   * [Using Zoom](./usingZoom.html)
   * [Game: Black](./gameBlack.html)
+  * [Jokes for Bad Jokes](./JokesForBadJokes.md)
+  * [Dragon Maze Part 2](./DragonMazePart2.md) 
