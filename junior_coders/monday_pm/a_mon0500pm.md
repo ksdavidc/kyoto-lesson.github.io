@@ -184,7 +184,7 @@ We also talked about adding new Screens/Pages to a Project:
 3. The screen appears in the (red) buttons
 ![screen appears](images/2020-04-20/ScreenVisible.jpg "screen appears")
 1. Add it to the actions
-![screen appears](images/2020-04-20/goToScreen.jpg "screen appears")
+![screen appears](images/2020-04-20/GoToScreen.jpg "screen appears")
 
 ### The Dragon Maze almost solved
 
