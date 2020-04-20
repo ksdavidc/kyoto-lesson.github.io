@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Saturday PM Class Notes (3:30~5:30pm)
+title: Bad Jokes
 ---
 
 # Good
@@ -9,10 +9,6 @@ The Friendly Ocean
 : How does the ocean say hello?
 : It waves.
 
-
-Why Birds Fly
-: Why do birds fly to warmer climates in the winter?
-: It’s much easier than walking!
 
 Smarter Than a Parrot
 : What creature is smarter than a talking parrot?
@@ -24,7 +20,10 @@ Again Snowman
 
 Broken Boomerangs
 :  What do you call a boomerang that won’t come back?
+nagette modotte konai boomerang nandeshouka?
+なげてももどってこないぶーめらんはなんでしょうか
 :  A stick.
+ただのぼうです
 
 Cheese Propriety
 :  What do you call cheese that’s not your cheese?
@@ -41,7 +40,6 @@ No Eye Fish
 Like a Parrot
 :  What’s orange and sounds like a parrot.
 :  A carrot.
-
 
 # unused
 
@@ -64,7 +62,6 @@ Sized Right
 Why Dogs Can’t Dance
 :  Why aren’t dogs good dancers?
 :  They have two left feet?
-
 
 
 The Imprisoned Picture
@@ -103,6 +100,10 @@ Giant Talk
 :  How do you talk to giants?
 :  Use big words!
 
+
+Why Birds Fly
+: Why do birds fly to warmer climates in the winter?
+: It’s much easier than walking!
 
 
 A Match Made in Heaven
