@@ -173,7 +173,7 @@ We also talked about how to make a longer conversation:
 
 ### April 20 Homework
 
-The homework was to make a longer conversation by sending several messages back and forth between characters as above. If you need something for the characters to say, [here](../lessons/JokesForBadJokes.html) are some jokes to use.
+The homework was to make a longer conversation by sending several messages back and forth between characters as above. If you need something for the characters to say, [here are some jokes](../lessons/JokesForBadJokes.html) to use.
 
 ### Going to a different Screen
 We also talked about adding new Screens/Pages to a Project: 
