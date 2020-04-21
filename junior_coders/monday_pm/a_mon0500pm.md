@@ -173,7 +173,7 @@ We also talked about how to make a longer conversation:
 
 ### April 20 Homework
 
-The homework was to make a longer conversation by sending several messages back and forth between characters as above. If you need something for the characters to say, [here](../lessons/JokesForBadJokes.md) are some jokes to use.
+The homework was to make a longer conversation by sending several messages back and forth between characters as above. If you need something for the characters to say, [here](../lessons/JokesForBadJokes.html) are some jokes to use.
 
 ### Going to a different Screen
 We also talked about adding new Screens/Pages to a Project: 
@@ -188,7 +188,7 @@ We also talked about adding new Screens/Pages to a Project:
 
 ### The Dragon Maze almost solved
 
-Some students worked very hard on the Dragon Maze, but they had a problem. I have made special [Dragon Maze Part 2](../lessons/DragonMazePart2.md) directions on making the Dragon maze work. It uses sending messages. The directions are very detailed, so take it slow. If you have questions, we will go over it in class next week. 
+Some students worked very hard on the Dragon Maze, but they had a problem. I have made special [Dragon Maze Part 2](../lessons/DragonMazePart2.html) directions on making the Dragon maze work. It uses sending messages. The directions are very detailed, so take it slow. If you have questions, we will go over it in class next week. 
 
 ### Zoom problems
 
