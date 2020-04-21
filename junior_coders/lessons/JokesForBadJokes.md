@@ -3,6 +3,10 @@ layout: default
 title: Jokes for Bad Jokes
 ---
 
+Romantic Octopus
+: What did the boy octopus say to the girl octopus?
+: I want to hold your hand hand hand hand hand hand hand hand.
+
 The Friendly Ocean
 : How does the ocean say hello?
 : It waves.
@@ -34,3 +38,4 @@ No Eye Fish
 Like a Parrot
 :  What’s orange and sounds like a parrot.
 :  A carrot.
+
