@@ -163,13 +163,19 @@ We also talked about how to make a longer conversation:
 ![alt-text](images/2020-04-20/thisIsNotAForest.jpg "Hover text")
 
 ### The KEYS to Messages
+
 * Each message has 2 parts, sending and receiving. 
 * One character sends. The other receives, and acts.
 * They can send a new message back....
+
+
 #### Advanced Keys
+
 * One character can send more than one message, for example to different characters, or the same character. 
 * The same message can go to more than one character, too. That is, more than one character can receive the message when it is sent.
 * Sometimes you even send messages to yourself!
+
+See [Dragon Maze Part 2](../lessons/DragonMazePart2.html) for examples.
 
 ### April 20 Homework
 
