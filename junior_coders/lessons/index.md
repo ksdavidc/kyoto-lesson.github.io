@@ -14,3 +14,4 @@ title: Lesson Topics
   * [Game: Black](./gameBlack.html)
   * [Jokes for Bad Jokes](./JokesForBadJokes.md)
   * [Dragon Maze Part 2](./DragonMazePart2.md) 
+  * [Early Skills test](./20200427SkillsTest.md) 
