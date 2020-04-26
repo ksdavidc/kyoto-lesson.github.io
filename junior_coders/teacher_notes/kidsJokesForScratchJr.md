@@ -280,3 +280,209 @@ Cold vampires
 Tooth Time
 :  What time is it when you have to go to the dentist?
 :  Tooth: hurty!
+
+50. What do you call an old snowman?
+
+ Water!
+
+Fatherly IQ
+This Year, Mother’s Day matters to your family...
+More than ever
+Less than ever
+About the same
+Thanks for the feedback!
+49. Why are ghosts such bad liars?
+
+Because you can see right through them.
+
+48. Why is Santa always so happy?
+
+He likes to live in the present!
+
+47. How do you catch a whole school of fish?
+
+With bookworms.
+
+46. What is a witch’s favorite subject in school?
+
+Spelling!
+
+45. Why didn’t the zombie go to school?
+
+He felt rotten!
+
+44. What did one plate say to the other plate?
+
+Dinner’s on me!
+
+43. What kind of shoes do ninjas wear? 
+
+Sneakers.
+
+42. Why did the cookie go to the hospital?
+
+Because he felt crummy.
+
+41. How do mountains stay warm in winter?
+
+Snowcaps.
+
+40. Why do artists constantly feel cold?
+
+Because they’re surrounded by drafts.
+
+39. Why did the pony get sent to his room?
+
+He wouldn’t stop horsing around.
+
+38. What do you call a cow that eats your grass?
+
+A lawn moo-er.
+
+37. Why do fish live in saltwater?
+
+Because pepper makes them sneeze!
+
+36. What did the Dalmatian say after lunch?
+
+That hit the spot!
+
+35. Why can’t a leopard hide?
+
+Because he’s always spotted!
+
+34. Why should you not let a bear operate the remote?
+
+He will keep pressing the paws button.
+
+33. What is a robot’s favorite snack?
+
+Computer chips.
+
+32. What did the fisherman say to the magician?
+
+Pick a cod, any cod.  
+
+31. What does a nosey pepper do?
+
+Gets jalapeño business!
+
+30. Why did the banana go to the hospital?
+
+He was peeling really bad.
+
+29. Why did Mickey Mouse take a trip into space?
+
+He was looking for his buddy Pluto.
+
+28. What are the two things you can’t have for breakfast?
+
+Lunch and dinner.
+
+27. Where do you learn to make banana splits?
+
+At sundae school.
+
+26. What did the limestone say to the geologist?
+
+Don’t take me for granite!
+
+25. What kind of dinosaur loves to sleep?
+
+A stega-snore-us.
+
+24. Why do seagulls live by the sea?
+
+Because if they lived by the bay, they’d be bagels!
+
+23. What bone will a dog never eat?
+
+A trombone.
+
+22. Why did the dinosaur cross the road?
+
+ To eat the chickens on the other side.
+
+21. Why did the man get fired from the orange juice factory?
+
+Lack of concentration.
+
+20. When will the little snake arrive?
+
+I don’t know, but he won’t be long.
+
+19. What’s the biggest moth in the world?
+
+A mammoth.
+
+18. What do you get if you cross a frog with a rabbit?
+
+A bunny ribbit.
+
+17. What type of markets do dogs avoid?
+
+Flea markets!
+
+16. What do music and chickens have in common?
+
+Bach, Bach, Bach!
+
+15. Why aren’t dogs good dancers?
+
+They have two left feet.
+
+14. What do you call a blind dinosaur?
+
+A do-you-think-he-saw-us.
+
+13. What did one penny say to another penny?
+
+We make cents.
+
+12. What kind of lion never roars?
+
+A dandelion!
+
+11. Why did the clock go to the principal’s office?
+
+For tocking too much.
+
+10. Why did the man put his money in the freezer?
+
+He wanted cold hard cash!
+
+9. What do you call a funny mountain?
+
+Hill-arious.
+
+8. Why did the man run around his bed?
+
+He was trying to catch up on sleep!
+
+7. Why do dragons sleep during the day?
+
+So they can fight knights!
+
+6. Why can’t Cinderella play soccer?
+
+Because she’s always running away from the ball.
+
+5. What did the zero say to the eight?
+
+Nice belt!
+
+4. Why is the grass so dangerous?
+
+It’s full of blades.
+
+3. Why is it so windy inside a sports arena?
+
+All those fans.
+
+2. Why did the student eat his homework?
+
+Because his teacher told him it was a piece of cake!
+
+1. What’s worse than finding a worm in your apple?
+
+Finding half a worm.
