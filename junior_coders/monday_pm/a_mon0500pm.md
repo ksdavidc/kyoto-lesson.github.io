@@ -218,15 +218,15 @@ Everyone seems to be able to share screens finally. I know it is a little tricky
 
 The next class will be mostly a review and testing class. I expect a lot of back and forth, so be ready to talk! I also hope to do some activities as a group. Can you use all of the skills we have used so far? 
 
-    [] Choosing and changing the background
-    [] adding and changing lines and shapes
-    [] adding and making characters bigger or smaller
-    [] making characters visible or invisible
-    [] making characters move in different ways
-    [] making characters act at the start, or when they are touched
-    [] making characters speak and make sounds
-    [] sending and receiving messages
-    [] moving to different screens/pages
+- [ ] Choosing and changing the background
+- [ ] adding and changing lines and shapes
+- [ ] adding and making characters bigger or smaller
+- [ ] making characters visible or invisible
+- [ ] making characters move in different ways
+- [ ] making characters act at the start, or when they are touched
+- [ ] making characters speak and make sounds
+- [ ] sending and receiving messages
+- [ ] moving to different screens/pages
 
 You have learned a lot I hope!!! You can use this class to catch up on things you have missed, and if you feel advanced, you can get more practice, and I will also ask you to help other students, so be ready to explain what you know! 
 
