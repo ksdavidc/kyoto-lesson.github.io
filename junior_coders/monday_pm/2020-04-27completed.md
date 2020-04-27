@@ -3,19 +3,21 @@ layout: default
 title: 2020 04 27 Plan 
 ---
 
-* [Skills Review](#skills-review)
-* [Teacher Says with Zoom](#teacher-says-with-zoom)
-* [Alien Planet](#alien-planet)
-* [How to send projects](#how-to-send-projects)
-* [Update Scratchjr](#update-scratchjr)
-* [Homework](#homework)
-* [Addenda](#addenda)
-  * [Addendum: Skill Review Checklist](#addendum-skill-review-checklist)
-  * [Addendum: Alien Planet Project Assignment](#addendum-alien-planet-project-assignment)
-  * [Addendum: Sending Projects](#addendum-sending-projects)
-  * [Addendum: Code for Alien Planet](#addendum-code-for-alien-planet)
+* [April 27th](#april-27th)
+  * [Skills Review](#skills-review)
+  * [Teacher Says with Zoom](#teacher-says-with-zoom)
+  * [Alien Planet](#alien-planet)
+  * [How to send projects](#how-to-send-projects)
+  * [Update Scratchjr](#update-scratchjr)
+  * [April 27 Homework](#april-27-homework)
+  * [Addenda](#addenda)
+    * [Addendum: Skill Review Checklist](#addendum-skill-review-checklist)
+    * [Addendum: Alien Planet Project Assignment](#addendum-alien-planet-project-assignment)
+    * [Addendum: Sending Projects](#addendum-sending-projects)
+    * [Addendum: Code for Alien Planet](#addendum-code-for-alien-planet)
 
 
+## April 27th
 
 ### Skills Review
 
@@ -54,7 +56,7 @@ Scratchjr just updated their program[^whyWeCantDownloadIt]. I suggest you update
 * <a href="https://www.amazon.com/gp/product/B01AKGTD2E">Amazon</a>
 
 
-### Homework
+### April 27 Homework
 Keep working on [The Alien Planet assignment](#addendum-alien-planet-project-assignment). [Email](mailto:ksdavidc@protonmail.com) the result.
 
 
