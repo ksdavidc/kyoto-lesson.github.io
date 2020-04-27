@@ -19,34 +19,32 @@ title: 2020 04 27 Plan
 
 ### Skills Review
 
-We reviewed the  [skills review sample project][]. [^downloading]
+We did a  [guided walkthough][] of the [skills review sample project][] [^whyWeCantDownloadIt] using the [skills we should all know at this stage][]. Can you do them all? You have learned a lot already!!!  
 
-[skills review sample project]: ./scratchProjects/Project120200427SkillsTest.sjr
+[guided walkthough]: ../lessons/20200427SkillsTest.html 
+[skills we should all know at this stage]: #addendum-skill-review-checklist
+[skills review sample project]: ./scratchProjects/Project120200427SkillsTest.sjr 
 
-[^downloading]: We are working with the scratchjr developers on a way to load it into ipads. For example, here is an internet link for [the Alien Planet project](https://docs.google.com/document/d/14sgXRSoC8f1d2_QEV7gBIvoWzUZ2EGI3_dw7iQp9lUU/edit), and here the [direct link to the file](https://drive.google.com/open?id=0B342uiaCLSS3RGNPM1ZKeFlzb0U). Downloading it to the ipad seems to work. The tricky part is opening it on the device. Apparently on ipads, it doesn't open scratchjr the way it is supposed to.
+[^whyWeCantDownloadIt]: **(Why We Can't) Download and Import Projects to Ipads**: We are working with the scratchjr developers on a fix for this. Last week this was fixed for Android, but on ipads is still broken. For example, here is an internet link for [the Alien Planet project](https://docs.google.com/document/d/14sgXRSoC8f1d2_QEV7gBIvoWzUZ2EGI3_dw7iQp9lUU/edit), and here the [direct link to the file](https://drive.google.com/open?id=0B342uiaCLSS3RGNPM1ZKeFlzb0U). Downloading them to the ipad seems to work. The tricky part is opening them on the device. Apparently on ipads, it doesn't open scratchjr the way it is supposed to. 
 
-See the [Addendum: Skill Review Checklist](#addendum-skill-review-assignment) for a checklist of the skills we reviewed . Can you do them all? You have learned a lot already!!! 
+
 
 
 ### Teacher Says with Zoom
 
-I talked about the game [Zoom version of the Teacher Says game](../lessons/TeacherSays.html), which we played once before. In this version, I walked through the project and students sent reactions, either 1 👍 or 2 👏, showing which button does **the next action**. Everyone did great using the zoom reaction buttons. Just using your your hands is okay too.
+I talked about the game [Zoom version of the Teacher Says game](../lessons/TeacherSays.html), which we played once before. In this version, I walked through the project and students sent reactions, either 1 👍 or 2 👏, showing which button does **the next action**. Everyone did great using the zoom reaction buttons. Just using your hands was okay too.
 
 ### Alien Planet
 
-I showed everyone the [Alien Planet Project](./scratchProjects/Y1R31Alienplanet.sjr). We walked through some of the steps for the Alien Planet. I gave students an assignment modelled on the Alien Planet [see addendum](#addendum-alien-planet-project-checklist) . See [this addendum](#addendum-code-for-alien-planet) for the code. 
+I showed everyone the [Alien Planet Project](./scratchProjects/Y1R31Alienplanet.sjr). I gave students an assignment modelled on the Alien Planet ([see addendum](#addendum-alien-planet-project-assignment)) . See [this addendum](#addendum-code-for-alien-planet) for the code. 
 
 ### How to send projects
 
-When you are done, you can email it to me from the scratch project page. See the [addendum on sending projects](#addendum-sending-projects)
-
-
+When you are done, you can [email it to me](mailto:ksdavidc@protonmail.com) from the scratch project page. See the [addendum on sending projects](#addendum-sending-projects) for a How-to.
 
 ### Update Scratchjr
 
-Scratchjr just updated their program. I suggest you update it on your device.
-
-Download Links:
+Scratchjr just updated their program[^whyWeCantDownloadIt]. I suggest you update it on your device, here:
 * <a href="https://itunes.apple.com/us/app/scratchjr/id895485086?ls=1&amp;mt=8">App Store</a>
 
 * <a href="https://play.google.com/store/apps/details?id=org.scratchjr.android">Google Play</a>
@@ -57,7 +55,7 @@ Download Links:
 
 
 ### Homework
-Keep working on [The Alien Planet assignment](#addendum-alien-planet-project-assignment). Email the result.
+Keep working on [The Alien Planet assignment](#addendum-alien-planet-project-assignment). [Email](mailto:ksdavidc@protonmail.com) the result.
 
 
 ### Addenda
@@ -82,6 +80,7 @@ Skills Review Checklist:
 
 #### Addendum: Alien Planet Project Assignment
 
+
 1. Create your own background like the one in the project. It can be anything you like, but at least: 
    - [ ] draw several lines 
    - [ ] use the fill tool to fill in areas.
@@ -96,7 +95,7 @@ Skills Review Checklist:
    - [ ] Use repeat/loop (yellow) and repeat forever (red) blocks. See the Alien Cat for an example of both.
    - [ ] Change the speed of the character
    - [ ] Have the character become invisible and visible. See the Alien Bat.
-   - [ ] Have the characters talk to each other. This project has no example, but we did it last time. Here is an easy example of a [simple conversation](./scratchProjects/card08-greet.pdf)     
+   - [ ] Have the characters talk to each other. This project has no example, but we have covered it before. Here is an easy example of a [simple conversation](./scratchProjects/card08-greet.pdf)     
 
 
 
@@ -116,7 +115,7 @@ Even though receiving projects does not seem to work on the ipad, sending does s
 [a math problem]: ./scratchProjects/mathProblem.jpg
 [Share by email]: ./scratchProjects/SendbyEmail.jpg
 
-Here is my [direct email](mailto:ksdavidc@protonmail.com)
+Here is my [direct email](mailto:ksdavidc@protonmail.com) or email alan or the school.
 
 #### Addendum: Code for Alien Planet
 
