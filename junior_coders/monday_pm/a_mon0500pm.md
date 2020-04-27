@@ -350,17 +350,6 @@ Here is my [direct email](mailto:ksdavidc@protonmail.com) or email alan or the s
 
 #### Addendum: Code for Alien Planet
 
-<style>
-.thumbnail {
-height: 100px;
-}
-
-.thumbnail img:hover {
-height: auto;
-}
-
-</style>
-
 
 {:thumbnail: .thumbnail}
 ![Alien Monkey][]{: thumbnail}
