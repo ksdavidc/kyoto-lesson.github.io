@@ -344,7 +344,7 @@ Even though receiving projects does not seem to work on the ipad, sending does s
 [upper right corner, inside your project]: ./scratchProjects/sendingProjectByEmail.PNG
 [the project page]: ./scratchProjects/SendingEmail.jpg
 [a math problem]: ./scratchProjects/mathProblem.jpg
-[Share by email]: ./scratchProjects/sendbyEmail.jpg
+[Share by email]: ./scratchProjects/SendbyEmail.jpg
 
 Here is my [direct email](mailto:ksdavidc@protonmail.com) or email alan or the school.
 
