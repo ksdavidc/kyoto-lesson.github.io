@@ -3,28 +3,28 @@ layout: default
 title: Getting Started with Scratch Jr. (Monday PM)
 
 t1: Alien Monkey
-t1l: ./scratchProjects/Images/Alien%20Monkey.PNG
+t1l: ./scratchProjects/Images/Alien%20Monkey.jpg
 c1: Code for this character
 t2: Alien Cat
-t2l: ./scratchProjects/Images/Alien%20Cat.PNG
+t2l: ./scratchProjects/Images/Alien%20Cat.jpg
 c2: Code for this character
 t3: Alien Bat
-t3l: ./scratchProjects/Images/Alien%20Bat.PNG
+t3l: ./scratchProjects/Images/Alien%20Bat.jpg
 c3: Code for this character
 t4: Alien Ball
-t4l: ./scratchProjects/Images/Alien%20Ball.PNG
+t4l: ./scratchProjects/Images/Alien%20Ball.jpg
 c4: Code for this character
 t5: Fidget Spinner
-t5l: ./scratchProjects/Images/Fidget%20Spinner.PNG
+t5l: ./scratchProjects/Images/Fidget%20Spinner.jpg
 c5: Code for this character
 t6: Alien Mushroom
-t6l: ./scratchProjects/Images/Alien%20Mushroom.PNG
+t6l: ./scratchProjects/Images/Alien%20Mushroom.jpg
 c6: Code for this character
 t7: Alien Sun
-t7l: ./scratchProjects/Images/Alien%20Sun.PNG
+t7l: ./scratchProjects/Images/Alien%20Sun.jpg
 c7: Code for this character
 t8: Alien Ship
-t8l: ./scratchProjects/Images/Alien%20Ship.PNG
+t8l: ./scratchProjects/Images/Alien%20Ship.jpg
 c8: Code for this character
 
 ---
