@@ -133,6 +133,12 @@
         #banner {
             top: 110px;
         }
+        
+        nav {
+            overflow: auto;
+            padding: 5px;
+            max-height: calc(100% - 250px);
+        }
     }
     /*
 		@media print,
@@ -179,10 +185,11 @@
     <div class="wrapper">
         <nav>
             <ul></ul>
+            jj
         </nav>
 
-
         <section>
+
             <header id="header1">
                 <h1 class="ournav">
                     <a class="navbar-brand ournav-item" href="https://kyotolesson.com">
@@ -213,12 +220,12 @@
             </div>
         </section>
         <footer>
-            {% if site.github.is_project_page %}
+            <!-- {% if site.github.is_project_page %}
             <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
                 <small>theme rev. no: 9</small>
             </p>
             {% endif %}
-            <!-- <p><small>leap-year theme <a href="https://twitter.com/mattgraham">mattgraham</a></small></p> -->
+            <p><small>leap-year theme <a href="https://twitter.com/mattgraham">mattgraham</a></small></p> -->
 
         </footer>
     </div>
