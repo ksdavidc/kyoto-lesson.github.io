@@ -360,12 +360,12 @@ Go back to [Skills Review](#skills-review)
 
 Even though receiving projects does not seem to work on the ipad, sending does seem to work. 
 
-1. ![upper right corner, inside your project][]
-2. You should see a project page. ![the project page][]
+1. ![upper right corner, inside your project][]{: width="50%"}
+2. You should see a project page. ![the project page][]{: width="50%"}
 3. Rename it with your name, so I know who is sending it!
 4. Click ”For Parents”. 
-5. You will have to solve a math problem ![a math problem][].
-6. Solve it and click "Send email" ![Share by email][]
+5. You will have to solve a math problem ![a math problem][]{: width="50%"}.
+6. Solve it and click "Send email" ![Share by email][]{: width="50%"}
 
 [upper right corner, inside your project]: ./scratchProjects/sendingProjectByEmail.PNG
 [the project page]: ./scratchProjects/SendingEmail.jpg
@@ -410,11 +410,6 @@ Here is my [direct email](mailto:teacher@kyotolesson.com) or email alan or the s
   border: 1px solid red;
 }
 
-
-.thumbnail:active  img {
-background:ivory;
-width: 100%;
-}
 
 .thumbnail span {
   /*CSS for enlarged image*/
