@@ -297,7 +297,7 @@ I showed everyone the [Alien Planet Project](./scratchProjects/Y1R31Alienplanet.
 
 ### How to send projects
 
-When you are done, you can [email it to me](mailto:ksdavidc@protonmail.com) from the scratch project page. See the [addendum on sending projects](#addendum-sending-projects) for a How-to.
+When you are done, you can [email it to me](mailto:teacher@kyotolesson.com) from the scratch project page. See the [addendum on sending projects](#addendum-sending-projects) for a How-to.
 
 ### Update Scratchjr
 
@@ -312,7 +312,7 @@ Scratchjr just updated their program[^whyWeCantDownloadIt]. I suggest you update
 
 
 ### April 27 Homework
-Keep working on [The Alien Planet assignment](#addendum-alien-planet-project-assignment). [Email](mailto:ksdavidc@protonmail.com) the result.
+Keep working on [The Alien Planet assignment](#addendum-alien-planet-project-assignment). [Email](mailto:teacher@kyotolesson.com) the result.
 
 
 ### Addenda
@@ -320,19 +320,19 @@ Keep working on [The Alien Planet assignment](#addendum-alien-planet-project-ass
 #### Addendum: Skill Review Checklist
 
 Skills Review Checklist:
-    - [ ] Choosing and changing the background
-    - [ ] adding and changing lines and shapes
-    - [ ] adding and making characters bigger or smaller
-    - [ ] making characters visible or invisible
-    - [ ] making characters move in different ways
-    - [ ] making characters act at the start, or when they are touched
-    - [ ] making characters speak and make sounds
-    - [ ] sending and receiving messages
-    - [ ] moving to different screens/pages
+- [ ] Choosing and changing the background
+- [ ] adding and changing lines and shapes
+- [ ] adding and making characters bigger or smaller
+- [ ] making characters visible or invisible
+- [ ] making characters move in different ways
+- [ ] making characters act at the start, or when they are touched
+- [ ] making characters speak and make sounds
+- [ ] sending and receiving messages
+- [ ] moving to different screens/pages
 
-  You have learned a lot already!!! 
+You have learned a lot already!!! 
 
-  Go back to [Skills Review](#skills-review)
+Go back to [Skills Review](#skills-review)
 
 
 #### Addendum: Alien Planet Project Assignment
@@ -372,7 +372,7 @@ Even though receiving projects does not seem to work on the ipad, sending does s
 [a math problem]: ./scratchProjects/mathProblem.jpg
 [Share by email]: ./scratchProjects/SendThroughEmail.jpg
 
-Here is my [direct email](mailto:ksdavidc@protonmail.com) or email alan or the school.
+Here is my [direct email](mailto:teacher@kyotolesson.com) or email alan or the school.
 
 #### Addendum: Code for Alien Planet
 
