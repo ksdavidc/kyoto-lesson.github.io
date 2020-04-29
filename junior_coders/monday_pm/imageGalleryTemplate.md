@@ -2,30 +2,39 @@
 layout: default
 title: Template for Images (latest)
 
-t1: Alien Monkey
-t1l: ./scratchProjects/Images/Alien%20Monkey.PNG
-c1: Code for this character
-t2: Alien Cat
-t2l: ./scratchProjects/Images/Alien%20Cat.PNG
-c2: Code for this character
-t3: Alien Bat
-t3l: ./scratchProjects/Images/Alien%20Bat.PNG
-c3: Code for this character
-t4: Alien Ball
-t4l: ./scratchProjects/Images/Alien%20Ball.PNG
-c4: Code for this character
-t5: Fidget Spinner
-t5l: ./scratchProjects/Images/Fidget%20Spinner.PNG
-c5: Code for this character
-t6: Alien Mushroom
-t6l: ./scratchProjects/Images/Alien%20Mushroom.PNG
-c6: Code for this character
-t7: Alien Sun
-t7l: ./scratchProjects/Images/Alien%20Sun.PNG
-c7: Code for this character
-t8: Alien Ship
-t8l: ./scratchProjects/Images/Alien%20Ship.PNG
-c8: Code for this character
+# Can set the label, url (required), and caption
+gilabel-01: Alien Monkey
+giurl-01: ./scratchProjects/Images/Alien%20Monkey.jpg
+gicaption-01: Code for this character
+
+gilabel-02: Alien Cat
+giurl-02: ./scratchProjects/Images/Alien%20Cat.jpg
+gicaption-02: Code for this character
+
+gilabel-03: Alien Bat
+giurl-03: ./scratchProjects/Images/Alien%20Bat.jpg
+gicaption-03: Code for this character
+
+gilabel-04: Alien Ball
+giurl-04: ./scratchProjects/Images/Alien%20Ball.jpg
+gicaption-04: Code for this character
+
+gilabel-05: Fidget Spinner
+giurl-05: ./scratchProjects/Images/Fidget%20Spinner.jpg
+gicaption-05: Code for this character
+
+gilabel-06: Alien Mushroom
+giurl-06: ./scratchProjects/Images/Alien%20Mushroom.jpg
+gicaption-06: Code for this character
+
+gilabel-07: Alien Sun
+giurl-07: ./scratchProjects/Images/Alien%20Sun.jpg
+gicaption-07: Code for this character
+
+gilabel-08: Alien Ship
+giurl-08: ./scratchProjects/Images/Alien%20Ship.jpg
+gicaption-08: Code for this character
+
 ---
 
 
@@ -62,11 +71,6 @@ c8: Code for this character
 }
 
 
-.thumbnail:active  img {
-background:ivory;
-width: 100%;
-}
-
 .thumbnail span {
   /*CSS for enlarged image*/
   position: absolute;
@@ -100,29 +104,29 @@ width: 100%;
 
 </style>
 
-HInt: Click or click+hover+swipe+hover will make image persistent, depending
+Hint: Click or click+hover+swipe+hover will make image persistent, depending on device.
 
 {:newthumbnail:  .thumbnail href="#thumb"}
 
-[{{ page.t1 }}]: {{ page.t1l }}
-[{{ page.t2 }}]: {{ page.t2l }}
-[{{ page.t3 }}]: {{ page.t3l }}
-[{{ page.t4 }}]: {{ page.t4l }}
-[{{ page.t5 }}]: {{ page.t5l }}
-[{{ page.t6 }}]: {{ page.t6l }}
-[{{ page.t7 }}]: {{ page.t7l }}
-[{{ page.t8 }}]: {{ page.t8l }}
+[{{ page.gilabel-01 }}]: {{ page.giurl-01 }}
+[{{ page.gilabel-01 }}]: {{ page.giurl-02 }}
+[{{ page.gilabel-03 }}]: {{ page.giurl-03 }}
+[{{ page.gilabel-04 }}]: {{ page.giurl-04 }}
+[{{ page.gilabel-05 }}]: {{ page.giurl-05 }}
+[{{ page.gilabel-06 }}]: {{ page.giurl-06 }}
+[{{ page.gilabel-07 }}]: {{ page.giurl-07 }}
+[{{ page.gilabel-08 }}]: {{ page.giurl-08 }}
 
 
 <div class="gallerycontainer">
 <div class="container">
-[![{{ page.t1 }}][]<span> {{ page.t1 }} <br />![{{ page.t1 }}][]<br /> {{ page.c1 }} </span>](#thumb){: newthumbnail }
-[![{{ page.t2 }}][]<span> {{ page.t2 }} <br />![{{ page.t2 }}][]<br /> {{ page.c2 }} </span>](#thumb){: newthumbnail }
-[![{{ page.t2 }}][]<span> {{ page.t2 }} <br />![{{ page.t2 }}][]<br /> {{ page.c2 }} </span>](#thumb){: newthumbnail }
-[![{{ page.t4 }}][]<span> {{ page.t4 }} <br />![{{ page.t4 }}][]<br /> {{ page.c4 }} </span>](#thumb){: newthumbnail }
-[![{{ page.t5 }}][]<span> {{ page.t5 }} <br />![{{ page.t5 }}][]<br /> {{ page.c5 }} </span>](#thumb){: newthumbnail }
-[![{{ page.t6 }}][]<span> {{ page.t6 }} <br />![{{ page.t6 }}][]<br /> {{ page.c6 }} </span>](#thumb){: newthumbnail }
-[![{{ page.t7 }}][]<span> {{ page.t7 }} <br />![{{ page.t7 }}][]<br /> {{ page.c7 }} </span>](#thumb){: newthumbnail }
-[![{{ page.t8 }}][]<span> {{ page.t8 }} <br />![{{ page.t8 }}][]<br /> {{ page.c8 }} </span>](#thumb){: newthumbnail }
+[![{{ page.gilabel-01 }}][]<span> {{ page.gilabel-01 }} <br />![{{ page.gilabel-01 }}][]<br /> {{ page.gicaption-01 }} </span>](#thumb){: newthumbnail }
+[![{{ page.gilabel-02 }}][]<span> {{ page.gilabel-02 }} <br />![{{ page.gilabel-02 }}][]<br /> {{ page.gicaption-02 }} </span>](#thumb){: newthumbnail }
+[![{{ page.gilabel-03 }}][]<span> {{ page.gilabel-03 }} <br />![{{ page.gilabel-03 }}][]<br /> {{ page.gicaption-03 }} </span>](#thumb){: newthumbnail }
+[![{{ page.gilabel-04 }}][]<span> {{ page.gilabel-04 }} <br />![{{ page.gilabel-04 }}][]<br /> {{ page.gicaption-04 }} </span>](#thumb){: newthumbnail }
+[![{{ page.gilabel-05 }}][]<span> {{ page.gilabel-05 }} <br />![{{ page.gilabel-05 }}][]<br /> {{ page.gicaption-05 }} </span>](#thumb){: newthumbnail }
+[![{{ page.gilabel-06 }}][]<span> {{ page.gilabel-06 }} <br />![{{ page.gilabel-06 }}][]<br /> {{ page.gicaption-06 }} </span>](#thumb){: newthumbnail }
+[![{{ page.gilabel-07 }}][]<span> {{ page.gilabel-07 }} <br />![{{ page.gilabel-07 }}][]<br /> {{ page.gicaption-07 }} </span>](#thumb){: newthumbnail }
+[![{{ page.gilabel-08 }}][]<span> {{ page.gilabel-08 }} <br />![{{ page.gilabel-08 }}][]<br /> {{ page.gicaption-08 }} </span>](#thumb){: newthumbnail }
 </div>
 
