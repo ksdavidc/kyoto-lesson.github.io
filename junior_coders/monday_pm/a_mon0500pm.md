@@ -367,12 +367,20 @@ Go back to [Skills Review](#skills-review)
 
 Even though receiving projects does not seem to work on the ipad, sending does seem to work. 
 
-1. ![upper right corner, inside your project][]{: width="50%"}
-2. You should see a project page. ![the project page][]{: width="50%"}
+1. Click here to get to send screen.
+{:imagesize: width="auto" max-width="initial" height="200px" max-height="250px" }
+![upper right corner, inside your project][]{: imagesize }
+2. You should see a project page. 
+
+![the project page][]{: imagesize }
 3. Rename it with your name, so I know who is sending it!
 4. Click ”For Parents”. 
-5. You will have to solve a math problem ![a math problem][]{: width="50%"}.
-6. Solve it and click "Send email" ![Share by email][]{: width="50%"}
+5. You will have to solve a math problem 
+
+![a math problem][]{: imagesize }
+6. Solve it and click "Send email" 
+
+![Share by email][]{: imagesize }
 
 [upper right corner, inside your project]: ./scratchProjects/sendingProjectByEmail.PNG
 [the project page]: ./scratchProjects/SendingEmail.jpg
@@ -456,7 +464,7 @@ Hint: Click or click+hover+swipe+hover will make image persistent, depending on 
 {:newthumbnail:  .thumbnail href="#thumb"}
 
 [{{ page.gilabel-01 }}]: {{ page.giurl-01 }}
-[{{ page.gilabel-01 }}]: {{ page.giurl-02 }}
+[{{ page.gilabel-02 }}]: {{ page.giurl-02 }}
 [{{ page.gilabel-03 }}]: {{ page.giurl-03 }}
 [{{ page.gilabel-04 }}]: {{ page.giurl-04 }}
 [{{ page.gilabel-05 }}]: {{ page.giurl-05 }}
