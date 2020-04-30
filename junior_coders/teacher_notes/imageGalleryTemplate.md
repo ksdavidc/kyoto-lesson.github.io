@@ -2,38 +2,43 @@
 layout: default
 title: Template for Images (latest)
 
-# Can set the label, url (required), and caption
+
+# gi= gallery image. Place all the url (required) here, along with an (optional) label (goes above the image)
+# aand/or caption (below the image) and then paste the raw markdown in teh appropriate place. 
+# more than one gallery can exist on a page. 
 gilabel-01: Alien Monkey
-giurl-01: ./scratchProjects/Images/Alien%20Monkey.jpg
+giurl-01: http://fakeimg.pl/400x400/#00c/#c00?text=Alien%20Monkey&font=bebas
 gicaption-01: Code for this character
 
 gilabel-02: Alien Cat
-giurl-02: ./scratchProjects/Images/Alien%20Cat.jpg
+giurl-02: http://fakeimg.pl/400x400/#00c/#c00?text=Alien%20Cat&font=bebas
 gicaption-02: Code for this character
 
 gilabel-03: Alien Bat
-giurl-03: ./scratchProjects/Images/Alien%20Bat.jpg
+giurl-03: http://fakeimg.pl/400x400/#00c/#c00?text=Alien%20Bat&font=bebas
 gicaption-03: Code for this character
 
 gilabel-04: Alien Ball
-giurl-04: ./scratchProjects/Images/Alien%20Ball.jpg
+giurl-04: http://fakeimg.pl/400x400/#00c/#c00?text=Alien%20Ball&font=bebas
 gicaption-04: Code for this character
 
 gilabel-05: Fidget Spinner
-giurl-05: ./scratchProjects/Images/Fidget%20Spinner.jpg
+giurl-05: http://fakeimg.pl/400x400/#00c/#c00?text=Fidget%20Spinner&font=bebas
 gicaption-05: Code for this character
 
 gilabel-06: Alien Mushroom
-giurl-06: ./scratchProjects/Images/Alien%20Mushroom.jpg
+giurl-06: http://fakeimg.pl/400x400/#00c/#c00?text=Alien%20Mushoom&font=bebas
 gicaption-06: Code for this character
 
 gilabel-07: Alien Sun
-giurl-07: ./scratchProjects/Images/Alien%20Sun.jpg
+giurl-07: http://fakeimg.pl/400x400/#00c/#c00?text=Alien%20Sun&font=bebas
 gicaption-07: Code for this character
 
 gilabel-08: Alien Ship
-giurl-08: ./scratchProjects/Images/Alien%20Ship.jpg
+giurl-08: http://fakeimg.pl/400x400/#00c/#c00?text=Alien%20Ship&font=bebas
 gicaption-08: Code for this character
+
+
 
 ---
 
