@@ -3,35 +3,35 @@ layout: default
 title: Getting Started with Scratch Jr. (Monday PM)
 
 gilabel-01: Alien Monkey
-giurl-01: ./scratchProjects/Images/Alien%20Monkey.jpg
+giurl-01: ./scratchProjects/Images/Y1R31AlienPlanetImages/Alien%20Monkey.jpg
 gicaption-01: Code for this character
 
 gilabel-02: Alien Cat
-giurl-02: ./scratchProjects/Images/Alien%20Cat.jpg
+giurl-02: ./scratchProjects/Images/Y1R31AlienPlanetImages/Alien%20Cat.jpg
 gicaption-02: Code for this character
 
 gilabel-03: Alien Bat
-giurl-03: ./scratchProjects/Images/Alien%20Bat.jpg
+giurl-03: ./scratchProjects/Images/Y1R31AlienPlanetImages/Alien%20Bat.jpg
 gicaption-03: Code for this character
 
 gilabel-04: Alien Ball
-giurl-04: ./scratchProjects/Images/Alien%20Ball.jpg
+giurl-04: ./scratchProjects/Images/Y1R31AlienPlanetImages/Alien%20Ball.jpg
 gicaption-04: Code for this character
 
 gilabel-05: Fidget Spinner
-giurl-05: ./scratchProjects/Images/Fidget%20Spinner.jpg
+giurl-05: ./scratchProjects/Images/Y1R31AlienPlanetImages/Fidget%20Spinner.jpg
 gicaption-05: Code for this character
 
 gilabel-06: Alien Mushroom
-giurl-06: ./scratchProjects/Images/Alien%20Mushroom.jpg
+giurl-06: ./scratchProjects/Images/Y1R31AlienPlanetImages/Alien%20Mushroom.jpg
 gicaption-06: Code for this character
 
 gilabel-07: Alien Sun
-giurl-07: ./scratchProjects/Images/Alien%20Sun.jpg
+giurl-07: ./scratchProjects/Images/Y1R31AlienPlanetImages/Alien%20Sun.jpg
 gicaption-07: Code for this character
 
 gilabel-08: Alien Ship
-giurl-08: ./scratchProjects/Images/Alien%20Ship.jpg
+giurl-08: ./scratchProjects/Images/Y1R31AlienPlanetImages/Alien%20Ship.jpg
 gicaption-08: Code for this character
 
 ---
@@ -382,10 +382,10 @@ Even though receiving projects does not seem to work on the ipad, sending does s
 
 ![Share by email][]{: imagesize }
 
-[upper right corner, inside your project]: ./scratchProjects/sendingProjectByEmail.PNG
-[the project page]: ./scratchProjects/SendingEmail.jpg
-[a math problem]: ./scratchProjects/mathProblem.jpg
-[Share by email]: ./scratchProjects/SendThroughEmail.jpg
+[upper right corner, inside your project]: images/2020-04-27/sendingProjectByEmail.PNG
+[the project page]: images/2020-04-27/SendingEmail.jpg
+[a math problem]: images/2020-04-27/mathProblem.jpg
+[Share by email]: images/2020-04-27/SendThroughEmail.jpg
 
 Here is my [direct email](mailto:teacher@kyotolesson.com) or email alan or the school.
 
