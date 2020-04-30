@@ -90,19 +90,19 @@ This requires 2 messages:
 ### Cake Is Touched. One Message to Two Characters
 * If something hits the **Cake**, all dragons disappear.
     * Sends one YELLOW message
-![alt-text](images/2020-04-27/CakeSendsMessage.jpg "Hover text")
+![alt-text](images/DragonMazePart2Images/CakeSendsMessage.jpg "CakeSendsMessage")
     * Two Dragons get the same YELLOW message
       * **Green Dragon** gets the YELLOW message to disappear
-![alt-text](images/2020-04-27/Dragon1GetsYellowMessage.jpg "Hover text")
+![alt-text](images/DragonMazePart2Images/Dragon1GetsYellowMessage.jpg "Hover text")
       * **Blue Dragon** gets YELLOW message to disappear
-![alt-text](images/2020-04-27/Dragon2GetsYellowMessage.jpg "Hover text")
+![alt-text](images/DragonMazePart2Images/Dragon2GetsYellowMessage.jpg "Hover text")
 
 ### Blue Dragon Is Touched. Reusing Orange Message
 * If something hits the **Blue Dragon**, he sends a message to **Tic** to go home. 
 * I could send a NEW message color, but I can also just USE THE SAME ORANGE MESSAGE that the **Green Dragon** sent to **Tic**. It will do the same thing to the **Tic**. 
 * In other words, it doesn't matter WHO sends the ORANGE message to **Tic**, if he gets ANY orange message, he goes home!!!!
     * SO: **Blue Dragon** ALSO sends ORANGE message if he is touched!!!! (Note that HE DOES NOT DISAPPEAR like the other dragon did! He stays there until the cake tells him to disappear (see the YELLOW message)!)
-![alt-text](images/2020-04-27/BlueDragonSendsOrangeMessage.jpg "Hover text")
+![alt-text](images/DragonMazePart2Images/BlueDragonSendsOrangeMessage.jpg "Hover text")
 
 
 ## Last Step is Make **Tic** Walk the Path
@@ -119,6 +119,6 @@ What if you add three new characters, a red, blue, and yellow **Apple**:
 
 Can you program this?? Here is a clue: 
 
-![alt-text](images/2020-04-27/Apples.jpg "Hover text")
-![alt-text](images/2020-04-27/redAppleSendsGreenMessage.jpg "Hover text")
-![alt-text](images/2020-04-27/TicGetsBlueMessage.jpg "Hover text")
+![alt-text](images/DragonMazePart2Images/Apples.jpg "Hover text")
+![alt-text](images/DragonMazePart2Images/redAppleSendsGreenMessage.jpg "Hover text")
+![alt-text](images/DragonMazePart2Images/TicGetsBlueMessage.jpg "Hover text")
