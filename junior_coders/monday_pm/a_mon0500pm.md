@@ -478,13 +478,13 @@ Hint: Click or click+hover+swipe+hover will make image persistent, depending on 
 
 <div class="gallerycontainer">
 <div class="container">
-[![{{ page.gilabel-01 }}][]<span> {{ page.gilabel-01 }} <br />![{{ page.gilabel-01 }}][]<br /> {{ page.gicaption-01 }} </span>](#thumb){: newthumbnail }
-[![{{ page.gilabel-02 }}][]<span> {{ page.gilabel-02 }} <br />![{{ page.gilabel-02 }}][]<br /> {{ page.gicaption-02 }} </span>](#thumb){: newthumbnail }
-[![{{ page.gilabel-03 }}][]<span> {{ page.gilabel-03 }} <br />![{{ page.gilabel-03 }}][]<br /> {{ page.gicaption-03 }} </span>](#thumb){: newthumbnail }
-[![{{ page.gilabel-04 }}][]<span> {{ page.gilabel-04 }} <br />![{{ page.gilabel-04 }}][]<br /> {{ page.gicaption-04 }} </span>](#thumb){: newthumbnail }
-[![{{ page.gilabel-05 }}][]<span> {{ page.gilabel-05 }} <br />![{{ page.gilabel-05 }}][]<br /> {{ page.gicaption-05 }} </span>](#thumb){: newthumbnail }
-[![{{ page.gilabel-06 }}][]<span> {{ page.gilabel-06 }} <br />![{{ page.gilabel-06 }}][]<br /> {{ page.gicaption-06 }} </span>](#thumb){: newthumbnail }
-[![{{ page.gilabel-07 }}][]<span> {{ page.gilabel-07 }} <br />![{{ page.gilabel-07 }}][]<br /> {{ page.gicaption-07 }} </span>](#thumb){: newthumbnail }
-[![{{ page.gilabel-08 }}][]<span> {{ page.gilabel-08 }} <br />![{{ page.gilabel-08 }}][]<br /> {{ page.gicaption-08 }} </span>](#thumb){: newthumbnail }
+[![{{ page.gilabel-01 }}][]<span> {{ page.gilabel-01 }} <br />![{{ page.gilabel-01 }}][]<br /> {{ page.gicaption-01 }} </span>]({{ page.giurl-01 }}){: newthumbnail }
+[![{{ page.gilabel-02 }}][]<span> {{ page.gilabel-02 }} <br />![{{ page.gilabel-02 }}][]<br /> {{ page.gicaption-02 }} </span>]({{ page.giurl-02 }}){: newthumbnail }
+[![{{ page.gilabel-03 }}][]<span> {{ page.gilabel-03 }} <br />![{{ page.gilabel-03 }}][]<br /> {{ page.gicaption-03 }} </span>]({{ page.giurl-03 }}){: newthumbnail }
+[![{{ page.gilabel-04 }}][]<span> {{ page.gilabel-04 }} <br />![{{ page.gilabel-04 }}][]<br /> {{ page.gicaption-04 }} </span>]({{ page.giurl-04 }}){: newthumbnail }
+[![{{ page.gilabel-05 }}][]<span> {{ page.gilabel-05 }} <br />![{{ page.gilabel-05 }}][]<br /> {{ page.gicaption-05 }} </span>]({{ page.giurl-05 }}){: newthumbnail }
+[![{{ page.gilabel-06 }}][]<span> {{ page.gilabel-06 }} <br />![{{ page.gilabel-06 }}][]<br /> {{ page.gicaption-06 }} </span>]({{ page.giurl-06 }}){: newthumbnail }
+[![{{ page.gilabel-07 }}][]<span> {{ page.gilabel-07 }} <br />![{{ page.gilabel-07 }}][]<br /> {{ page.gicaption-07 }} </span>]({{ page.giurl-07 }}){: newthumbnail }
+[![{{ page.gilabel-08 }}][]<span> {{ page.gilabel-08 }} <br />![{{ page.gilabel-08 }}][]<br /> {{ page.gicaption-08 }} </span>]({{ page.giurl-08 }}){: newthumbnail }
 </div>
 
