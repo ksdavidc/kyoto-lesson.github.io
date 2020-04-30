@@ -2,6 +2,9 @@
 layout: default
 title: Getting Started with Scratch Jr. (Monday PM)
 
+# gi= gallery image. Place all the url (required) here, along with an (optional) label (goes above the image)
+# aand/or caption (below the image) and then paste the raw markdown in teh appropriate place. 
+# more than one gallery can exist on a page. 
 gilabel-01: Alien Monkey
 giurl-01: ./scratchProjects/Images/Y1R31AlienPlanetImages/Alien%20Monkey.jpg
 gicaption-01: Code for this character
