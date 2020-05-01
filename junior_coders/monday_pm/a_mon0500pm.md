@@ -464,7 +464,7 @@ Here is my [direct email](mailto:teacher@kyotolesson.com) or email alan or the s
 
 Hint: Click or click+hover+swipe+hover will make image persistent, depending on device.
 
-{:newthumbnail:  .thumbnail href="#thumb"}
+{:newthumbnail:  .thumbnail alt=""}
 
 [{{ page.gilabel-01 }}]: {{ page.giurl-01 }}
 [{{ page.gilabel-02 }}]: {{ page.giurl-02 }}
