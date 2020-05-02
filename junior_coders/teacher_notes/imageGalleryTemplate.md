@@ -60,109 +60,180 @@ gicaption-12: Caption -
 
 
 <style>
-.container {
-  width: 20%;
-  position: relative;
+* {
+box-sizing: border-box;
 }
 
-.gallerycontainer {
-  position: relative;
-  width:100%;
-  height: 600px;
-  /*Add a height attribute and set to largest image's height to prevent overlaying*/
+.slider {
+width: 100%;
+text-align: center;
+overflow: hidden;
 }
 
-.thumbnail img {
-  border: 1px solid white;
-  margin: 0 0px 0px 0;
-  width: 100%;
+.slides  {
+display: flex;
+overflow-x: auto;
+scroll-snap-type: x mandatory;
+scroll-behavior: smooth;
+-webkit-overflow-scrolling: touch;
+/*
+scroll-snap-points-x: repeat(300px);
+scroll-snap-type: mandatory;
+*/
 }
 
-/* just for first image */
-.thumbnail > img {
-  width: 40%;
+.slides::-webkit-scrollbar {
+width: 10px;
+height: 10px;
 }
 
-.thumbnail:hover {
-  background-color: transparent;
+.slides::-webkit-scrollbar-thumb {
+background: black;
+border-radius: 10px;
 }
 
-.thumbnail:hover > img {
-  border: 1px solid red;
+.slides::-webkit-scrollbar-track {
+background: transparent;
 }
 
-
-.thumbnail span {
-  /*CSS for enlarged image*/
-  position: absolute;
-  background-color: lightyellow;
-  padding: 5px;
-  left: -1000px;
-  border: none;
-  visibility: hidden;
-  color: black;
-  text-decoration: none;
+.slides p  {
+scroll-snap-align: start;
+flex-shrink: 0;
+width: 100%;
+height: auto;
+margin-right: 50px;
+border-radius: 10px;
+background: #eee;
+transform-origin: center center;
+transform: scale(1);
+transition: transform 0.5s; 
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+  padding-top: calc(100% - 350px); 
+  margin-top: calc(350px - 100%);
 }
 
-
-.thumbnail span img {
-  /*CSS for enlarged image*/
-  border-width: 0;
-  padding: 2px;
+.slides p:target {
+/*   transform: scale(1); 
+    padding-top: calc(100% - 500px);
+    margin-top: 0px;*/
+}
+.slides ul:target {
+/*   transform: scale(1); */
 }
 
-.thumbnail:hover span {
-  /*CSS for enlarged image*/
-  visibility: visible;
-  top: 0;
-  left: 102%;
-  /*position where enlarged image should offset horizontally */
-  z-index: 50;
-  width: 400%;
+.author-info {
+background: rgba(0, 0, 0, 0.75);
+color: white;
+padding: 0.75rem;
+text-align: center;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+margin: 0;
 }
 
+.author-info a {
+color: white;
+}
 
+img {
+    /*
+object-fit: cover;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%; */
+}
 
+.slider>a {
+display: inline-flex;
+width: 1.5rem;
+height: 1.5rem;
+background: pink;
+text-decoration: none;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+margin: 0 0 0.5rem 0;
+position: relative;
+}
+
+.slider>a:active {
+top: 1px;
+background-color: pink;
+}
+
+.slider>a:focus {
+background: #00c;
+border: 2px solid red;
+}
+/* Don't need button navigation */
+
+@supports (scroll-snap-type) {
+.slider>a {
+display: none;
+}
+}
+
+/* 
+html,
+body {
+height: 100%;
+overflow: hidden;
+}
+
+body {
+display: flex;
+align-items: center;
+justify-content: center;
+background: linear-gradient(to bottom, #74ABE2, #5563DE);
+font-family: 'Ropa Sans', sans-serif;
+} */
 </style>
+<div class="slider">
+<!-- necessary space-->
+[{{ page.gilabel-01 }}](#slide-01) | [{{ page.gilabel-02 }}](#slide-02) | [{{ page.gilabel-03 }}](#slide-03) | [{{ page.gilabel-04 }}](#slide-04) 
+<!-- These have to be links  -->
+<div class="slides">
+[![ {{ page.gilabel-01 }} ]({{ page.giurl-01 }})]({{ page.giurl-01 }}){: target="_blank"}
+{: #slide-01}
 
-Hint: Click image to open in new tab
+[![ {{ page.gilabel-02 }} ]({{ page.giurl-02 }})]({{ page.giurl-02 }}){: target="_blank"}
+{: #slide-02}
+
+[![ {{ page.gilabel-03 }} ]({{ page.giurl-03 }})]({{ page.giurl-03 }}){: target="_blank"}
+{: #slide-03}
+
+[![ {{ page.gilabel-04 }} ]({{ page.giurl-04 }})]({{ page.giurl-04 }}){: target="_blank"}
+{: #slide-04}
 
 
-{:newthumbnail:  .thumbnail target="_blank"}
-
-[{{ page.gilabel-01 }}]: {{ page.giurl-01 }}
-[{{ page.gilabel-02 }}]: {{ page.giurl-02 }}
-[{{ page.gilabel-03 }}]: {{ page.giurl-03 }}
-[{{ page.gilabel-04 }}]: {{ page.giurl-04 }}
-[{{ page.gilabel-05 }}]: {{ page.giurl-05 }}
-[{{ page.gilabel-06 }}]: {{ page.giurl-06 }}
-[{{ page.gilabel-07 }}]: {{ page.giurl-07 }}
-[{{ page.gilabel-08 }}]: {{ page.giurl-08 }}
-
-
-<div class="gallerycontainer">
-<div class="container">
-[![{{ page.gilabel-01 }}][]<span> {{ page.gilabel-01 }} <br />![{{ page.gilabel-01 }}][]<br /> {{ page.gicaption-01 }} </span>]({{ page.giurl-01 }}){: newthumbnail }
-[![{{ page.gilabel-02 }}][]<span> {{ page.gilabel-02 }} <br />![{{ page.gilabel-02 }}][]<br /> {{ page.gicaption-02 }} </span>]({{ page.giurl-02 }}){: newthumbnail }
-[![{{ page.gilabel-03 }}][]<span> {{ page.gilabel-03 }} <br />![{{ page.gilabel-03 }}][]<br /> {{ page.gicaption-03 }} </span>]({{ page.giurl-03 }}){: newthumbnail }
-[![{{ page.gilabel-04 }}][]<span> {{ page.gilabel-04 }} <br />![{{ page.gilabel-04 }}][]<br /> {{ page.gicaption-04 }} </span>]({{ page.giurl-04 }}){: newthumbnail }
-[![{{ page.gilabel-05 }}][]<span> {{ page.gilabel-05 }} <br />![{{ page.gilabel-05 }}][]<br /> {{ page.gicaption-05 }} </span>]({{ page.giurl-05 }}){: newthumbnail }
-[![{{ page.gilabel-06 }}][]<span> {{ page.gilabel-06 }} <br />![{{ page.gilabel-06 }}][]<br /> {{ page.gicaption-06 }} </span>]({{ page.giurl-06 }}){: newthumbnail }
-[![{{ page.gilabel-07 }}][]<span> {{ page.gilabel-07 }} <br />![{{ page.gilabel-07 }}][]<br /> {{ page.gicaption-07 }} </span>]({{ page.giurl-07 }}){: newthumbnail }
-[![{{ page.gilabel-08 }}][]<span> {{ page.gilabel-08 }} <br />![{{ page.gilabel-08 }}][]<br /> {{ page.gicaption-08 }} </span>]({{ page.giurl-08 }}){: newthumbnail }
+</div>
 </div>
 
-<!-- Can Do multiple galleries -->
+<div class="slider">
+<!-- necessary space-->
+[{{ page.gilabel-05 }}](#slide-05) | [{{ page.gilabel-06 }}](#slide-06) | [{{ page.gilabel-07 }}](#slide-07) | [{{ page.gilabel-08 }}](#slide-08)
+<!-- These have to be links  -->
+<div class="slides">
+[![ {{ page.gilabel-05 }} ]({{ page.giurl-05 }})]({{ page.giurl-05 }}){: target="_blank"}
+{: #slide-05}
 
-[{{ page.gilabel-09 }}]: {{ page.giurl-09 }}
-[{{ page.gilabel-10 }}]: {{ page.giurl-10 }}
-[{{ page.gilabel-11 }}]: {{ page.giurl-11 }}
-[{{ page.gilabel-12 }}]: {{ page.giurl-12 }}
+[![ {{ page.gilabel-06 }} ]({{ page.giurl-06 }})]({{ page.giurl-06 }}){: target="_blank"}
+{: #slide-06}
 
-<div class="gallerycontainer">
-<div class="container">
-[![{{ page.gilabel-09 }}][]<span>9 {{ page.gilabel-09 }} <br />![{{ page.gilabel-09 }}][]<br /> {{ page.gicaption-09 }} </span>]({{ page.giurl-09 }}){: newthumbnail }
-[![{{ page.gilabel-10 }}][]<span> {{ page.gilabel-10 }} <br />![{{ page.gilabel-10 }}][]<br /> {{ page.gicaption-10 }} </span>]({{ page.giurl-10 }}){: newthumbnail }
-[![{{ page.gilabel-11 }}][]<span> {{ page.gilabel-11 }} <br />![{{ page.gilabel-11 }}][]<br /> {{ page.gicaption-11 }} {{ page.giurl-11 }} </span>]({{ page.giurl-11 }}){: newthumbnail }
-[![{{ page.gilabel-12 }}][]<span> {{ page.gilabel-12 }} <br />![{{ page.gilabel-12 }}][]<br /> {{ page.gicaption-12 }} {{ page.giurl-12 }} </span>]({{ page.giurl-12 }}){: newthumbnail }
+[![ {{ page.gilabel-07 }} ]({{ page.giurl-07 }})]({{ page.giurl-07 }}){: target="_blank"}
+{: #slide-07}
+
+[![ {{ page.gilabel-08 }} ]({{ page.giurl-08 }})]({{ page.giurl-08 }}){: target="_blank"}
+{: #slide-08}
+
 </div>
+</div>
+
+<br />
