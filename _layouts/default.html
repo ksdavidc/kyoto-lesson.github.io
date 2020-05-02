@@ -142,12 +142,13 @@
         }
         /* fixes bad scrolling to anchors */
         
-        [id]:target {
-            padding-top: calc(100% - 350px);
-            margin-top: calc(350px - 100%);
+        html {
+            scroll-padding-top: 240px;
         }
         
-        p[id]:target {}
+        body {
+            scroll-padding-top: 240px;
+        }
         /* fixes bad scrolling on gallery */
         
         #contentWrapper {
