@@ -489,7 +489,7 @@ height: 100%; */
 display: inline-flex;
 width: 1.5rem;
 height: 1.5rem;
-background: white;
+background: pink;
 text-decoration: none;
 align-items: center;
 justify-content: center;
@@ -500,10 +500,12 @@ position: relative;
 
 .slider>a:active {
 top: 1px;
+background-color: pink;
 }
 
 .slider>a:focus {
-background: #000;
+background: #00c;
+border: 2px solid red;
 }
 /* Don't need button navigation */
 
@@ -533,22 +535,30 @@ font-family: 'Ropa Sans', sans-serif;
 [{{ page.gilabel-01 }}](#slide-01) | [{{ page.gilabel-02 }}](#slide-02) | [{{ page.gilabel-03 }}](#slide-03) | [{{ page.gilabel-04 }}](#slide-04) | [{{ page.gilabel-05 }}](#slide-05) | [{{ page.gilabel-06 }}](#slide-06) | [{{ page.gilabel-07 }}](#slide-07) | [{{ page.gilabel-08 }}](#slide-08)
 <!-- These have to be links  -->
 <div class="slides">
-![ {{ page.gilabel-01 }} ]({{ page.giurl-01 }})
+[![ {{ page.gilabel-01 }} ]({{ page.giurl-01 }})]({{ page.giurl-01 }}){: target="_blank"}
 {: #slide-01}
-![ {{ page.gilabel-02 }} ]({{ page.giurl-02 }})
+
+[![ {{ page.gilabel-02 }} ]({{ page.giurl-02 }})]({{ page.giurl-02 }}){: target="_blank"}
 {: #slide-02}
-![ {{ page.gilabel-03 }} ]({{ page.giurl-03 }})
+
+[![ {{ page.gilabel-03 }} ]({{ page.giurl-03 }})]({{ page.giurl-03 }}){: target="_blank"}
 {: #slide-03}
-![ {{ page.gilabel-04 }} ]({{ page.giurl-04 }})
+
+[![ {{ page.gilabel-04 }} ]({{ page.giurl-04 }})]({{ page.giurl-04 }}){: target="_blank"}
 {: #slide-04}
-![ {{ page.gilabel-05 }} ]({{ page.giurl-05 }})
+
+[![ {{ page.gilabel-05 }} ]({{ page.giurl-05 }})]({{ page.giurl-05 }}){: target="_blank"}
 {: #slide-05}
-![ {{ page.gilabel-06 }} ]({{ page.giurl-06 }})
+
+[![ {{ page.gilabel-06 }} ]({{ page.giurl-06 }})]({{ page.giurl-06 }}){: target="_blank"}
 {: #slide-06}
-![ {{ page.gilabel-07 }} ]({{ page.giurl-07 }})
+
+[![ {{ page.gilabel-07 }} ]({{ page.giurl-07 }})]({{ page.giurl-07 }}){: target="_blank"}
 {: #slide-07}
-![ {{ page.gilabel-08 }} ]({{ page.giurl-08 }})
+
+[![ {{ page.gilabel-08 }} ]({{ page.giurl-08 }})]({{ page.giurl-08 }}){: target="_blank"}
 {: #slide-08}
+
 </div>
 </div>
 
