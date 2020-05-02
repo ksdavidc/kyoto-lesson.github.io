@@ -355,13 +355,13 @@ Go back to [Skills Review](#skills-review)
    - [ ] Edit the character to make them alien. 
    - [ ] Add fills, strokes, and whatever else you want. 
    - [ ] Size and place the character at their start point 
-3. Each character can have more than one green flag or other **trigger** at the same time. See [Alien Bat](#AlienBat). 
+3. Each character can have more than one green flag or other **trigger** at the same time. See [Alien Bat](#slide-03). 
 4. Make each character do one or more things with the **start trigger** and the **touch trigger** and the **bump trigger**. Here are some choices: 
    - [ ] Make the character move and dance. Use all the blue blocks.
    - [ ] Include sounds and speech bubbles for the characters and have the character make the sound, either at the beginning or when touched, or any other time.
    - [ ] Use repeat/loop (yellow) and repeat forever (red) blocks. See the Alien Cat for an example of both.
    - [ ] Change the speed of the character
-   - [ ] Have the character become invisible and visible. See the Alien Bat.
+   - [ ] Have the character become invisible and visible. See [Alien Bat](#slide-03). 
    - [ ] Have the characters talk to each other. This project has no example, but we have covered it before. Here is an easy example of a [simple conversation](./scratchProjects/card08-greet.pdf)     
 
 
