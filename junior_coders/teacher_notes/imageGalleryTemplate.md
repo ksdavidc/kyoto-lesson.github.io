@@ -60,9 +60,6 @@ gicaption-12: Caption -
 
 
 <style>
-
-
-
 * {
 box-sizing: border-box;
 }
@@ -114,8 +111,8 @@ position: relative;
 display: flex;
 justify-content: center;
 align-items: center;
-  /*padding-top: calc(100% - 350px); 
-  margin-top: calc(350px - 100%);*/
+  padding-top: calc(100% - 350px); 
+  margin-top: calc(350px - 100%);
 }
 
 .slides p:target {
