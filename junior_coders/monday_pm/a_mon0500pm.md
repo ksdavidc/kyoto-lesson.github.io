@@ -441,19 +441,22 @@ border-radius: 10px;
 background: #eee;
 transform-origin: center center;
 transform: scale(1);
-transition: transform 0.5s;
+transition: transform 0.5s; 
 position: relative;
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: 100px;
+  padding-top: calc(100% - 350px); 
+  margin-top: calc(350px - 100%);
 }
 
 .slides p:target {
-/*   transform: scale(0.8); */
+/*   transform: scale(1); 
+    padding-top: calc(100% - 500px);
+    margin-top: 0px;*/
 }
 .slides ul:target {
-/*   transform: scale(0.8); */
+/*   transform: scale(1); */
 }
 
 .author-info {
@@ -549,7 +552,6 @@ font-family: 'Ropa Sans', sans-serif;
 </div>
 </div>
 
-&nbsp;
-
+<br />
 
      
