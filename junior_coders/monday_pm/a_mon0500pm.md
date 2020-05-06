@@ -596,7 +596,7 @@ Continue adding and revising Alien Planet. THink about:
 
 ### Homework Part 2: A Story Based on the Hare and Tortoise
 
-
+![](/images/2020-05-04/Homeworkfor05-11.gif)
 <embed src="./images/2020-05-04/Homeworkfor05-11.mov" width=770 height=529 controller=true autoplay=false  PLUGINSPAGE="http://www.apple.com/quicktime/">
 
 
