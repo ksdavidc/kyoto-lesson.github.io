@@ -588,7 +588,7 @@ I went over last week's homework with the students. I gave each student some nex
 
 ### Homework Part 1: Keep working on Alien Planet
 
-Continue adding and revising Alien Planet. THink about:
+Continue adding and revising Alien Planet. Think about:
 
 * Make the characters talk to each other. Try to turn it into a story. 
 * Make the character's actions meaningful.
