@@ -16,7 +16,7 @@ First here is the grid:
 
 Let's practice. Everyone choose a different color. draw, anywhere you want. 
 
-![alt-text](../teacher_notes/jc_a_003_MVIMG_20200406_121950.jpg "Hover text")
+![Sample Grid](../teacher_notes/jc_a_003_MVIMG_20200406_121950.jpg "Sample Grid")
 
 First I will draw the board.
 
