@@ -118,7 +118,7 @@ Because of concerns about the Corona Virus this class was a combination of stude
 
 ### Dragon Maze Demo
 
-First, I demonstrated a ScratchJr project demonstating a character eating a cake in order to make a dragon disappear and being able to exit a maze. The purpose was to show how to use Action Blocks for making characters visible or invisible, sending messages, or initiating actions on Bumps. The rest of the class was a detailed and progressive practice in using each of these blocks by creating 4 characters who used these actions [in various ways](./../lessons/jc_a_003.md). While somewhat silly and arbitrary, the exercise was intended to help the children get ample practice using the blocks, as well as beginning to understand programing logic and sequencing. For reference I have put the details .
+First, I demonstrated a ScratchJr project demonstrating a character eating a cake in order to make a dragon disappear and being able to exit a maze. The purpose was to show how to use Action Blocks for making characters visible or invisible, sending messages, or initiating actions on Bumps. The rest of the class was a detailed and progressive practice in using each of these blocks by creating 4 characters who used these actions [in various ways](./../lessons/jc_a_003.md). While somewhat silly and arbitrary, the exercise was intended to help the children get ample practice using the blocks, as well as beginning to understand programing logic and sequencing. For reference I have put the details .
 
 
 With these blocks described [here](./../lessons/jc_a_003.html) we have all we need to create the Disappearing Dragon Maze, which we will begin next week.
@@ -214,7 +214,7 @@ We also talked about how to make a longer conversation:
 ![alt-text](images/2020-04-20/yesFairy.jpg "Hover text")
 7. Then Sends a New  RED Message (remember to connect it!)
 ![alt-text](images/2020-04-20/sendRedMessage.jpg "Hover text")
-7. Fairy receives the red message. Says something. Then she continues by sending a YELLOW message back to froggie (connect it).
+7. Fairy receives the red message. Says something. Then she continues by sending a YELLOW message back to Froggie (connect it).
 ![alt-text](images/2020-04-20/thisIsNotAForest.jpg "Hover text")
 
 ### The KEYS to Messages
@@ -375,7 +375,7 @@ Go back to [Skills Review](#skills-review)
 
 #### Addendum: Sending Projects
 
-Even though receiving projects does not seem to work on the ipad, sending does seem to work. 
+Even though receiving projects does not seem to work on the iPad, sending does seem to work. 
 
 1. Click here to get to send screen.
 {:imagesize: width="auto" max-width="initial" height="200px" max-height="250px" }
@@ -576,7 +576,7 @@ font-family: 'Ropa Sans', sans-serif;
 
 ### Animate My name
 
-I had students make their own project based on the [Bootup Animate My Name](https://www.youtube.com/watch?v=mQzWGY4xuSY) project, which you can [download here](https://drive.google.com/open?id=0B342uiaCLSS3YzJTUmlha1FQRjF1cldPdjQtUVhGUjFROEFz). Students created characters based on the letters in their name. 
+I had students make their own project based on the [Bootup Animate My Name](https://www.youtube.com/watch?v=mQzWGY4xuSY) project, which you can [download here](https://drive.google.com/open?id=0B342uiaCLSS3YzJTUmlha1FQRjF1cldPdjQtUVhGUjFROEFz) [^DownloadingProjects]. Students created characters based on the letters in their name. 
 We talked about what each letter was doing. Then students created their own.
 
 As a follow, we changed it so instead of all the characters moving at once, they moved in turn. Some kids got creative and had the letters say things and do funny things along the way.

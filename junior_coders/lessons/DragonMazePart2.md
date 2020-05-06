@@ -29,7 +29,7 @@ title: "Dragon Maze Part 2"
 
 ## For example
 
-![alt-text](images/2020-04-27/finishedSetup.jpg "Hover text")
+![Invisible Dragon](images/DragonMazePart2Images/finishedSetup.jpg "Invisible Dragon")
 
 
 1. Green Dragon
@@ -56,13 +56,13 @@ title: "Dragon Maze Part 2"
 
 * Here is how to do it for the **Blue dragon** (he is red in this picture...)
 
-![alt-text](images/2020-04-27/step2.jpg "Hover text")
-![alt-text](images/2020-04-27/step1.jpg "Hover text")
+![alt-text](images/DragonMazePart2Images/step2.jpg "Hover text")
+![alt-text](images/DragonMazePart2Images/step1.jpg "Hover text")
 
 * Do the same with the other characters
 * You will end up with this (without background):
 
-![alt-text](images/2020-04-27/finishedSetup.jpg "Hover text")
+![alt-text](images/DragonMazePart2Images/finishedSetup.jpg "Hover text")
 
 
 ### If Green Dragon Is Touched. One Character Sends Two Messages
