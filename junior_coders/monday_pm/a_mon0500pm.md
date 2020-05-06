@@ -85,7 +85,7 @@ gicaption-08: Code for this character
   * [Homework Part 1: Keep working on Alien Planet](#homework-part-1-keep-working-on-alien-planet)
   * [Homework Part 2: A Story Based on the Hare and Tortoise](#homework-part-2-a-story-based-on-the-hare-and-tortoise)
     * [Instructions](#instructions)
-    * [Screenplay](#screenplay)
+    * [Sample Screenplay](#sample-screenplay)
 
 
 ## March 23rd
@@ -293,13 +293,13 @@ I always welcome feedback, about anything in the class. I look forward to seeing
 
 ### Skills Review
 
-We did a  [guided walkthough][] of the [skills review sample project][] [^whyWeCantDownloadIt] using the [skills we should all know at this stage][]. Can you do them all? You have learned a lot already!!!  
+We did a  [guided walkthough][] of the [skills review sample project][] [^DownloadingProjects] using the [skills we should all know at this stage][]. Can you do them all? You have learned a lot already!!!  
 
 [guided walkthough]: ../lessons/20200427SkillsTest.html 
 [skills we should all know at this stage]: #addendum-skill-review-checklist
 [skills review sample project]: ./scratchProjects/Project120200427SkillsTest.sjr 
 
-[^whyWeCantDownloadIt]: **(Why We Can't) Download and Import Projects to Ipads**: We are working with the scratchjr developers on a fix for this. Last week this was fixed for Android, but on ipads is still broken. For example, here is an internet link for [the Alien Planet project](https://docs.google.com/document/d/14sgXRSogicaption-08f1d2_QEV7gBIvoWzUZ2EGI3_dw7iQp9lUU/edit), and here the [direct link to the file](https://drive.google.com/open?id=0B342uiaCLSS3RGNPM1ZKeFlzb0U). Downloading them to the ipad seems to work. The tricky part is opening them on the device. Apparently on ipads, it doesn't open scratchjr the way it is supposed to. 
+[^DownloadingProjects]: **Downloading projects**: If you have any difficulty opening projects in Scratchjr, please note two things. 1) Scratchjr must be open when you open the sjr file. 2) You must have the latest version installed. If you still have problems let us know.
 
 
 
@@ -596,25 +596,25 @@ Continue adding and revising Alien Planet. THink about:
 
 ### Homework Part 2: A Story Based on the Hare and Tortoise
 
-![](/images/2020-05-04/Homeworkfor05-11.gif)
-<embed src="./images/2020-05-04/Homeworkfor05-11.mov" width=770 height=529 controller=true autoplay=false  PLUGINSPAGE="http://www.apple.com/quicktime/">
+<!-- ![](https://kyoto-lesson.github.io/junior_coders/monday_pm/images/2020-05-04/Homeworkfor05-11.gif) -->
 
+![](images/2020-05-04/Homeworkfor05-11.gif)
 
 #### Instructions
-* You can find a [movie here: ](./images/2020-05-04/Homeworkfor05-11.mov)
-* Just do the first part unless you want to do more. The rest we can do in class.
+* The goal is to create a similar project by yourself.
+* You can download the [movie here](./images/2020-05-04/Homeworkfor05-11.gif). It is just an example.
 * You can use regular scratch backgrounds, or make your own.
-* Choose any characters, or make your own.
-* I have made a simple script, but **you can use your own**. 
-* Blocks you will need: Start trigger, speech, movement, speed, etc.
-* Use messages to make the characters speak in turn. 
+* Choose any characters, or **make your own**.
+* I have made a sample "screenplay" (below), but **you can use your own**. 
+* Use messages to make the characters speak **in turn**. 
 * Control the speed of the characters. 
 * You can make the characters walk in funny ways.
+* My horse is in the tree. Where do you think the characters should be placed? 
 
-#### Screenplay
-1. The Character2 and the Character1 introduce themselves and decide to have a race
+#### Sample Screenplay
+1. Character2 and the Character1 introduce themselves and decide to have a race
    1. Background: the entrance to the race
-   2. Characters: Character1, Character2, Character3, OTher Characters
+   2. Characters: Character1, Character2, Character3
    3. Script:
       Character1: You are slow. I am the fastest.
       Character2: Actually, I am faster than you. Let's race!
@@ -623,3 +623,4 @@ Continue adding and revising Alien Planet. THink about:
       Character3: Ready...Steady....Go
       *Character2 runs slowly, and the Character1 runs quickly off the screen. When he does he disappears we go to the next screen.*
 
+In class we will continue this story. Any ideas?
