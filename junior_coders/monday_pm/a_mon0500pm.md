@@ -133,18 +133,13 @@ Continue adding and revising Alien Planet. Think about:
    1. Background: the entrance to the race
    2. Characters: Character1, Character2, Character3
    3. Script:
+    * Character1: You are slow. I am the fastest.
+    * Character2: Actually, I am faster than you. Let's race!
+    * Character1: Yeah? Okay, let's race. 
+    * Character3: I will be the judge. When I say, go, start running.
+    * Character3: Ready...Steady....Go
+    * *Character2 runs slowly, and the Character1 runs quickly off the screen. When he does he disappears we go to the next screen.*
 
-      Character1: You are slow. I am the fastest.
-
-      Character2: Actually, I am faster than you. Let's race!
-
-      Character1: Yeah? Okay, let's race.
-
-      Character3: I will be the judge. When I say, go, start running.
-
-      Character3: Ready...Steady....Go
-
-      *Character2 runs slowly, and the Character1 runs quickly off the screen. When he does he disappears we go to the next screen.*
 
 In class we will continue this story. Any ideas?
 
