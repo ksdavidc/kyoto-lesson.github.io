@@ -79,7 +79,7 @@ gicaption-08: Code for this character
     * [Addendum: Alien Planet Project Assignment](#addendum-alien-planet-project-assignment)
     * [Addendum: Sending Projects](#addendum-sending-projects)
     * [Addendum: Code for Alien Planet](#addendum-code-for-alien-planet)
-* [April 4th](#april-4th)
+* [May 4th](#may-4th)
   * [Animate My name](#animate-my-name)
   * [Student Homework Notes](#student-homework-notes)
   * [Homework Part 1: Keep working on Alien Planet](#homework-part-1-keep-working-on-alien-planet)
@@ -572,7 +572,7 @@ font-family: 'Ropa Sans', sans-serif;
 <br />
 
      
-## April 4th
+## May 4th
 
 ### Animate My name
 
@@ -612,15 +612,22 @@ Continue adding and revising Alien Planet. Think about:
 * My horse is in the tree. Where do you think the characters should be placed? 
 
 #### Sample Screenplay
+
 1. Character2 and the Character1 introduce themselves and decide to have a race
    1. Background: the entrance to the race
    2. Characters: Character1, Character2, Character3
    3. Script:
+
       Character1: You are slow. I am the fastest.
+
       Character2: Actually, I am faster than you. Let's race!
+
       Character1: Yeah? Okay, let's race.
+
       Character3: I will be the judge. When I say, go, start running.
+
       Character3: Ready...Steady....Go
+
       *Character2 runs slowly, and the Character1 runs quickly off the screen. When he does he disappears we go to the next screen.*
 
 In class we will continue this story. Any ideas?
