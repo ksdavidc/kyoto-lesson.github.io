@@ -185,12 +185,14 @@ Keep working on [The Alien Planet assignment](#addendum-alien-planet-project-ass
 *Click the header to see the addendum.*
 
 <style>
-summary p {
-    display: inline;
-}
 
 summary {
     margin-bottom: 1em;
+}
+
+/* makes summary content inline, to preserve links and remove extra space */
+summary p, summary h4 {
+    display: inline;
 }
 </style>
 
