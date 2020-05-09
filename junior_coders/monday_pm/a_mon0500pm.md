@@ -147,7 +147,7 @@ In class we will continue this story. Any ideas?
 We did a [guided walkthough][] of the [skills review sample project][] [^downloadingprojects] using the [skills we should all know at this stage][]. Can you do them all? You have learned a lot already!!!
 
 [guided walkthough]: ../lessons/20200427SkillsTest.html
-[skills we should all know at this stage]: #april-27-addenda
+[skills we should all know at this stage]: #addendum-skill-review-checklist
 [skills review sample project]: ./scratchProjects/Project120200427SkillsTest.sjr
 
 [^downloadingprojects]: **Downloading projects**: If you have any difficulty opening projects in Scratchjr, please note two things. 1) Scratchjr must be open when you open the sjr file. 2) You must have the latest version installed. If you still have problems let us know.
@@ -158,7 +158,7 @@ I talked about the game [Zoom version of the Teacher Says game](../lessons/Teach
 
 ### Alien Planet
 
-I showed everyone the [Alien Planet Project](./scratchProjects/Y1R31Alienplanet.sjr). I gave students an assignment modelled on the Alien Planet ([see addendum](#april-27-addenda) for directions and code for the the Alien Planet Project).
+I showed everyone the [Alien Planet Project](./scratchProjects/Y1R31Alienplanet.sjr). I gave students an assignment modelled on the Alien Planet ([see addendum](#addendum-alien-planet-project-assignment)) . See [this addendum](#addendum-code-for-alien-planet) for the code.
 
 ### How to send projects
 
@@ -178,9 +178,9 @@ Scratchjr just updated their program[^whywecantdownloadit]. I suggest you update
 
 ### April 27 Homework
 
-Keep working on [The Alien Planet assignment](#april-27-addenda). [Email](mailto:teacher@kyotolesson.com) the result.
+Keep working on [The Alien Planet assignment](#addendum-alien-planet-project-assignment). [Email](mailto:teacher@kyotolesson.com) the result.
 
-### April 27 Addenda
+### Addenda
 
 *Click the header to see the addendum.*
 
@@ -195,7 +195,7 @@ summary {
 </style>
 
 <details>
-<summary>Addendum: Skill Review Checklist
+<summary>#### Addendum: Skill Review Checklist
 </summary>
 
 #### Addendum: Skill Review Checklist
@@ -220,7 +220,7 @@ Go back to [Skills Review](#skills-review)
 <!-- End ddendum: Skill Review Checklist -->
 
 <details>
-<summary>Addendum: Alien Planet Project Assignment
+<summary>#### Addendum: Alien Planet Project Assignment
 </summary>
 
 #### Addendum: Alien Planet Project Assignment
@@ -243,7 +243,7 @@ Go back to [Skills Review](#skills-review)
 
 </details>
 
-<details><summary>Addendum: Sending Projects
+<details><summary>#### Addendum: Sending Projects
 </summary>
 
 #### Addendum: Sending Projects
@@ -276,7 +276,7 @@ Here is my [direct email](mailto:teacher@kyotolesson.com) or email alan or the s
 
 </details>
 
-<details><summary>Addendum: Code for Alien Planet
+<details><summary>#### Addendum: Code for Alien Planet
 </summary>
 
 #### Addendum: Code for Alien Planet
