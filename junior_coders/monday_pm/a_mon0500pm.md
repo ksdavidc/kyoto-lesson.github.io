@@ -3,8 +3,8 @@ layout: default
 title: Getting Started with Scratch Jr. (Monday PM)
 
 # gi= gallery image. Place all the url (required) here, along with an (optional) label (goes above the image)
-# aand/or caption (below the image) and then paste the raw markdown in teh appropriate place. 
-# more than one gallery can exist on a page. 
+# aand/or caption (below the image) and then paste the raw markdown in teh appropriate place.
+# more than one gallery can exist on a page.
 gilabel-01: Alien Monkey
 giurl-01: ./scratchProjects/Images/Y1R31AlienPlanetImages/Alien%20Monkey.jpg
 gicaption-01: Code for this character
@@ -36,63 +36,62 @@ gicaption-07: Code for this character
 gilabel-08: Alien Ship
 giurl-08: ./scratchProjects/Images/Y1R31AlienPlanetImages/Alien%20Ship.jpg
 gicaption-08: Code for this character
-
 ---
-* [May 4th](#may-4th)
-  * [Animate My name](#animate-my-name)
-  * [Student Homework Notes](#student-homework-notes)
-  * [Homework Part 1: Keep working on Alien Planet](#homework-part-1-keep-working-on-alien-planet)
-  * [Homework Part 2: A Story Based on the Hare and Tortoise](#homework-part-2-a-story-based-on-the-hare-and-tortoise)
-    * [Instructions](#instructions)
-    * [Sample Screenplay](#sample-screenplay)
-* [April 27th](#april-27th)
-  * [Skills Review](#skills-review)
-  * [Teacher Says with Zoom](#teacher-says-with-zoom)
-  * [Alien Planet](#alien-planet)
-  * [How to send projects](#how-to-send-projects)
-  * [Update Scratchjr](#update-scratchjr)
-  * [April 27 Homework](#april-27-homework)
-  * [Addenda](#addenda)
-    * [Addendum: Skill Review Checklist](#addendum-skill-review-checklist)
-    * [Addendum: Alien Planet Project Assignment](#addendum-alien-planet-project-assignment)
-    * [Addendum: Sending Projects](#addendum-sending-projects)
-    * [Addendum: Code for Alien Planet](#addendum-code-for-alien-planet)
-* [April 20th](#april-20th)
-  * [Sending Messages by Making a Conversation](#sending-messages-by-making-a-conversation)
-  * [Continue the conversation](#continue-the-conversation)
-  * [The KEYS to Messages](#the-keys-to-messages)
-    * [Advanced Keys](#advanced-keys)
-  * [April 20 Homework](#april-20-homework)
-  * [Going to a different Screen](#going-to-a-different-screen)
-  * [The Dragon Maze almost solved](#the-dragon-maze-almost-solved)
-  * [Zoom problems](#zoom-problems)
-    * [Following the Conversation](#following-the-conversation)
-    * [Sharing Screens](#sharing-screens)
-  * [Next Class: Review](#next-class-review)
-  * [Feedback](#feedback)
-* [April 13th](#april-13th)
-  * [Using Zoom](#using-zoom)
-  * [Game: Black](#game-black)
-  * [ScratchJr: Messages](#scratchjr-messages)
-    * [Making the maze](#making-the-maze)
-    * [Tic Is Trapped!](#tic-is-trapped)
-  * [Disappearing Dragons](#disappearing-dragons)
-  * [April 13 Homework](#april-13-homework)
-* [April 6th](#april-6th)
-  * [Postponing the Homework](#postponing-the-homework)
-  * [Discord to Zoom](#discord-to-zoom)
-  * [Dragon Maze Demo](#dragon-maze-demo)
-* [March 30th](#march-30th)
-  * [Thank you. Discord.](#thank-you-discord)
-* [March 23rd](#march-23rd)
-  * [First Class](#first-class)
 
+-   [May 4th](#may-4th)
+    -   [Animate My name](#animate-my-name)
+    -   [Student Homework Notes](#student-homework-notes)
+    -   [Homework Part 1: Keep working on Alien Planet](#homework-part-1-keep-working-on-alien-planet)
+    -   [Homework Part 2: A Story Based on the Hare and Tortoise](#homework-part-2-a-story-based-on-the-hare-and-tortoise)
+        -   [Instructions](#instructions)
+        -   [Sample Screenplay](#sample-screenplay)
+-   [April 27th](#april-27th)
+    -   [Skills Review](#skills-review)
+    -   [Teacher Says with Zoom](#teacher-says-with-zoom)
+    -   [Alien Planet](#alien-planet)
+    -   [How to send projects](#how-to-send-projects)
+    -   [Update Scratchjr](#update-scratchjr)
+    -   [April 27 Homework](#april-27-homework)
+    -   [Addenda](#addenda)
+        -   [Addendum: Skill Review Checklist](#addendum-skill-review-checklist)
+        -   [Addendum: Alien Planet Project Assignment](#addendum-alien-planet-project-assignment)
+        -   [Addendum: Sending Projects](#addendum-sending-projects)
+        -   [Addendum: Code for Alien Planet](#addendum-code-for-alien-planet)
+-   [April 20th](#april-20th)
+    -   [Sending Messages by Making a Conversation](#sending-messages-by-making-a-conversation)
+    -   [Continue the conversation](#continue-the-conversation)
+    -   [The KEYS to Messages](#the-keys-to-messages)
+        -   [Advanced Keys](#advanced-keys)
+    -   [April 20 Homework](#april-20-homework)
+    -   [Going to a different Screen](#going-to-a-different-screen)
+    -   [The Dragon Maze almost solved](#the-dragon-maze-almost-solved)
+    -   [Zoom problems](#zoom-problems)
+        -   [Following the Conversation](#following-the-conversation)
+        -   [Sharing Screens](#sharing-screens)
+    -   [Next Class: Review](#next-class-review)
+    -   [Feedback](#feedback)
+-   [April 13th](#april-13th)
+    -   [Using Zoom](#using-zoom)
+    -   [Game: Black](#game-black)
+    -   [ScratchJr: Messages](#scratchjr-messages)
+        -   [Making the maze](#making-the-maze)
+        -   [Tic Is Trapped!](#tic-is-trapped)
+    -   [Disappearing Dragons](#disappearing-dragons)
+    -   [April 13 Homework](#april-13-homework)
+-   [April 6th](#april-6th)
+    -   [Postponing the Homework](#postponing-the-homework)
+    -   [Discord to Zoom](#discord-to-zoom)
+    -   [Dragon Maze Demo](#dragon-maze-demo)
+-   [March 30th](#march-30th)
+    -   [Thank you. Discord.](#thank-you-discord)
+-   [March 23rd](#march-23rd)
+    -   [First Class](#first-class)
 
 ## May 4th
 
 ### Animate My name
 
-I had students make their own project based on the [Bootup Animate My Name](https://www.youtube.com/watch?v=mQzWGY4xuSY) project, which you can [download here](https://drive.google.com/open?id=0B342uiaCLSS3YzJTUmlha1FQRjF1cldPdjQtUVhGUjFROEFz) [^DownloadingProjects]. Students created characters based on the letters in their name. 
+I had students make their own project based on the [Bootup Animate My Name](https://www.youtube.com/watch?v=mQzWGY4xuSY) project, which you can [download here](https://drive.google.com/open?id=0B342uiaCLSS3YzJTUmlha1FQRjF1cldPdjQtUVhGUjFROEFz) [^downloadingprojects]. Students created characters based on the letters in their name.
 We talked about what each letter was doing. Then students created their own.
 
 As a follow, we changed it so instead of all the characters moving at once, they moved in turn. Some kids got creative and had the letters say things and do funny things along the way.
@@ -101,14 +100,12 @@ As a follow, we changed it so instead of all the characters moving at once, they
 
 I went over last week's homework with the students. I gave each student some next steps to keep working on. The most common thing was to make the conversations longer and go back and forth.
 
-
 ### Homework Part 1: Keep working on Alien Planet
 
 Continue adding and revising Alien Planet. Think about:
 
-* Make the characters talk to each other. Try to turn it into a story. 
-* Make the character's actions meaningful.
-
+-   Make the characters talk to each other. Try to turn it into a story.
+-   Make the character's actions meaningful.
 
 ### Homework Part 2: A Story Based on the Hare and Tortoise
 
@@ -117,29 +114,29 @@ Continue adding and revising Alien Planet. Think about:
 ![](images/2020-05-04/Homeworkfor05-11.gif)
 
 #### Instructions
-* The goal is to create a similar project by yourself.
-* You can download the [movie here](./images/2020-05-04/Homeworkfor05-11.gif). It is just an example.
-* You can use regular scratch backgrounds, or make your own.
-* Choose any characters, or **make your own**.
-* I have made a sample "screenplay" (below), but **you can use your own**. 
-* Use messages to make the characters speak **in turn**. 
-* Control the speed of the characters. 
-* You can make the characters walk in funny ways.
-* My horse is in the tree. Where do you think the characters should be placed? 
+
+-   The goal is to create a similar project by yourself.
+-   You can download the [movie here](./images/2020-05-04/Homeworkfor05-11.gif). It is just an example.
+-   You can use regular scratch backgrounds, or make your own.
+-   Choose any characters, or **make your own**.
+-   I have made a sample "screenplay" (below), but **you can use your own**.
+-   Use messages to make the characters speak **in turn**.
+-   Control the speed of the characters.
+-   You can make the characters walk in funny ways.
+-   My horse is in the tree. Where do you think the characters should be placed?
 
 #### Sample Screenplay
 
 1. Character2 and the Character1 introduce themselves and decide to have a race
-   1. Background: the entrance to the race
-   2. Characters: Character1, Character2, Character3
-   3. Script:
-    * Character1: You are slow. I am the fastest.
-    * Character2: Actually, I am faster than you. Let's race!
-    * Character1: Yeah? Okay, let's race. 
-    * Character3: I will be the judge. When I say, go, start running.
-    * Character3: Ready...Steady....Go
-    * *Character2 runs slowly, and the Character1 runs quickly off the screen. When he does he disappears we go to the next screen.*
-
+    1. Background: the entrance to the race
+    2. Characters: Character1, Character2, Character3
+    3. Script:
+    - Character1: You are slow. I am the fastest.
+    - Character2: Actually, I am faster than you. Let's race!
+    - Character1: Yeah? Okay, let's race.
+    - Character3: I will be the judge. When I say, go, start running.
+    - Character3: Ready...Steady....Go
+    - _Character2 runs slowly, and the Character1 runs quickly off the screen. When he does he disappears we go to the next screen._
 
 In class we will continue this story. Any ideas?
 
@@ -147,16 +144,13 @@ In class we will continue this story. Any ideas?
 
 ### Skills Review
 
-We did a  [guided walkthough][] of the [skills review sample project][] [^DownloadingProjects] using the [skills we should all know at this stage][]. Can you do them all? You have learned a lot already!!!  
+We did a [guided walkthough][] of the [skills review sample project][] [^downloadingprojects] using the [skills we should all know at this stage][]. Can you do them all? You have learned a lot already!!!
 
-[guided walkthough]: ../lessons/20200427SkillsTest.html 
+[guided walkthough]: ../lessons/20200427SkillsTest.html
 [skills we should all know at this stage]: #addendum-skill-review-checklist
-[skills review sample project]: ./scratchProjects/Project120200427SkillsTest.sjr 
+[skills review sample project]: ./scratchProjects/Project120200427SkillsTest.sjr
 
-[^DownloadingProjects]: **Downloading projects**: If you have any difficulty opening projects in Scratchjr, please note two things. 1) Scratchjr must be open when you open the sjr file. 2) You must have the latest version installed. If you still have problems let us know.
-
-
-
+[^downloadingprojects]: **Downloading projects**: If you have any difficulty opening projects in Scratchjr, please note two things. 1) Scratchjr must be open when you open the sjr file. 2) You must have the latest version installed. If you still have problems let us know.
 
 ### Teacher Says with Zoom
 
@@ -164,7 +158,7 @@ I talked about the game [Zoom version of the Teacher Says game](../lessons/Teach
 
 ### Alien Planet
 
-I showed everyone the [Alien Planet Project](./scratchProjects/Y1R31Alienplanet.sjr). I gave students an assignment modelled on the Alien Planet ([see addendum](#addendum-alien-planet-project-assignment)) . See [this addendum](#addendum-code-for-alien-planet) for the code. 
+I showed everyone the [Alien Planet Project](./scratchProjects/Y1R31Alienplanet.sjr). I gave students an assignment modelled on the Alien Planet ([see addendum](#addendum-alien-planet-project-assignment)) . See [this addendum](#addendum-code-for-alien-planet) for the code.
 
 ### How to send projects
 
@@ -172,94 +166,122 @@ When you are done, you can [email it to me](mailto:teacher@kyotolesson.com) from
 
 ### Update Scratchjr
 
-Scratchjr just updated their program[^whyWeCantDownloadIt]. I suggest you update it on your device, here:
-* <a href="https://itunes.apple.com/us/app/scratchjr/id895485086?ls=1&amp;mt=8">App Store</a>
+Scratchjr just updated their program[^whywecantdownloadit]. I suggest you update it on your device, here:
 
-* <a href="https://play.google.com/store/apps/details?id=org.scratchjr.android">Google Play</a>
+-   <a href="https://itunes.apple.com/us/app/scratchjr/id895485086?ls=1&amp;mt=8">App Store</a>
 
-* <a href="https://chrome.google.com/webstore/detail/scratchjr/oipimoeophamdcmjcfameoojlbhbgjda">Chrome Web Store</a>
+-   <a href="https://play.google.com/store/apps/details?id=org.scratchjr.android">Google Play</a>
 
-* <a href="https://www.amazon.com/gp/product/B01AKGTD2E">Amazon</a>
+-   <a href="https://chrome.google.com/webstore/detail/scratchjr/oipimoeophamdcmjcfameoojlbhbgjda">Chrome Web Store</a>
 
+-   <a href="https://www.amazon.com/gp/product/B01AKGTD2E">Amazon</a>
 
 ### April 27 Homework
+
 Keep working on [The Alien Planet assignment](#addendum-alien-planet-project-assignment). [Email](mailto:teacher@kyotolesson.com) the result.
 
-
 ### Addenda
+
+*Click the header to see the addendum.*
+
+<style>
+summary p {
+    display: inline;
+}
+
+summary {
+    margin-bottom: 1em;
+}
+</style>
+
+<details>
+<summary>Addendum: Skill Review Checklist
+</summary>
 
 #### Addendum: Skill Review Checklist
 
 Skills Review Checklist:
-- [ ] Choosing and changing the background
-- [ ] adding and changing lines and shapes
-- [ ] adding and making characters bigger or smaller
-- [ ] making characters visible or invisible
-- [ ] making characters move in different ways
-- [ ] making characters act at the start, or when they are touched
-- [ ] making characters speak and make sounds
-- [ ] sending and receiving messages
-- [ ] moving to different screens/pages
 
-You have learned a lot already!!! 
+-   [ ] Choosing and changing the background
+-   [ ] adding and changing lines and shapes
+-   [ ] adding and making characters bigger or smaller
+-   [ ] making characters visible or invisible
+-   [ ] making characters move in different ways
+-   [ ] making characters act at the start, or when they are touched
+-   [ ] making characters speak and make sounds
+-   [ ] sending and receiving messages
+-   [ ] moving to different screens/pages
+
+You have learned a lot already!!!
 
 Go back to [Skills Review](#skills-review)
 
+</details>
+<!-- End ddendum: Skill Review Checklist -->
+
+<details>
+<summary>Addendum: Alien Planet Project Assignment
+</summary>
 
 #### Addendum: Alien Planet Project Assignment
 
-
-1. Create your own background like the one in the project. It can be anything you like, but at least: 
-   - [ ] draw several lines 
-   - [ ] use the fill tool to fill in areas.
+1. Create your own background like the one in the project. It can be anything you like, but at least:
+    - [ ] draw several lines
+    - [ ] use the fill tool to fill in areas.
 2. Create at least 3 and up to 8 characters. For each one:
-   - [ ] Edit the character to make them alien. 
-   - [ ] Add fills, strokes, and whatever else you want. 
-   - [ ] Size and place the character at their start point 
-3. Each character can have more than one green flag or other **trigger** at the same time. See [Alien Bat](#slide-03). 
-4. Make each character do one or more things with the **start trigger** and the **touch trigger** and the **bump trigger**. Here are some choices: 
-   - [ ] Make the character move and dance. Use all the blue blocks.
-   - [ ] Include sounds and speech bubbles for the characters and have the character make the sound, either at the beginning or when touched, or any other time.
-   - [ ] Use repeat/loop (yellow) and repeat forever (red) blocks. See the Alien Cat for an example of both.
-   - [ ] Change the speed of the character
-   - [ ] Have the character become invisible and visible. See [Alien Bat](#slide-03). 
-   - [ ] Have the characters talk to each other. This project has no example, but we have covered it before. Here is an easy example of a [simple conversation](./scratchProjects/card08-greet.pdf)     
+    - [ ] Edit the character to make them alien.
+    - [ ] Add fills, strokes, and whatever else you want.
+    - [ ] Size and place the character at their start point
+3. Each character can have more than one green flag or other **trigger** at the same time. See [Alien Bat](#slide-03).
+4. Make each character do one or more things with the **start trigger** and the **touch trigger** and the **bump trigger**. Here are some choices:
+    - [ ] Make the character move and dance. Use all the blue blocks.
+    - [ ] Include sounds and speech bubbles for the characters and have the character make the sound, either at the beginning or when touched, or any other time.
+    - [ ] Use repeat/loop (yellow) and repeat forever (red) blocks. See the Alien Cat for an example of both.
+    - [ ] Change the speed of the character
+    - [ ] Have the character become invisible and visible. See [Alien Bat](#slide-03).
+    - [ ] Have the characters talk to each other. This project has no example, but we have covered it before. Here is an easy example of a [simple conversation](./scratchProjects/card08-greet.pdf)
 
+</details>
 
+<details><summary>Addendum: Sending Projects
+</summary>
 
 #### Addendum: Sending Projects
 
-Even though receiving projects does not seem to work on the iPad, sending does seem to work. 
+Even though receiving projects does not seem to work on the iPad, sending does seem to work.
 
 1. Click here to get to send screen.
-{:imagesize: width="auto" max-width="initial" height="200px" max-height="250px" }
-![upper right corner, inside your project][]{: imagesize }
-2. You should see a project page. 
+   {:imagesize: width="auto" max-width="initial" height="200px" max-height="250px" }
+   ![upper right corner, inside your project][]{: imagesize }
+2. You should see a project page.
 
 ![the project page][]{: imagesize }
+
 3. Rename it with your name, so I know who is sending it!
-4. Click ”For Parents”. 
-5. You will have to solve a math problem 
+4. Click ”For Parents”.
+5. You will have to solve a math problem
 
 ![a math problem][]{: imagesize }
-6. Solve it and click "Send email" 
+
+6. Solve it and click "Send email"
 
 ![Share by email][]{: imagesize }
 
 [upper right corner, inside your project]: images/2020-04-27/sendingProjectByEmail.PNG
 [the project page]: images/2020-04-27/SendingEmail.jpg
 [a math problem]: images/2020-04-27/mathProblem.jpg
-[Share by email]: images/2020-04-27/SendThroughEmail.jpg
+[share by email]: images/2020-04-27/SendThroughEmail.jpg
 
 Here is my [direct email](mailto:teacher@kyotolesson.com) or email alan or the school.
+
+</details>
+
+<details><summary>Addendum: Code for Alien Planet
+</summary>
 
 #### Addendum: Code for Alien Planet
 
 <style>
-* {
-box-sizing: border-box;
-}
-
 .slider {
 width: 100%;
 text-align: center;
@@ -320,31 +342,6 @@ align-items: center;
 /*   transform: scale(1); */
 }
 
-.author-info {
-background: rgba(0, 0, 0, 0.75);
-color: white;
-padding: 0.75rem;
-text-align: center;
-position: absolute;
-bottom: 0;
-left: 0;
-width: 100%;
-margin: 0;
-}
-
-.author-info a {
-color: white;
-}
-
-img {
-    /*
-object-fit: cover;
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%; */
-}
 
 .slider>a {
 display: inline-flex;
@@ -376,94 +373,80 @@ display: none;
 }
 }
 
-/* 
-html,
-body {
-height: 100%;
-overflow: hidden;
-}
-
-body {
-display: flex;
-align-items: center;
-justify-content: center;
-background: linear-gradient(to bottom, #74ABE2, #5563DE);
-font-family: 'Ropa Sans', sans-serif;
-} */
 </style>
 <div class="slider">
-<!-- necessary space-->
-[{{ page.gilabel-01 }}](#slide-01) | [{{ page.gilabel-02 }}](#slide-02) | [{{ page.gilabel-03 }}](#slide-03) | [{{ page.gilabel-04 }}](#slide-04) | [{{ page.gilabel-05 }}](#slide-05) | [{{ page.gilabel-06 }}](#slide-06) | [{{ page.gilabel-07 }}](#slide-07) | [{{ page.gilabel-08 }}](#slide-08)
 <!-- These have to be links  -->
 <div class="slides">
 [![ {{ page.gilabel-01 }} ]({{ page.giurl-01 }})]({{ page.giurl-01 }}){: target="_blank"}
 {: #slide-01}
 
-[![ {{ page.gilabel-02 }} ]({{ page.giurl-02 }})]({{ page.giurl-02 }}){: target="_blank"}
+[![ {{ page.gilabel-02 }} ]({{ page.giurl-02 }})]({{ page.giurl-02 }}){: target="\_blank"}
 {: #slide-02}
 
-[![ {{ page.gilabel-03 }} ]({{ page.giurl-03 }})]({{ page.giurl-03 }}){: target="_blank"}
+[![ {{ page.gilabel-03 }} ]({{ page.giurl-03 }})]({{ page.giurl-03 }}){: target="\_blank"}
 {: #slide-03}
 
-[![ {{ page.gilabel-04 }} ]({{ page.giurl-04 }})]({{ page.giurl-04 }}){: target="_blank"}
+[![ {{ page.gilabel-04 }} ]({{ page.giurl-04 }})]({{ page.giurl-04 }}){: target="\_blank"}
 {: #slide-04}
 
-[![ {{ page.gilabel-05 }} ]({{ page.giurl-05 }})]({{ page.giurl-05 }}){: target="_blank"}
+[![ {{ page.gilabel-05 }} ]({{ page.giurl-05 }})]({{ page.giurl-05 }}){: target="\_blank"}
 {: #slide-05}
 
-[![ {{ page.gilabel-06 }} ]({{ page.giurl-06 }})]({{ page.giurl-06 }}){: target="_blank"}
+[![ {{ page.gilabel-06 }} ]({{ page.giurl-06 }})]({{ page.giurl-06 }}){: target="\_blank"}
 {: #slide-06}
 
-[![ {{ page.gilabel-07 }} ]({{ page.giurl-07 }})]({{ page.giurl-07 }}){: target="_blank"}
+[![ {{ page.gilabel-07 }} ]({{ page.giurl-07 }})]({{ page.giurl-07 }}){: target="\_blank"}
 {: #slide-07}
 
-[![ {{ page.gilabel-08 }} ]({{ page.giurl-08 }})]({{ page.giurl-08 }}){: target="_blank"}
+[![ {{ page.gilabel-08 }} ]({{ page.giurl-08 }})]({{ page.giurl-08 }}){: target="\_blank"}
 {: #slide-08}
 
 </div>
+<!-- necessary space-->
+[{{ page.gilabel-01 }}](#slide-01) | [{{ page.gilabel-02 }}](#slide-02) | [{{ page.gilabel-03 }}](#slide-03) | [{{ page.gilabel-04 }}](#slide-04) | [{{ page.gilabel-05 }}](#slide-05) | [{{ page.gilabel-06 }}](#slide-06) | [{{ page.gilabel-07 }}](#slide-07) | [{{ page.gilabel-08 }}](#slide-08)
 </div>
 
-<br />
 
-     
+</details>
+
 ## April 20th
 
-###  Sending Messages by Making a Conversation
+### Sending Messages by Making a Conversation
+
 The main topic today was how to send a message and receive a message to start a conversation.
 
-* First, Fairy says something and **then** sends (ORANGE) message
+-   First, Fairy says something and **then** sends (ORANGE) message
 
 ![Fairy Sends Message](images/2020-04-20/sendMessageFromFairy.jpg "Fairy Sends Message")
 
-* The Frog receives it and responds
+-   The Frog receives it and responds
 
 ![Frog Receives Message](images/2020-04-20/FrogReceivesMessageAndResponds.jpg "Frog Receives Message")
-
 
 ### Continue the conversation
 
 We also talked about how to make a longer conversation:
+
 1. Fairy Starts (speaks and sends ORANGE message. You need to connect it!)
-![Um Froggie](images/2020-04-20/umFroggie.jpg "Um Froggie")
-1. Froggie replies 
-![alt-text](images/2020-04-20/yesFairy.jpg "Hover text")
-7. Then Sends a New  RED Message (remember to connect it!)
-![alt-text](images/2020-04-20/sendRedMessage.jpg "Hover text")
-7. Fairy receives the red message. Says something. Then she continues by sending a YELLOW message back to Froggie (connect it).
-![alt-text](images/2020-04-20/thisIsNotAForest.jpg "Hover text")
+   ![Um Froggie](images/2020-04-20/umFroggie.jpg "Um Froggie")
+1. Froggie replies
+   ![alt-text](images/2020-04-20/yesFairy.jpg "Hover text")
+1. Then Sends a New RED Message (remember to connect it!)
+   ![alt-text](images/2020-04-20/sendRedMessage.jpg "Hover text")
+1. Fairy receives the red message. Says something. Then she continues by sending a YELLOW message back to Froggie (connect it).
+   ![alt-text](images/2020-04-20/thisIsNotAForest.jpg "Hover text")
 
 ### The KEYS to Messages
 
-* Each message has 2 parts, sending and receiving. 
-* One character sends. The other receives, and acts.
-* They can send a new message back....
-
+-   Each message has 2 parts, sending and receiving.
+-   One character sends. The other receives, and acts.
+-   They can send a new message back....
 
 #### Advanced Keys
 
-* One character can send more than one message, for example to different characters, or the same character. 
-* The same message can go to more than one character, too. That is, more than one character can receive the message when it is sent.
-* Sometimes you even send messages to yourself!
+-   One character can send more than one message, for example to different characters, or the same character.
+-   The same message can go to more than one character, too. That is, more than one character can receive the message when it is sent.
+-   Sometimes you even send messages to yourself!
 
 See [Dragon Maze Part 2](../lessons/DragonMazePart2.html) for examples.
 
@@ -472,31 +455,32 @@ See [Dragon Maze Part 2](../lessons/DragonMazePart2.html) for examples.
 The homework was to make a longer conversation by sending several messages back and forth between characters as above. If you need something for the characters to say, [here are some jokes](../lessons/JokesForBadJokes.html) to use.
 
 ### Going to a different Screen
-We also talked about adding new Screens/Pages to a Project: 
+
+We also talked about adding new Screens/Pages to a Project:
 
 1. Create a new Screen
-![alt-text](images/2020-04-20/NewScreen.jpg "Hover text")
+   ![alt-text](images/2020-04-20/NewScreen.jpg "Hover text")
 2. Go back to 1st Screen
 3. The screen appears in the (red) buttons
-![screen appears](images/2020-04-20/ScreenVisible.jpg "screen appears")
-1. Add it to the actions
-![screen appears](images/2020-04-20/GoToScreen.jpg "screen appears")
+   ![screen appears](images/2020-04-20/ScreenVisible.jpg "screen appears")
+4. Add it to the actions
+   ![screen appears](images/2020-04-20/GoToScreen.jpg "screen appears")
 
 ### The Dragon Maze almost solved
 
-Some students worked very hard on the Dragon Maze, but they had a problem. I have made special [Dragon Maze Part 2](../lessons/DragonMazePart2.html) directions on making the Dragon maze work. It uses sending messages. The directions are very detailed, so take it slow. If you have questions, we will go over it in class next week. 
+Some students worked very hard on the Dragon Maze, but they had a problem. I have made special [Dragon Maze Part 2](../lessons/DragonMazePart2.html) directions on making the Dragon maze work. It uses sending messages. The directions are very detailed, so take it slow. If you have questions, we will go over it in class next week.
 
 ### Zoom problems
 
-We had some difficulty because Zoom cut off the meeting at a certain point. Zoom told us this would not happen, so we didn't expect it. Sorry about that. It will be fixed next week. 
+We had some difficulty because Zoom cut off the meeting at a certain point. Zoom told us this would not happen, so we didn't expect it. Sorry about that. It will be fixed next week.
 
 If it DOES happens again sometime, please just wait a few seconds and use the Zoom link again. I will start the call again and wait for people to join again, like we did this time. As above, this should not be a problem next week.
 
 #### Following the Conversation
 
-Remember that other people can hear what you are saying at home. If you need to have a side conversation, feel free to mute your microphone temporarily. 
+Remember that other people can hear what you are saying at home. If you need to have a side conversation, feel free to mute your microphone temporarily.
 
-Sometimes I am focused on one or other students. You may want to listen, as it may answer questions you have too. Or you can wait by working on your own project while I take care of them. Try to think about what your next question will be. If you don't know what to do, speak up or send me a chat message. 
+Sometimes I am focused on one or other students. You may want to listen, as it may answer questions you have too. Or you can wait by working on your own project while I take care of them. Try to think about what your next question will be. If you don't know what to do, speak up or send me a chat message.
 
 Sometimes I will need to mute you to make it easier for everyone to hear the conversation. You may get a message in Zoom asking for permission, that you will need to respond to.
 
@@ -506,24 +490,23 @@ Everyone seems to be able to share screens finally. I know it is a little tricky
 
 ### Next Class: Review
 
-The next class will be mostly a review and testing class. I expect a lot of back and forth, so be ready to talk! I also hope to do some activities as a group. Can you use all of the skills we have used so far? 
+The next class will be mostly a review and testing class. I expect a lot of back and forth, so be ready to talk! I also hope to do some activities as a group. Can you use all of the skills we have used so far?
 
-- [ ] Choosing and changing the background
-- [ ] adding and changing lines and shapes
-- [ ] adding and making characters bigger or smaller
-- [ ] making characters visible or invisible
-- [ ] making characters move in different ways
-- [ ] making characters act at the start, or when they are touched
-- [ ] making characters speak and make sounds
-- [ ] sending and receiving messages
-- [ ] moving to different screens/pages
+-   [ ] Choosing and changing the background
+-   [ ] adding and changing lines and shapes
+-   [ ] adding and making characters bigger or smaller
+-   [ ] making characters visible or invisible
+-   [ ] making characters move in different ways
+-   [ ] making characters act at the start, or when they are touched
+-   [ ] making characters speak and make sounds
+-   [ ] sending and receiving messages
+-   [ ] moving to different screens/pages
 
-You have learned a lot I hope!!! You can use this class to catch up on things you have missed, and if you feel advanced, you can get more practice, and I will also ask you to help other students, so be ready to explain what you know! 
+You have learned a lot I hope!!! You can use this class to catch up on things you have missed, and if you feel advanced, you can get more practice, and I will also ask you to help other students, so be ready to explain what you know!
 
 ### Feedback
 
 I always welcome feedback, about anything in the class. I look forward to seeing everyone in person as soon as it is safe to do so!! :-)
-
 
 ## April 13th
 
@@ -539,23 +522,23 @@ See [Topic: Game: Black](../lessons/gameBlack.html)
 
 #### Making the maze
 
-*Skill: Modifying a path in the background*
+_Skill: Modifying a path in the background_
 
 We went over how to use the select arrow to modify the path of a line in the background.
 
 ![the path of a line in the background](./images/2020-04-13/Screen%20Shot%202020-04-14%20at%2011.30.36%20AM.png){:height="200px"}
 
-Children made a maze, where the character walks on the line, as in Black. Then they added a dragon and a cake. 
+Children made a maze, where the character walks on the line, as in Black. Then they added a dragon and a cake.
 
 ![maze with dragon and cake](./images/2020-04-13/Screen%20Shot%202020-04-14%20at%2011.41.19%20AM.png){:height="200px"}
 
-They made their character walk the maze and try to eat the [dragon](hjh). 
+They made their character walk the maze and try to eat the [dragon](hjh).
 
 [![Tic walks to dragon](./images/2020-04-13/Screen%20Shot%202020-04-14%20at%2011.44.42%20AM.png){:height="59px"}](./images/2020-04-13/Screen%20Shot%202020-04-14%20at%2011.44.42%20AM.png)
 
 #### Tic Is Trapped!
 
-*Skill: Sending Messages*
+_Skill: Sending Messages_
 
 But the dragon sends a message:
 
@@ -565,34 +548,31 @@ and Tic is sent home:
 
 ![Tic is sent home](./images/2020-04-13/Screen%20Shot%202020-04-14%20at%2011.47.25%20AM.png){:height="59px"}
 
-###  Disappearing Dragons
+### Disappearing Dragons
 
-*Skill: Making Characters Disappear*
+_Skill: Making Characters Disappear_
 
 Tic goes to get the cake first. The cake makes the dragon disappear.
 
-* Cake sends a message.
+-   Cake sends a message.
 
 ![Cake sends a message](./images/2020-04-13/Screen%20Shot%202020-04-14%20at%2011.58.43%20AM.png){:height="59px"}
 
-* Dragon gets the message.
+-   Dragon gets the message.
 
 ![Dragon gets the message](./images/2020-04-13/Screen%20Shot%202020-04-14%20at%2011.58.51%20AM.png){:height="59px"}
-
 
 ### April 13 Homework
 
 The homework is to play with Zoom and the Maze. Practice:
 
-* *Skill: Modifying a path in the background*
-* *Skill: Sending Messages*
-* *Skill: Making Characters Disappear*
-
+-   _Skill: Modifying a path in the background_
+-   _Skill: Sending Messages_
+-   _Skill: Making Characters Disappear_
 
 We will use these in our next lesson: Bad Jokes!
 
 ![Bad](./images/2020-04-13/Screen%20Shot%202020-04-14%20at%2012.48.59%20PM.png)
-
 
 ## April 6th
 
@@ -604,25 +584,21 @@ Because this class was partially a remote class, I wasn't able to fully cover th
 
 ### Discord to Zoom
 
-Because of concerns about the Corona Virus this class was a combination of student's participating in person and via a Discord session. Though it was the first time doing a remote class, and as a result of patience and cooperation of students and families, I think we were able to have a successful class. However, we did notice some areas where it could be improved, and have discovered that [Zoom](https://zoom.us/)  will be able to provide us and students with a better experience. Next class we will start using Zoom. 
+Because of concerns about the Corona Virus this class was a combination of student's participating in person and via a Discord session. Though it was the first time doing a remote class, and as a result of patience and cooperation of students and families, I think we were able to have a successful class. However, we did notice some areas where it could be improved, and have discovered that [Zoom](https://zoom.us/) will be able to provide us and students with a better experience. Next class we will start using Zoom.
 
 ### Dragon Maze Demo
 
 First, I demonstrated a ScratchJr project demonstrating a character eating a cake in order to make a dragon disappear and being able to exit a maze. The purpose was to show how to use Action Blocks for making characters visible or invisible, sending messages, or initiating actions on Bumps. The rest of the class was a detailed and progressive practice in using each of these blocks by creating 4 characters who used these actions [in various ways](./../lessons/jc_a_003.md). While somewhat silly and arbitrary, the exercise was intended to help the children get ample practice using the blocks, as well as beginning to understand programing logic and sequencing. For reference I have put the details .
 
-
 With these blocks described [here](./../lessons/jc_a_003.html) we have all we need to create the Disappearing Dragon Maze, which we will begin next week.
-
-
 
 ## March 30th
 
 Class Outline & homework: [Topic: Simple two-line maze](../lessons/jc_a_002.html)
 
 ### Thank you. Discord.
+
 Thank you everyone for providing a snack. This week we installed Discord on all the computers, but parents will need to provide an email and password. Please write these down, as it is easy to forget.
-
-
 
 ## March 23rd
 
