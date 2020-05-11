@@ -38,54 +38,170 @@ giurl-08: ./scratchProjects/Images/Y1R31AlienPlanetImages/Alien%20Ship.jpg
 gicaption-08: Code for this character
 ---
 
--   [May 4th](#may-4th)
-    -   [Animate My name](#animate-my-name)
-    -   [Student Homework Notes](#student-homework-notes)
-    -   [Homework Part 1: Keep working on Alien Planet](#homework-part-1-keep-working-on-alien-planet)
-    -   [Homework Part 2: A Story Based on the Hare and Tortoise](#homework-part-2-a-story-based-on-the-hare-and-tortoise)
-        -   [Instructions](#instructions)
-        -   [Sample Screenplay](#sample-screenplay)
--   [April 27th](#april-27th)
-    -   [Skills Review](#skills-review)
-    -   [Teacher Says with Zoom](#teacher-says-with-zoom)
-    -   [Alien Planet](#alien-planet)
-    -   [How to send projects](#how-to-send-projects)
-    -   [Update Scratchjr](#update-scratchjr)
-    -   [April 27 Homework](#april-27-homework)
-    -   [Addenda](#addenda)
-        -   [Addendum: Skill Review Checklist](#addendum-skill-review-checklist)
-        -   [Addendum: Alien Planet Project Assignment](#addendum-alien-planet-project-assignment)
-        -   [Addendum: Sending Projects](#addendum-sending-projects)
-        -   [Addendum: Code for Alien Planet](#addendum-code-for-alien-planet)
--   [April 20th](#april-20th)
-    -   [Sending Messages by Making a Conversation](#sending-messages-by-making-a-conversation)
-    -   [Continue the conversation](#continue-the-conversation)
-    -   [The KEYS to Messages](#the-keys-to-messages)
-        -   [Advanced Keys](#advanced-keys)
-    -   [April 20 Homework](#april-20-homework)
-    -   [Going to a different Screen](#going-to-a-different-screen)
-    -   [The Dragon Maze almost solved](#the-dragon-maze-almost-solved)
-    -   [Zoom problems](#zoom-problems)
-        -   [Following the Conversation](#following-the-conversation)
-        -   [Sharing Screens](#sharing-screens)
-    -   [Next Class: Review](#next-class-review)
-    -   [Feedback](#feedback)
--   [April 13th](#april-13th)
-    -   [Using Zoom](#using-zoom)
-    -   [Game: Black](#game-black)
-    -   [ScratchJr: Messages](#scratchjr-messages)
-        -   [Making the maze](#making-the-maze)
-        -   [Tic Is Trapped!](#tic-is-trapped)
-    -   [Disappearing Dragons](#disappearing-dragons)
-    -   [April 13 Homework](#april-13-homework)
--   [April 6th](#april-6th)
-    -   [Postponing the Homework](#postponing-the-homework)
-    -   [Discord to Zoom](#discord-to-zoom)
-    -   [Dragon Maze Demo](#dragon-maze-demo)
--   [March 30th](#march-30th)
-    -   [Thank you. Discord.](#thank-you-discord)
--   [March 23rd](#march-23rd)
-    -   [First Class](#first-class)
+* [May 11th](#may-11th)
+  * [May 4th Homework Review](#may-4th-homework-review)
+  * [Main Idea: Control Buttons](#main-idea-control-buttons)
+  * [Using Controls: Race to the Finish](#using-controls-race-to-the-finish)
+    * [Part One of The Race to the Finish.](#part-one-of-the-race-to-the-finish)
+    * [Part Two of The Race to the Finish: The Game](#part-two-of-the-race-to-the-finish-the-game)
+  * [Preview for May 18th: Follow the Maze Project](#preview-for-may-18th-follow-the-maze-project)
+  * [May 11th Homework: Finish the Follow the Maze](#may-11th-homework-finish-the-follow-the-maze)
+  * [May 11th Zoom Issues](#may-11th-zoom-issues)
+* [May 4th](#may-4th)
+  * [Animate My name](#animate-my-name)
+  * [Student Homework Notes](#student-homework-notes)
+  * [Homework Part 1: Keep working on Alien Planet](#homework-part-1-keep-working-on-alien-planet)
+  * [Homework Part 2: A Story Based on the Hare and Tortoise](#homework-part-2-a-story-based-on-the-hare-and-tortoise)
+    * [Instructions](#instructions)
+    * [Sample Screenplay](#sample-screenplay)
+* [April 27th](#april-27th)
+  * [Skills Review](#skills-review)
+  * [Teacher Says with Zoom](#teacher-says-with-zoom)
+  * [Alien Planet](#alien-planet)
+  * [How to send projects](#how-to-send-projects)
+  * [Update Scratchjr](#update-scratchjr)
+  * [April 27 Homework](#april-27-homework)
+  * [Addenda](#addenda)
+    * [Addendum: Skill Review Checklist](#addendum-skill-review-checklist)
+    * [Addendum: Alien Planet Project Assignment](#addendum-alien-planet-project-assignment)
+    * [Addendum: Sending Projects](#addendum-sending-projects)
+    * [Addendum: Code for Alien Planet](#addendum-code-for-alien-planet)
+* [April 20th](#april-20th)
+  * [Sending Messages by Making a Conversation](#sending-messages-by-making-a-conversation)
+  * [Continue the conversation](#continue-the-conversation)
+  * [The KEYS to Messages](#the-keys-to-messages)
+    * [Advanced Keys](#advanced-keys)
+  * [April 20 Homework](#april-20-homework)
+  * [Going to a different Screen](#going-to-a-different-screen)
+  * [The Dragon Maze almost solved](#the-dragon-maze-almost-solved)
+  * [Zoom problems](#zoom-problems)
+    * [Following the Conversation](#following-the-conversation)
+    * [Sharing Screens](#sharing-screens)
+  * [Next Class: Review](#next-class-review)
+  * [Feedback](#feedback)
+* [April 13th](#april-13th)
+  * [Using Zoom](#using-zoom)
+  * [Game: Black](#game-black)
+  * [ScratchJr: Messages](#scratchjr-messages)
+    * [Making the maze](#making-the-maze)
+    * [Tic Is Trapped!](#tic-is-trapped)
+  * [Disappearing Dragons](#disappearing-dragons)
+  * [April 13 Homework](#april-13-homework)
+* [April 6th](#april-6th)
+  * [Postponing the Homework](#postponing-the-homework)
+  * [Discord to Zoom](#discord-to-zoom)
+  * [Dragon Maze Demo](#dragon-maze-demo)
+* [March 30th](#march-30th)
+  * [Thank you. Discord.](#thank-you-discord)
+* [March 23rd](#march-23rd)
+  * [First Class](#first-class)
+
+## May 11th
+
+
+### May 4th Homework Review
+
+I will send emails with more detailed comments individually later. 
+
+### Main Idea: Control Buttons 
+
+**Control Buttons** were the main idea of this class. Control buttons make one character control another character.
+
+**Screen 1** of the [3-Button-Race and Follow The Maze Sample Projects](./scratchProjects/3ButtonRaceFollowTheMazeHW.sjr) gives an example. It also has a simple exercise for you to do if you think you need more **practice**. 
+
+Making a control is a 2 step process. Here is what to do:
+
+1. Make the button. It can be anything. 
+
+   * When you touch the CONTROLLER it sends a message. Add this:
+
+![Monkey Controls Frog](./images/2020-05-11/ControlButtonsMonkeySendsGreen.jpg "Monkey Controls Frog")
+
+2. Go to the character that receives that message. 
+
+   * When THE CONTROLLED gets the message, it acts. Add this:
+
+![Frog is controlled by Monkey](./images/2020-05-11/ControlButtonsFrogisControlled.jpg "Frog is controlled by Monkey")
+
+
+That's it!!! 
+
+In my example, **Monkey** controls **Frog**, and **Penguin** controls Cat. 
+
+If you need **practice**, try to make the **Flag** control **Tac**. 
+
+
+### Using Controls: Race to the Finish
+
+To get some practice with **Control Buttons** we worked with  [my version of the Race to the Finish Project](./scratchProjects/20200511DavidRace2FinishGame.sjr) from BootUp. (*I recommend you download it if you have questions about what we did.*) Notice how similar it is to the Hare and Tortoise homework.
+
+#### Part One of The Race to the Finish. 
+
+Students had to try to copy **Screen 1**. This is just like Hare and Tortoise: 
+
+![Screen 1 of Race to the Finish](./scratchProjects/Images/Y1R25RaceToTheFinish/Story/Y1R25RacetotheFinish.gif "Screen 1 of Race to the Finish") 
+
+#### Part Two of The Race to the Finish: The Game
+
+In class, we then made this into a game. Look at **Screen 2**. It has 2 controls. The CAT BUTTON controls the **Cat**, the BIRD BUTTON controls the **Bird**. Could you do it? Look at it again and fix it if you have to.
+
+![Screen 2 of Race to the Finish](./scratchProjects/Images/Y1R25RaceToTheFinish/Game/Y1R25RacetotheFinishGame.gif "Screen 2 of Race to the Finish") 
+
+Notice that when I click the green boxes, the characters move to the right one step. Tap the buttons together with a friend and see who can win the race.
+
+We then made a crazy version on **Screen 3**.
+
+### Preview for May 18th: Follow the Maze Project
+In the next class, we will make 4 controls for one character. Download and see **Screen 2** of the [3-Button-Race and Follow The Maze Sample Projects](./scratchProjects/3ButtonRaceFollowTheMazeHW.sjr). They will make the character move up, down, right, and left. Here is a picture. Can you figure out how it works?
+
+* I made one **Arrow**. Then I copied it and rotated it to make the other 3. Here is the **Left Arrow**:
+
+![Making an Arrow Control](./images/2020-05-11/MakingAnArrowControl.gif)
+
+* Then I added code for each arrow. Here is the code for the **Up Arrow** 
+  
+  * Arrow: yellow touch trigger, send message
+  * Cat: get message, do action
+
+![Making the Up Button](./images/2020-05-11/UpButtonWorks.gif)
+
+### May 11th Homework: Finish the Follow the Maze
+
+**Screen 2** has 4 Arrow Controls. The **Up Arrow** works like above, but your Homework is to make the other **Arrows** work.
+
+1. Use different color messages
+2. Make the controls a little smaller 
+3. Change the Maze (in the background)!!
+   
+   * Use this kind of maze if you want it simple. See the dots in the middle of the squares?
+![Easy Maze](./images/2020-05-11/EasyMaze.jpg)
+
+   * **Useful Tip**: When you adjust the dots/lines for your maze, make the dots in the **CENTER** of the light grey grid squares, **NOT on the lines** of the grid squares.
+
+      * YES: ![Dots go in the center](./images/2020-05-11/DotsInTheCenter.jpg){: width="100px"}
+      *  No: ![Dots go in the center](./images/2020-05-11/DotsNotLikeThis.jpg){: width="100px"}
+
+
+Now you have a **Follow the Maze Game**! 
+
+Easy Peasy! 
+
+Here is my finished one. It has an extra twist at the end. 
+
+![Follow the maze Game](./images/2020-05-11/FollowTheMazeGame.gif "Follow the maze Game")
+
+* Can you figure out how the **Cake** appears? *Hint: It uses a hidden control.*
+
+
+### May 11th Zoom Issues
+
+Apologies if you had problems getting my attention after I muted everyone. I was trying to control background noise by muting everyone and turning people back on. It wasn't so successful. Sorry.
+
+It is difficult to keep background noise down. If you are having a side conversation or you have background noise in your house, it is helpful to mute your microphone so others don't hear it. Then, if you want to speak or turn it back on again. 
+
+Sometimes I am paying attention to one student, and the part of my screen that shows students or incoming chats may not be easy for me to see. Please keep trying. This is just a limitation of doing remote classes. Thanks for being patient! Gambare!
+
+
 
 ## May 4th
 
