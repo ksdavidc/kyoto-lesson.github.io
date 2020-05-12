@@ -39,6 +39,68 @@ gicaption-08: Code for this character
 ---
 <style>
 
+details {
+  font: 16px "Open Sans", Calibri, sans-serif;
+  width: 93%;
+  margin-bottom: 10px;
+  background-color: white;
+      border-radius: 10px 10px;
+    padding: 0px 1em 0px 1em;
+margin-bottom: 10px;    /* margin: 10px; */
+    /* box-shadow: 3px 3px 4px black; */
+}
+
+details[open] {
+  /* border-radius: 10px 10px;
+  background-color: pink;
+  padding: 2px 6px;
+  margin: 0;
+  box-shadow: 3px 3px 4px black; */
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+details details {
+  background-color: pink;
+  }
+
+details > summary {
+    padding: 6px 6px 6px 6px;
+    width: calc(100% + 1em + 3px);
+    background-color: goldenrod;
+    border: none;
+    cursor: pointer;
+    margin-top: -2px;
+    margin-left: -1em;
+    /* between bottom of summary and top of details content */
+    margin-bottom: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+details details > p {
+background-color: pink;
+}
+
+/* makes summary content inline, to preserve links and remove extra space */
+summary p, summary h2,summary h3,summary h4,,summary h5,summary h6 {
+    display: inline;
+}
+
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+  0%    {opacity: 0; margin-left: -10px}
+  100%  {opacity: 1; margin-left: 0px}
+}
+
+/* removes item after summary (i.e. the header, used to generate toc) that is copied in the summary (otherwise it would not be in teh toc) */
+details summary + * {
+    display: none;
+}
+
+
 </style>
 
 
@@ -99,6 +161,11 @@ gicaption-08: Code for this character
   * [Thank you. Discord.](#thank-you-discord)
 * [March 23rd](#march-23rd)
   * [First Class](#first-class)
+
+
+<details open>
+<summary>## May 11th
+</summary>
 
 ## May 11th
 
@@ -206,6 +273,10 @@ It is difficult to keep background noise down. If you are having a side conversa
 Sometimes I am paying attention to one student, and the part of my screen that shows students or incoming chats may not be easy for me to see. Please keep trying. This is just a limitation of doing remote classes. Thanks for being patient! Gambare!
 
 
+</details>
+<details>
+<summary>## May 4th
+</summary>
 
 ## May 4th
 
@@ -260,6 +331,14 @@ Continue adding and revising Alien Planet. Think about:
 
 In class we will continue this story. Any ideas?
 
+
+
+</details>
+<details>
+<summary>## April 27th
+</summary>
+
+
 ## April 27th
 
 ### Skills Review
@@ -304,79 +383,7 @@ Keep working on [The Alien Planet assignment](#addendum-alien-planet-project-ass
 
 *Click the header to see the addendum.*
 
-<style>
 
-details {
-  font: 16px "Open Sans", Calibri, sans-serif;
-  width: 93%;
-  margin-bottom: 10px;
-  background-color: pink;
-}
-
-
-details > summary {
-    padding: 6px 6px 6px 6px;
-    width: calc(100% + 1em + 3px);
-    background-color: goldenrod;
-    border: none;
-    cursor: pointer;
-    margin-top: -2px;
-    margin-left: -1em;
-    /* between bottom of summary and top of details content */
-    margin-bottom: 10px;
-    border-radius: 10px 10px 0 0;
-}
-
-details {
-    border-radius: 10px 10px;
-    background-color: pink;
-    padding: 0px 1em 0px 1em;
-    /* margin: 10px; */
-    /* box-shadow: 3px 3px 4px black; */
-}
-
-details[open] {
-  /* border-radius: 10px 10px;
-  background-color: pink;
-  padding: 2px 6px;
-  margin: 0;
-  box-shadow: 3px 3px 4px black; */
-  margin-bottom: 15px;
-  padding-bottom: 10px;
-}
-
-details  {
-margin-bottom: 10px;
-}
-
-details > p {
-background-color: pink;
-}
-
-
-
-
-/* makes summary content inline, to preserve links and remove extra space */
-summary p, summary h4 {
-    display: inline;
-}
-
-details[open] summary ~ * {
-  animation: sweep .5s ease-in-out;
-}
-
-@keyframes sweep {
-  0%    {opacity: 0; margin-left: -10px}
-  100%  {opacity: 1; margin-left: 0px}
-}
-
-/* removes item after summary (i.e. the header, used to generate toc) that is copied in the summary (otherwise it would not be in teh toc) */
-details summary + * {
-    display: none;
-}
-
-
-</style>
 
 <details>
 <summary>#### Addendum: Skill Review Checklist
@@ -595,6 +602,14 @@ display: none;
 
 </details>
 
+
+
+
+</details>
+<details>
+<summary>## April 20th
+</summary>
+
 ## April 20th
 
 ### Sending Messages by Making a Conversation
@@ -694,6 +709,14 @@ You have learned a lot I hope!!! You can use this class to catch up on things yo
 
 I always welcome feedback, about anything in the class. I look forward to seeing everyone in person as soon as it is safe to do so!! :-)
 
+
+</details>
+<details>
+<summary>## April 13th
+</summary>
+
+
+
 ## April 13th
 
 ### Using Zoom
@@ -760,6 +783,13 @@ We will use these in our next lesson: Bad Jokes!
 
 ![Bad](./images/2020-04-13/Screen%20Shot%202020-04-14%20at%2012.48.59%20PM.png)
 
+
+</details>
+<details>
+<summary>## April 6th
+</summary>
+
+
 ## April 6th
 
 Class Outline & homework: [Topic; Prep for Disappearing Dragon](../lessons/jc_a_003.html)
@@ -778,6 +808,12 @@ First, I demonstrated a ScratchJr project demonstrating a character eating a cak
 
 With these blocks described [here](./../lessons/jc_a_003.html) we have all we need to create the Disappearing Dragon Maze, which we will begin next week.
 
+</details>
+<details>
+<summary>## March 30th
+</summary>
+
+
 ## March 30th
 
 Class Outline & homework: [Topic: Simple two-line maze](../lessons/jc_a_002.html)
@@ -786,6 +822,11 @@ Class Outline & homework: [Topic: Simple two-line maze](../lessons/jc_a_002.html
 
 Thank you everyone for providing a snack. This week we installed Discord on all the computers, but parents will need to provide an email and password. Please write these down, as it is easy to forget.
 
+</details>
+<details>
+<summary>## March 23rd
+</summary>
+
 ## March 23rd
 
 Class Outline & homework: [Introduction to the computer and ScratchJr](../lessons/jc_a_001.html)
@@ -793,3 +834,5 @@ Class Outline & homework: [Introduction to the computer and ScratchJr](../lesson
 ### First Class
 
 This class went very well. The kids were active and eager to participate. Don't forget to provide a snack for your child!!
+
+</details>
