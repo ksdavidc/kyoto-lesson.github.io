@@ -322,7 +322,8 @@ details > summary {
     cursor: pointer;
     margin-top: -2px;
     margin-left: -1em;
-    /* margin-bottom: 0px; */
+    /* between bottom of summary and top of details content */
+    margin-bottom: 10px;
     border-radius: 10px 10px 0 0;
 }
 
