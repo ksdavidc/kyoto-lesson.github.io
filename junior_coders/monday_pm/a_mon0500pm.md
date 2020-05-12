@@ -67,7 +67,6 @@ gicaption-08: Code for this character
   * [April 27 Homework](#april-27-homework)
   * [Addenda](#addenda)
     * [Addendum: Skill Review Checklist](#addendum-skill-review-checklist)
-    * [Test](#test)
     * [Addendum: Alien Planet Project Assignment](#addendum-alien-planet-project-assignment)
     * [Addendum: Sending Projects](#addendum-sending-projects)
     * [Addendum: Code for Alien Planet](#addendum-code-for-alien-planet)
@@ -371,10 +370,9 @@ details[open] summary ~ * {
   100%  {opacity: 1; margin-left: 0px}
 }
 
-/* removes first header but keeps toc? */
-details[open] summary + h4 {
+/* removes item after summary (i.e. the header, used to generate toc) that is copied in the summary (otherwise it would not be in teh toc) */
+details summary + * {
     display: none;
-    background-color: red;
 }
 
 
@@ -385,6 +383,7 @@ details[open] summary + h4 {
 </summary>
 
 #### Addendum: Skill Review Checklist
+<!-- above is required by jekyll to create toc, but actually appears in summary -->
 
 Skills Review Checklist:
 
@@ -400,13 +399,10 @@ Skills Review Checklist:
 
 You have learned a lot already!!!
 
-
-#### Test 
-
 Go back to [Skills Review](#skills-review)
 
 </details>
-<!-- End ddendum: Skill Review Checklist -->
+<!-- End Addendum: Skill Review Checklist -->
 
 <details>
 <summary>#### Addendum: Alien Planet Project Assignment
