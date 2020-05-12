@@ -67,6 +67,7 @@ gicaption-08: Code for this character
   * [April 27 Homework](#april-27-homework)
   * [Addenda](#addenda)
     * [Addendum: Skill Review Checklist](#addendum-skill-review-checklist)
+    * [Test](#test)
     * [Addendum: Alien Planet Project Assignment](#addendum-alien-planet-project-assignment)
     * [Addendum: Sending Projects](#addendum-sending-projects)
     * [Addendum: Code for Alien Planet](#addendum-code-for-alien-planet)
@@ -369,6 +370,14 @@ details[open] summary ~ * {
   0%    {opacity: 0; margin-left: -10px}
   100%  {opacity: 1; margin-left: 0px}
 }
+
+/* removes first header but keeps toc? */
+details[open] summary + h4 {
+    display: none;
+    background-color: red;
+}
+
+
 </style>
 
 <details>
@@ -390,6 +399,9 @@ Skills Review Checklist:
 -   [ ] moving to different screens/pages
 
 You have learned a lot already!!!
+
+
+#### Test 
 
 Go back to [Skills Review](#skills-review)
 
@@ -543,6 +555,7 @@ background: #00c;
 border: 2px solid red;
 }
 /* Don't need button navigation */
+
 
 @supports (scroll-snap-type) {
 .slider>a {
