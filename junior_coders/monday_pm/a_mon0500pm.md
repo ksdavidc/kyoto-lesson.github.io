@@ -156,7 +156,11 @@ Notice that when I click the green boxes, the characters move to the right one s
 We then made a crazy version on **Screen 3**.
 
 ### Preview for May 18th: Follow the Maze Project
-In the next class, we will make 4 controls for one character. Download and see **Screen 2** of the [3-Button-Race and Follow The Maze Sample Projects](./scratchProjects/3ButtonRaceFollowTheMazeHW.sjr). They will make the character move up, down, right, and left. Here is a picture. Can you figure out how it works?
+In the next class, we will make 4 controls for one character. Download and see **Screen 2** of the [3-Button-Race and Follow The Maze Sample Projects](./scratchProjects/3ButtonRaceFollowTheMazeHW.sjr). They will make the character move up, down, right, and left. Here is a picture of the finished game. Can you figure out how it works? 
+
+![Follow the maze Game](./images/2020-05-11/FollowTheMazeGame.gif "Follow the maze Game")
+
+It has an extra twist at the end. Can you figure out how the **Cake** appears? *Hint: It uses a hidden control.*
 
 * I made one **Arrow**. Then I copied it and rotated it to make the other 3. Here is the **Left Arrow**:
 
@@ -190,11 +194,7 @@ Now you have a **Follow the Maze Game**!
 
 Easy Peasy! 
 
-Here is my finished one. It has an extra twist at the end. 
 
-![Follow the maze Game](./images/2020-05-11/FollowTheMazeGame.gif "Follow the maze Game")
-
-* Can you figure out how the **Cake** appears? *Hint: It uses a hidden control.*
 
 
 ### May 11th Zoom Issues
