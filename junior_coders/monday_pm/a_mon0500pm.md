@@ -40,7 +40,7 @@ gicaption-08: Code for this character
 <style>
 
 details {
-  font: 16px "Open Sans", Calibri, sans-serif;
+  
   width: 93%;
   margin-bottom: 10px;
   background-color: white;
@@ -67,7 +67,7 @@ details details {
 details > summary {
     padding: 6px 6px 6px 6px;
     width: calc(100% + 1em + 3px);
-    background-color: goldenrod;
+    background-color: #ffcc00;
     border: none;
     cursor: pointer;
     margin-top: -2px;
@@ -82,7 +82,7 @@ background-color: pink;
 }
 
 /* makes summary content inline, to preserve links and remove extra space */
-summary p, summary h2,summary h3,summary h4,,summary h5,summary h6 {
+summary p, summary h2,summary h3,summary h4, summary h5, summary h6 {
     display: inline;
 }
 
