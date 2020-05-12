@@ -383,7 +383,7 @@ details summary + * {
 </summary>
 
 #### Addendum: Skill Review Checklist
-<!-- above is required by jekyll to create toc, but actually appears in summary -->
+<!-- Heading above is required by jekyll to create toc, but actually appears (manually copied) in summary. display summary + *  css removes it from here-->
 
 Skills Review Checklist:
 
