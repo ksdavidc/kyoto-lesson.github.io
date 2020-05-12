@@ -37,6 +37,10 @@ gilabel-08: Alien Ship
 giurl-08: ./scratchProjects/Images/Y1R31AlienPlanetImages/Alien%20Ship.jpg
 gicaption-08: Code for this character
 ---
+<style>
+
+</style>
+
 
 * [May 11th](#may-11th)
   * [May 4th Homework Review](#may-4th-homework-review)
@@ -302,13 +306,67 @@ Keep working on [The Alien Planet assignment](#addendum-alien-planet-project-ass
 
 <style>
 
-summary {
-    margin-bottom: 1em;
+details {
+  font: 16px "Open Sans", Calibri, sans-serif;
+  width: 93%;
+  margin-bottom: 10px;
+  background-color: pink;
 }
+
+
+details > summary {
+    padding: 6px 6px 6px 6px;
+    width: calc(100% + 1em + 3px);
+    background-color: goldenrod;
+    border: none;
+    cursor: pointer;
+    margin-top: -2px;
+    margin-left: -1em;
+    /* margin-bottom: 0px; */
+    border-radius: 10px 10px 0 0;
+}
+
+details {
+    border-radius: 10px 10px;
+    background-color: pink;
+    padding: 0px 1em 0px 1em;
+    /* margin: 10px; */
+    /* box-shadow: 3px 3px 4px black; */
+}
+
+details[open] {
+  /* border-radius: 10px 10px;
+  background-color: pink;
+  padding: 2px 6px;
+  margin: 0;
+  box-shadow: 3px 3px 4px black; */
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+details  {
+margin-bottom: 10px;
+}
+
+details > p {
+background-color: pink;
+}
+
+
+
 
 /* makes summary content inline, to preserve links and remove extra space */
 summary p, summary h4 {
     display: inline;
+}
+
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+  0%    {opacity: 0; margin-left: -10px}
+  100%  {opacity: 1; margin-left: 0px}
 }
 </style>
 
