@@ -19,31 +19,49 @@
             $("nav .tag-h3").toggle();
             $("nav .tag-h2 a").mouseover(function() {
 
-                // $( $(this).attr("href") ).parent().parent();
-                //alert( $( $(this).attr("href") ).parent().parent().attr("open") );
-                //$( $(this).attr("href") ).parent().parent().not('[open*="open"]').css("background", "red").trigger("click");
-                // good
-                //$( $(this).attr("href") ).closest("summary").trigger("click");
-                // if ( $( $(this).attr("href") ).closest("summary").not('[open*="open"]') ) {
-                //     $(this).parent().next().nextUntil(".tag-h2").show("slow", "swing");
-                //     $( $(this).attr("href") ).closest("summary").trigger("click");
-                // } else {
 
-                //$(this).parent().next().nextUntil(".tag-h2").hide("slow", "swing");
-                //$( $(this).attr("href") ).closest("summary").parent().attr("open", "");
+                //if ( $( $(this).attr("href") ).closest("summary").parent()[0].hasAttribute("open") ) {
+                //} else {
+                //if ( $(this).hasClass("toggled") ) {
+                //} else {
+                //    $( $(this).attr("href") ).closest("summary").trigger("click");
+                //};
+                //};
+                if (!$($(this).attr("href")).closest("summary").parent()[0].hasAttribute("open")) {
+                    if (!$(this).hasClass("toggled")) {
+                        $($(this).attr("href")).closest("summary").trigger("click");
+                    };
+                };
 
 
-                //}
+
+                // good. toggles
+                $(this).parent().next().nextUntil(".tag-h2").toggle("slow", "swing");
 
 
                 //$( $(this).attr("href") ).closest("summary").toggle();
                 //$( $(this).attr("href") ).parent().parent().not('[open~="open"]').trigger("click");
 
-                //open subheadings in nav
-                $(this).parent().next().nextUntil(".tag-h2").toggle("slow", "swing");
+                //toggle subheadings in nav
+                //$(this).parent().next().nextUntil(".tag-h2").toggle("slow", "swing");
 
                 // expands bar to right
                 $(this).toggleClass("toggled");
+
+
+
+            });
+
+
+
+            // This closes details when border
+            $("details").click(function(e) {
+                if (e.offsetX <= parseInt($(this).css('borderLeftWidth'))) {
+                    // needed or parent of details details gets closed too.
+                    event.stopPropagation();
+                    $(this).find("summary").trigger("click");
+
+                };
             });
 
 
