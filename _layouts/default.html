@@ -11,6 +11,45 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
 <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            // hides submenus until clicked.
+            $("nav .tag-h3").toggle();
+            $("nav .tag-h2 a").mouseover(function() {
+
+                // $( $(this).attr("href") ).parent().parent();
+                //alert( $( $(this).attr("href") ).parent().parent().attr("open") );
+                //$( $(this).attr("href") ).parent().parent().not('[open*="open"]').css("background", "red").trigger("click");
+                // good
+                //$( $(this).attr("href") ).closest("summary").trigger("click");
+                // if ( $( $(this).attr("href") ).closest("summary").not('[open*="open"]') ) {
+                //     $(this).parent().next().nextUntil(".tag-h2").show("slow", "swing");
+                //     $( $(this).attr("href") ).closest("summary").trigger("click");
+                // } else {
+
+                //$(this).parent().next().nextUntil(".tag-h2").hide("slow", "swing");
+                //$( $(this).attr("href") ).closest("summary").parent().attr("open", "");
+
+
+                //}
+
+
+                //$( $(this).attr("href") ).closest("summary").toggle();
+                //$( $(this).attr("href") ).parent().parent().not('[open~="open"]').trigger("click");
+
+                //open subheadings in nav
+                $(this).parent().next().nextUntil(".tag-h2").toggle("slow", "swing");
+
+                // expands bar to right
+                $(this).toggleClass("toggled");
+            });
+
+
+        });
+    </script>
+
     <style>
         body {
             background-color: ivory;
@@ -158,6 +197,14 @@
         
         #contentWrapper {
             overflow-x: auto;
+        }
+        
+        .toggled {
+            border-left: 10px solid #3f72b2!important;
+        }
+        
+        .toggled::before {
+            content: "";
         }
         /*
 @media print,

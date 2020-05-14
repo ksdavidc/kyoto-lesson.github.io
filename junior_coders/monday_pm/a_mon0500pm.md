@@ -67,7 +67,7 @@ details details {
 details > summary {
     padding: 6px 6px 6px 6px;
     width: calc(100% + 1em + 3px);
-    background-color: #ffcc00;
+    background-color: #ffeca0;
     border: none;
     cursor: pointer;
     margin-top: -2px;
