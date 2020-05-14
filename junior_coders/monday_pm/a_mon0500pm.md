@@ -47,6 +47,7 @@ details {
       border-radius: 10px 10px;
     padding: 0px 1em 0px 1em;
 margin-bottom: 10px;    /* margin: 10px; */
+ border-left: 10px solid #3399cc!important;
     /* box-shadow: 3px 3px 4px black; */
 }
 
@@ -58,10 +59,13 @@ details[open] {
   box-shadow: 3px 3px 4px black; */
   margin-bottom: 15px;
   padding-bottom: 10px;
+  border-left: 10px solid #3399cc!important;
+  border-right: 1px solid #3399cc!important;
+  border-bottom: 1px solid #3399cc!important;
 }
 
 details details {
-  background-color: pink;
+  background-color: aliceblue;
   }
 
 details > summary {
@@ -74,7 +78,11 @@ details > summary {
     margin-left: -1em;
     /* between bottom of summary and top of details content */
     margin-bottom: 10px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 0px 10px 0 0;
+}
+
+details > summary:focus {
+outline: -webkit-focus-ring-color auto 0px;
 }
 
 details details > p {
@@ -163,7 +171,7 @@ details summary + * {
   * [First Class](#first-class)
 
 
-<details open>
+<details>
 <summary>## May 11th
 </summary>
 
