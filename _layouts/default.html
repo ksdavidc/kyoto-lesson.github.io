@@ -29,6 +29,7 @@
                 if (!$($(this).attr("href")).closest("details").prop("open") && $(this).is("ul li ul li a")) {
                     $($(this).attr("href")).closest("details").find("summary").trigger("click");
                     $($(this).attr("href")).trigger("click");
+                    $(this).parents("li").last().find("a").addClass("toggled");
                     //return false;
                 };
 
@@ -38,6 +39,7 @@
                     //alert("outer?" + !$(this).is("ul li ul li a") );
                     //alert ("is open");
                     $($(this).attr("href")).closest("details").removeAttr("open");
+                    $(this).removeClass("toggled");
                     return false;
                     //$($(this).attr("href")).trigger("click");
                 };
@@ -48,6 +50,7 @@
                     //alert("outer?" + !$(this).is("ul li ul li a") );
                     //
                     $($(this).attr("href")).closest("details").attr("open", "open")
+                    $(this).addClass("toggled");
                     return false;
                     //$($(this).attr("href")).trigger("click");
                 };
