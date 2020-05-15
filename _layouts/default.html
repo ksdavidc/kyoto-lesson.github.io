@@ -16,43 +16,54 @@
         $(document).ready(function() {
 
             // TOC SECTION    
-            // if mainmenu item is clicked, makes sure details is open before click
-            // is applied, so link works.
+            // if mainmenu item is clicked
+            // makes sure details is open before click is applied, so link works.
+            // Also toggle details on outermost link clicks
+            // and reset if state is unmatched
+            // TODO: Doesnt work for links to details within details
             $("#toc ul li a").on("click", function(event) {
-                //alert("1is closed?" + !$($(this).attr("href")).closest( "details" ).first().prop("open") );
-                //is inner link?
-                //alert("inner?" + $(this).is("ul li ul li a"))
 
-                //alert("inner" + ($(this).is("nav .tag-h3 a") || $(this).is("ul li ul li a")) );
-
-                //if closed and inner link open details first
+                //if closed and inner link open details first then trigger and toggled
                 if (!$($(this).attr("href")).closest("details").prop("open") && $(this).is("ul li ul li a")) {
                     $($(this).attr("href")).closest("details").find("summary").trigger("click");
                     $($(this).attr("href")).trigger("click");
                     $(this).parents("li").last().children("a").first().addClass("toggled");
-                    //return false;
                 };
 
-                //if open and outer link close and stop propagation.
+                //if open and inner link just trigger click and add toggled class
+                if ($($(this).attr("href")).closest("details").prop("open") && $(this).is("ul li ul li a")) {
+                    // $($(this).attr("href")).closest("details").find("summary").trigger("click");
+                    $($(this).attr("href")).trigger("click");
+                    $(this).parents("li").last().children("a").first().addClass("toggled");
+                };
+
+
+
+                //if open and outer link close and don't follow link.
                 if ($($(this).attr("href")).closest("details").prop("open") && !$(this).is("ul li ul li a")) {
-                    //alert("3is closed?" + !$($(this).attr("href")).closest( "details" ).first().prop("open") );
-                    //alert("outer?" + !$(this).is("ul li ul li a") );
-                    //alert ("is open");
-                    $($(this).attr("href")).closest("details").removeAttr("open");
-                    $(this).parents("li").last().children("a").first().removeClass("toggled");
+
+                    // if open and outer and not toggled, then add toggle but dont close
+                    // if open and outer and toggled, then close and remove toggled
+
+                    if ($(this).parents("li").last().children("a").first().hasClass("toggled")) {
+                        $($(this).attr("href")).closest("details").removeAttr("open");
+                        $(this).parents("li").last().children("a").first().removeClass("toggled");
+                    } else {
+                        $(this).parents("li").last().children("a").first().addClass("toggled");
+                    }
+
+                    // don'T follow link
                     return false;
-                    //$($(this).attr("href")).trigger("click");
                 };
 
-                //if closed and outer link open details.
+                //if closed and outer link open details don't follow link
                 if (!$($(this).attr("href")).closest("details").prop("open") && !$(this).is("ul li ul li a")) {
-                    //alert("3is closed?" + !$($(this).attr("href")).closest( "details" ).first().prop("open") );
-                    //alert("outer?" + !$(this).is("ul li ul li a") );
-                    //
+
                     $($(this).attr("href")).closest("details").attr("open", "open")
                     $(this).parents("li").last().children("a").first().addClass("toggled");
+                    // don't follow link
                     return false;
-                    //$($(this).attr("href")).trigger("click");
+
                 };
 
             });
@@ -66,11 +77,6 @@
             // if nav item is clicked, makes sure details is open before click
             // is applied, so link works.
             $("nav ul li a").on("click", function(event) {
-                //alert("1is closed?" + !$($(this).attr("href")).closest( "details" ).first().prop("open") );
-                //is inner link?
-                //alert("inner?" + $(this).is("ul li ul li a"))
-
-                //alert("inner" + ($(this).is("nav .tag-h3 a") || $(this).is("ul li ul li a")) );
 
                 //if closed and inner tag-h3 link open details first
                 if (!$($(this).attr("href")).closest("details").prop("open") && $(this).is("nav .tag-h3 a")) {
@@ -112,6 +118,7 @@
                 if (e.offsetX <= parseInt($(this).css('borderLeftWidth'))) {
                     // needed or parent of details details gets closed too.
                     event.stopPropagation();
+
                     $(this).find("summary").trigger("click");
 
                 };
