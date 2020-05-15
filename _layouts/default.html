@@ -29,13 +29,27 @@
                 if (!$($(this).attr("href")).closest("details").prop("open") && $(this).is("ul li ul li a")) {
                     $($(this).attr("href")).closest("details").find("summary").trigger("click");
                     $($(this).attr("href")).trigger("click");
+                    //return false;
+                };
+
+                //if open and outer link close and stop propagation.
+                if ($($(this).attr("href")).closest("details").prop("open") && !$(this).is("ul li ul li a")) {
+                    //alert("3is closed?" + !$($(this).attr("href")).closest( "details" ).first().prop("open") );
+                    //alert("outer?" + !$(this).is("ul li ul li a") );
+                    //alert ("is open");
+                    $($(this).attr("href")).closest("details").removeAttr("open");
+                    return false;
+                    //$($(this).attr("href")).trigger("click");
                 };
 
                 //if closed and outer link open details.
                 if (!$($(this).attr("href")).closest("details").prop("open") && !$(this).is("ul li ul li a")) {
                     //alert("3is closed?" + !$($(this).attr("href")).closest( "details" ).first().prop("open") );
                     //alert("outer?" + !$(this).is("ul li ul li a") );
-                    $($(this).attr("href")).trigger("click");
+                    //
+                    $($(this).attr("href")).closest("details").attr("open", "open")
+                    return false;
+                    //$($(this).attr("href")).trigger("click");
                 };
 
             });
@@ -69,41 +83,6 @@
                 };
 
             });
-
-
-
-
-
-
-
-
-            $("nav0 ul li a").on("click", function(event) {
-                //alert( "this=" + $(this).html());
-                //alert( "nearest summary" + $($(this).attr("href")).closest( "summary" ).html() )
-                //alert(" summaryparent0 closed?" + !$($(this).attr("href")).closest("summary").parent()[0].hasAttribute("open"));
-                //alert( " closest details closed? " + !$($(this).attr("href")).closest( "details" ).prop("open") + $($(this).attr("href")).closest( "details" ).html()  );
-                alert("from sidemenu: 1is closed?" + !$($(this).attr("href")).closest("details").first().prop("open"));
-
-                // if closed open details first 
-                if (!$($(this).attr("href")).closest("details").first().prop("open")) {
-
-                    //alert("2sideis closed?" + !$($(this).attr("href")).closest( "details" ).first().prop("open") );
-                    $($(this).attr("href")).closest("details").find("summary").trigger("click");
-                    //$($(this).attr("href")).closest( "summary" ).trigger("click");
-                    alert("3sideis closed?" + !$($(this).attr("href")).closest("details").first().prop("open"));
-                };
-                alert("4sideis closed?" + !$($(this).attr("href")).closest("details").first().prop("open"));
-
-                //if closed and outer link open details.
-
-
-                $($(this).attr("href")).trigger("click");
-
-
-                alert("5sideis closed?" + !$($(this).attr("href")).closest("details").first().prop("open"));
-
-            });
-
 
             // shows tag-h3 when tag-h2 is hovered, and opens details if not open (so links can work). 
             // if tag-h3 is already shown, then close, but leave details open.
