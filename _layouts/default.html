@@ -373,8 +373,21 @@ screen and (max-width: 720px) {
             </div>
 
             <div id="contentWrapper">
+
+                <div style="position: fixed; bottom: 2%; right:2%;
+    margin-left: -325px;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height: 14px;
+    font-size: 14px;
+    background-color: #FFE788;
+">
+                    <a href="#contentWrapper" class="button fork"><strong>Top</strong></a>
+                </div>
+
                 {{ content }}
             </div>
+
         </section>
         <footer>
             <!-- {% if site.github.is_project_page %}
