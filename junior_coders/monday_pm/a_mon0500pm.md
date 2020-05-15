@@ -44,11 +44,12 @@ details {
   width: 93%;
   margin-bottom: 10px;
   background-color: white;
-      border-radius: 10px 10px;
-    padding: 0px 1em 0px 1em;
-margin-bottom: 10px;    /* margin: 10px; */
- border-left: 10px solid #3399cc!important;
-    /* box-shadow: 3px 3px 4px black; */
+  border-radius: 10px 10px;
+  padding: 0px 1em 0px 1em;
+  margin-bottom: 10px;
+  /* margin: 10px; */
+  border-left: 10px solid #3399cc!important;
+  /* box-shadow: 3px 3px 4px black; */
 }
 
 details[open] {
@@ -59,7 +60,7 @@ details[open] {
   box-shadow: 3px 3px 4px black; */
   margin-bottom: 15px;
   padding-bottom: 10px;
-  border-left: 10px solid #3399cc!important;
+  border-left: 9px solid #3399cc!important;
   border-right: 1px solid #3399cc!important;
   border-bottom: 1px solid #3399cc!important;
 }
@@ -108,10 +109,41 @@ details summary + * {
     display: none;
 }
 
+       #toc li {
+            display: block;
+            transition-duration: 0.5s;
+        }
+        
+        #toc li:hover {
+            cursor: pointer;
+        }
+        
+        #toc ul li ul {
+            visibility: hidden;
+            opacity: 0;
+            position: relative;
+            transition: all 0.5s ease;
+            margin-left: 1rem;
+            left: 0;
+            display: none;
+            background-color: #ffeca0;
+        }
+        
+        #toc ul li:hover>ul,
+        #toc ul li:hover ul li ul {
+            visibility: visible;
+            opacity: 1;
+            display: block;
+        }
+        
+        #toc ul li ul li {
+            clear: both;
+            width: 100%;
+        }
 
 </style>
 
-
+<div id="toc">
 * [May 11th](#may-11th)
   * [May 4th Homework Review](#may-4th-homework-review)
   * [Main Idea: Control Buttons](#main-idea-control-buttons)
@@ -170,6 +202,7 @@ details summary + * {
 * [March 23rd](#march-23rd)
   * [First Class](#first-class)
 
+</div>
 
 <details>
 <summary>## May 11th

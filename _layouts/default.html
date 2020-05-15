@@ -15,46 +15,117 @@
     <script>
         $(document).ready(function() {
 
-            // hides submenus until clicked.
-            $("nav .tag-h3").toggle();
-            $("nav .tag-h2 a").mouseover(function() {
+            // TOC SECTION    
+            // if mainmenu item is clicked, makes sure details is open before click
+            // is applied, so link works.
+            $("#toc ul li a").on("click", function(event) {
+                //alert("1is closed?" + !$($(this).attr("href")).closest( "details" ).first().prop("open") );
+                //is inner link?
+                //alert("inner?" + $(this).is("ul li ul li a"))
 
+                //alert("inner" + ($(this).is("nav .tag-h3 a") || $(this).is("ul li ul li a")) );
 
-                //if ( $( $(this).attr("href") ).closest("summary").parent()[0].hasAttribute("open") ) {
-                //} else {
-                //if ( $(this).hasClass("toggled") ) {
-                //} else {
-                //    $( $(this).attr("href") ).closest("summary").trigger("click");
-                //};
-                //};
-                if (!$($(this).attr("href")).closest("summary").parent()[0].hasAttribute("open")) {
-                    if (!$(this).hasClass("toggled")) {
-                        $($(this).attr("href")).closest("summary").trigger("click");
-                    };
+                //if closed and inner link open details first
+                if (!$($(this).attr("href")).closest("details").prop("open") && $(this).is("ul li ul li a")) {
+                    $($(this).attr("href")).closest("details").find("summary").trigger("click");
+                    $($(this).attr("href")).trigger("click");
                 };
 
+                //if closed and outer link open details.
+                if (!$($(this).attr("href")).closest("details").prop("open") && !$(this).is("ul li ul li a")) {
+                    //alert("3is closed?" + !$($(this).attr("href")).closest( "details" ).first().prop("open") );
+                    //alert("outer?" + !$(this).is("ul li ul li a") );
+                    $($(this).attr("href")).trigger("click");
+                };
+
+            });
+
+            // NAV SECTION
+
+            // on first run, hides nav submenus until clicked.
+            $("nav .tag-h3").toggle();
 
 
-                // good. toggles
-                $(this).parent().next().nextUntil(".tag-h2").toggle("slow", "swing");
+            // if nav item is clicked, makes sure details is open before click
+            // is applied, so link works.
+            $("nav ul li a").on("click", function(event) {
+                //alert("1is closed?" + !$($(this).attr("href")).closest( "details" ).first().prop("open") );
+                //is inner link?
+                //alert("inner?" + $(this).is("ul li ul li a"))
 
+                //alert("inner" + ($(this).is("nav .tag-h3 a") || $(this).is("ul li ul li a")) );
 
-                //$( $(this).attr("href") ).closest("summary").toggle();
-                //$( $(this).attr("href") ).parent().parent().not('[open~="open"]').trigger("click");
+                //if closed and inner tag-h3 link open details first
+                if (!$($(this).attr("href")).closest("details").prop("open") && $(this).is("nav .tag-h3 a")) {
+                    $($(this).attr("href")).closest("details").find("summary").trigger("click");
+                    $($(this).attr("href")).trigger("click");
+                };
 
-                //toggle subheadings in nav
-                //$(this).parent().next().nextUntil(".tag-h2").toggle("slow", "swing");
-
-                // expands bar to right
-                $(this).toggleClass("toggled");
-
-
+                //if closed and outer tag-h2 link open details.
+                if (!$($(this).attr("href")).closest("details").prop("open") && $(this).is("nav .tag-h2 a")) {
+                    //alert("3is closed?" + !$($(this).attr("href")).closest( "details" ).first().prop("open") );
+                    //alert("outer?" + !$(this).is("ul li ul li a") );
+                    $($(this).attr("href")).trigger("click");
+                };
 
             });
 
 
 
-            // This closes details when border
+
+
+
+
+
+            $("nav0 ul li a").on("click", function(event) {
+                //alert( "this=" + $(this).html());
+                //alert( "nearest summary" + $($(this).attr("href")).closest( "summary" ).html() )
+                //alert(" summaryparent0 closed?" + !$($(this).attr("href")).closest("summary").parent()[0].hasAttribute("open"));
+                //alert( " closest details closed? " + !$($(this).attr("href")).closest( "details" ).prop("open") + $($(this).attr("href")).closest( "details" ).html()  );
+                alert("from sidemenu: 1is closed?" + !$($(this).attr("href")).closest("details").first().prop("open"));
+
+                // if closed open details first 
+                if (!$($(this).attr("href")).closest("details").first().prop("open")) {
+
+                    //alert("2sideis closed?" + !$($(this).attr("href")).closest( "details" ).first().prop("open") );
+                    $($(this).attr("href")).closest("details").find("summary").trigger("click");
+                    //$($(this).attr("href")).closest( "summary" ).trigger("click");
+                    alert("3sideis closed?" + !$($(this).attr("href")).closest("details").first().prop("open"));
+                };
+                alert("4sideis closed?" + !$($(this).attr("href")).closest("details").first().prop("open"));
+
+                //if closed and outer link open details.
+
+
+                $($(this).attr("href")).trigger("click");
+
+
+                alert("5sideis closed?" + !$($(this).attr("href")).closest("details").first().prop("open"));
+
+            });
+
+
+            // shows tag-h3 when tag-h2 is hovered, and opens details if not open (so links can work). 
+            // if tag-h3 is already shown, then close, but leave details open.
+            $("nav .tag-h2 a").mouseover(function() {
+
+                // if details closed and tag-h3 are hidden, then open details.
+                // otherwise, leave details alone. (including details closed but details shown.)
+                if (!$($(this).attr("href")).closest("summary").parent()[0].hasAttribute("open") && !$(this).hasClass("toggled")) {
+                    //$($(this).attr("href")).closest("summary").trigger("click");
+                };
+
+                // shows contigous tag-h3
+                $(this).parent().next().nextUntil(".tag-h2").toggle("slow", "swing");
+
+                // toggle to show this has been toggled
+                $(this).toggleClass("toggled");
+
+            });
+
+
+
+            // This closes details when border is clicked
             $("details").click(function(e) {
                 if (e.offsetX <= parseInt($(this).css('borderLeftWidth'))) {
                     // needed or parent of details details gets closed too.
@@ -63,6 +134,7 @@
 
                 };
             });
+
 
 
         });
@@ -218,12 +290,13 @@
         }
         
         .toggled {
-            border-left: 10px solid #3f72b2!important;
+            border-left: 10px solid #3f72b2 !important;
         }
-        
-        .toggled::before {
-            content: "";
-        }
+        /*
+		.toggled::before {
+			content: "";
+		}
+*/
         /*
 @media print,
 screen and (max-width: 1060px) {
