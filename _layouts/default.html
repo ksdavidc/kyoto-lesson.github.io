@@ -148,7 +148,25 @@
         
         #banner {
             right: 0%;
-            top: 140px;
+            top: 110px;
+        }
+        
+        #topButton {
+            position: fixed;
+            right: 2%;
+            top: 113px;
+            /* to keep above banner */
+            z-index: 500;
+            margin-left: -325px;
+            padding: 10px 12px;
+            margin-top: 6px;
+            line-height: 14px;
+            font-size: 14px;
+            background-color: #FFE788;
+            border: 1px solid #dba500;
+            background: linear_gradient(#ffe788, #ffce38);
+            border-radius: 2px;
+            box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
         }
         
         .ournav {
@@ -264,10 +282,6 @@
         @media print,
         screen and (max-width: 720px) {}
         
-        #banner {
-            top: 110px;
-        }
-        
         nav {
             overflow: auto;
             padding: 5px;
@@ -374,14 +388,7 @@ screen and (max-width: 720px) {
 
             <div id="contentWrapper">
 
-                <div style="position: fixed; bottom: 2%; right:2%;
-    margin-left: -325px;
-    padding: 10px 12px;
-    margin-top: 6px;
-    line-height: 14px;
-    font-size: 14px;
-    background-color: #FFE788;
-">
+                <div id="topButton">
                     <a href="#contentWrapper" class="button fork"><strong>Top</strong></a>
                 </div>
 
