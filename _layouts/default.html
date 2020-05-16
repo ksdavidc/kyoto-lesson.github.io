@@ -24,7 +24,10 @@
             $("#toc ul li a").on("click", function(event) {
 
                 //if closed and inner link open details first then trigger and toggled
+                // TODO: Doesnt work for links to details within details
                 if (!$($(this).attr("href")).closest("details").prop("open") && $(this).is("ul li ul li a")) {
+                    //open without clicking 
+                    //$($(this).attr("href")).closest("details").attr("open", "open")
                     $($(this).attr("href")).closest("details").find("summary").trigger("click");
                     $($(this).attr("href")).trigger("click");
                     $(this).parents("li").last().children("a").first().addClass("toggled");
@@ -32,11 +35,9 @@
 
                 //if open and inner link just trigger click and add toggled class
                 if ($($(this).attr("href")).closest("details").prop("open") && $(this).is("ul li ul li a")) {
-                    // $($(this).attr("href")).closest("details").find("summary").trigger("click");
                     $($(this).attr("href")).trigger("click");
                     $(this).parents("li").last().children("a").first().addClass("toggled");
                 };
-
 
 
                 //if open and outer link close and don't follow link.
@@ -46,19 +47,21 @@
                     // if open and outer and toggled, then close and remove toggled
 
                     if ($(this).parents("li").last().children("a").first().hasClass("toggled")) {
+                        // close without clicking
                         $($(this).attr("href")).closest("details").removeAttr("open");
                         $(this).parents("li").last().children("a").first().removeClass("toggled");
                     } else {
                         $(this).parents("li").last().children("a").first().addClass("toggled");
                     }
 
-                    // don'T follow link
+                    // don't follow link
                     return false;
                 };
 
                 //if closed and outer link open details don't follow link
                 if (!$($(this).attr("href")).closest("details").prop("open") && !$(this).is("ul li ul li a")) {
 
+                    //open without clicking
                     $($(this).attr("href")).closest("details").attr("open", "open")
                     $(this).parents("li").last().children("a").first().addClass("toggled");
                     // don't follow link
@@ -142,7 +145,7 @@
         
         #topButton {
             position: fixed;
-            right: 2%;
+            right: calc(50% - 295px);
             top: 113px;
             /* to keep above banner */
             z-index: 500;
