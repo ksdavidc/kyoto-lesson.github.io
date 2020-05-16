@@ -3,7 +3,7 @@ layout: default
 title: Getting Started with Scratch Jr. (Monday PM)
 
 # gi= gallery image. Place all the url (required) here, along with an (optional) label (goes above the image)
-# aand/or caption (below the image) and then paste the raw markdown in teh appropriate place.
+# and/or caption (below the image) and then paste the raw markdown in teh appropriate place.
 # more than one gallery can exist on a page.
 gilabel-01: Alien Monkey
 giurl-01: ./scratchProjects/Images/Y1R31AlienPlanetImages/Alien%20Monkey.jpg
@@ -96,12 +96,35 @@ summary p, summary h2,summary h3,summary h4, summary h5, summary h6 {
 }
 
 details[open] summary ~ * {
-  animation: sweep .5s ease-in-out;
+  animation: sweepin 2s ease-in-out;
 }
 
 @keyframes sweep {
   0%    {opacity: 0; margin-left: -10px}
   100%  {opacity: 1; margin-left: 0px}
+}
+
+
+@keyframes sweepin {
+  0% {
+    opacity: 0;
+    margin-left: -10px
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0px
+  }
+}
+
+@keyframes sweepout {
+  0% {
+    opacity: 1;
+    margin-left: 0px
+  }
+  100% {
+    opacity: 0;
+    margin-left: -10px
+  }
 }
 
 /* removes item after summary (i.e. the header, used to generate toc) that is copied in the summary (otherwise it would not be in teh toc) */
@@ -144,6 +167,7 @@ details summary + * {
 </style>
 
 <div id="toc">
+
 * [May 11th](#may-11th)
   * [May 4th Homework Review](#may-4th-homework-review)
   * [Main Idea: Control Buttons](#main-idea-control-buttons)
