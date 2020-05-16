@@ -228,6 +228,10 @@ details summary + * {
 
 </div>
 
+**HINT: Click on [Date]() above to open and close the** <span style="background-color:#ffeca0">Details Boxes</span> **below.**
+
+**HINT: Click on** <span class='toggled' style="color: #3399cc;  border-left: 10px solid #3399cc !important;">BLUE BORDER</span> **to open and close the** <span style="background-color:#ffeca0">Details Boxes</span> **below**
+
 <details>
 <summary>## May 11th
 </summary>
