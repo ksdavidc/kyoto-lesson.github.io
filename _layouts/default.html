@@ -4,69 +4,66 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> {% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
     <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
     <!--[if lt IE 9]>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
-<![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+    <![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         $(document).ready(function() {
 
             // TOC SECTION    
             // if mainmenu item is clicked
-            // makes sure details is open before click is applied, so link works.
-            // Also toggle details on outermost link clicks
-            // and reset if state is unmatched
-            // TODO: Doesnt work for links to details within details
+            // makes sure details is open before inner click is applied, so link works.
+            // Also toggle details but don't follow links on outermost links (for mobile)
+            // and throw error if state is unmatched
+            // TODO: Doesn't work for links to details within details
             $("#toc ul li a").on("click", function(event) {
 
-                //if closed and inner link open details first then trigger and toggled
+                //if closed and inner link open details first then trigger click
                 // TODO: Doesnt work for links to details within details
                 if (!$($(this).attr("href")).closest("details").prop("open") && $(this).is("ul li ul li a")) {
-                    //open without clicking 
+                    //old way: open without clicking 
                     //$($(this).attr("href")).closest("details").attr("open", "open")
+                    // now: click
                     $($(this).attr("href")).closest("details").find("summary").trigger("click");
                     $($(this).attr("href")).trigger("click");
-                    $(this).parents("li").last().children("a").first().addClass("toggled");
+                    //$(this).parents("li").last().children("a").first().addClass("toggled");
                 };
 
-                //if open and inner link just trigger click and add toggled class
+                //if open and inner link just trigger click 
                 if ($($(this).attr("href")).closest("details").prop("open") && $(this).is("ul li ul li a")) {
                     $($(this).attr("href")).trigger("click");
-                    $(this).parents("li").last().children("a").first().addClass("toggled");
+                    //$(this).parents("li").last().children("a").first().addClass("toggled");
                 };
 
 
                 //if open and outer link close and don't follow link.
                 if ($($(this).attr("href")).closest("details").prop("open") && !$(this).is("ul li ul li a")) {
-
-                    // if open and outer and not toggled, then add toggle but dont close
-                    // if open and outer and toggled, then close and remove toggled
-
+                    // checks toggle state
+                    // toggled, then close and don't follow
+                    // else if not toggled, throw error
                     if ($(this).parents("li").last().children("a").first().hasClass("toggled")) {
                         // close without clicking
                         $($(this).attr("href")).closest("details").removeAttr("open");
-                        $(this).parents("li").last().children("a").first().removeClass("toggled");
                     } else {
-                        $(this).parents("li").last().children("a").first().addClass("toggled");
+                        alert("This is a minor error (unintended menu state). Please notify webmaster.")
                     }
-
                     // don't follow link
                     return false;
                 };
 
-                //if closed and outer link open details don't follow link
+                //if closed and outer link open details don't follow link (for mobile users)
                 if (!$($(this).attr("href")).closest("details").prop("open") && !$(this).is("ul li ul li a")) {
-
                     //open without clicking
                     $($(this).attr("href")).closest("details").attr("open", "open")
-                    $(this).parents("li").last().children("a").first().addClass("toggled");
-                    // don't follow link
+                        // don't follow link
                     return false;
-
                 };
 
             });
@@ -76,7 +73,6 @@
             // on first run, hides nav submenus until clicked.
             $("nav .tag-h3").toggle();
 
-
             // if nav item is clicked, makes sure details is open before click
             // is applied, so link works.
             $("nav ul li a").on("click", function(event) {
@@ -84,49 +80,32 @@
                 //if closed and inner tag-h3 link open details first
                 if (!$($(this).attr("href")).closest("details").prop("open") && $(this).is("nav .tag-h3 a")) {
                     $($(this).attr("href")).closest("details").find("summary").trigger("click");
-                    $($(this).attr("href")).trigger("click");
                 };
-
-                //if closed and outer tag-h2 link open details.
-                if (!$($(this).attr("href")).closest("details").prop("open") && $(this).is("nav .tag-h2 a")) {
-                    //alert("3is closed?" + !$($(this).attr("href")).closest( "details" ).first().prop("open") );
-                    //alert("outer?" + !$(this).is("ul li ul li a") );
-                    $($(this).attr("href")).trigger("click");
-                };
-
+                $($(this).attr("href")).trigger("click");
             });
 
-            // shows tag-h3 when tag-h2 is hovered, and opens details if not open (so links can work). 
-            // if tag-h3 is already shown, then close, but leave details open.
+            // shows tag-h3 when tag-h2 is hovered
             $("nav .tag-h2 a").mouseover(function() {
-
-                // if details closed and tag-h3 are hidden, then open details.
-                // otherwise, leave details alone. (including details closed but details shown.)
-                if (!$($(this).attr("href")).closest("summary").parent()[0].hasAttribute("open") && !$(this).hasClass("toggled")) {
-                    //$($(this).attr("href")).closest("summary").trigger("click");
-                };
-
                 // shows contigous tag-h3
                 $(this).parent().next().nextUntil(".tag-h2").toggle("slow", "swing");
-
-                // toggle to show this has been toggled
-                $(this).toggleClass("toggled");
-
             });
 
+            // DETAILS SECTION
 
-
-            // This closes details when border is clicked
+            // This toggles details when border is clicked
             $("details").click(function(e) {
                 if (e.offsetX <= parseInt($(this).css('borderLeftWidth'))) {
                     // needed or parent of details details gets closed too.
                     event.stopPropagation();
-
                     $(this).find("summary").trigger("click");
-
                 };
             });
 
+            // This toggles both menu elements when details state changes
+            $('details').on('toggle', function() {
+                var $elementToToggle = "[href='#" + $(this).children("h2").attr("id") + "']";
+                $($elementToToggle).toggleClass("toggled");
+            });
 
 
         });
@@ -159,6 +138,16 @@
             background: linear_gradient(#ffe788, #ffce38);
             border-radius: 2px;
             box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
+        }
+        /* makes top button appear in "right" place for mobile */
+        
+        @media print,
+        screen and (max-width: 720px) {
+            #topButton {
+                /* this is a kludge to override theme stylesheet. Better formula needed.  */
+                margin-left: -50vw!important;
+                left: 134vw!important;
+            }
         }
         
         .ournav {
@@ -245,7 +234,7 @@
         nav ul .tag-h1 a:hover {
             color: darkgreen;
             /* background-color: lightblue;
-    border: none;*/
+            border: none; */
         }
         
         .tag-h2 {
@@ -269,17 +258,6 @@
         
         .tag-h3 {
             padding: 0px;
-        }
-        
-        @media print,
-        screen and (max-width: 720px) {
-            #topButton {
-                position: fixed;
-                /*color: red;
-                 right: calc( 70vw )!important; */
-                margin-left: -50vw!important;
-                left: 134vw!important;
-            }
         }
         
         nav {
@@ -306,41 +284,6 @@
         .toggled {
             border-left: 10px solid #3f72b2 !important;
         }
-        /*
-		.toggled::before {
-			content: "";
-		}
-*/
-        /*
-@media print,
-screen and (max-width: 1060px) {
-    nav {
-        display: inline-block;
-        position: relative;
-        top: 200px;
-        margin-left: 0px;
-    }
-}
-
-
-@media print,
-screen and (max-width: 480px) {
-    section {
-        margin-top: 190px;
-    }
-}
-
-
-
-
-@media print,
-screen and (max-width: 720px) {
-    section {
-        margin-top: 190px;
-    }
-}
-
-*/
     </style>
 </head>
 
