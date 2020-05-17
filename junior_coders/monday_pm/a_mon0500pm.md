@@ -227,10 +227,10 @@ details summary + * {
   * [First Class](#first-class)
 
 </div>
+<b>HINT:</b>
 
-**HINT: Click on [Date]() above to open and close the** <span style="background-color:#ffeca0">Details Boxes</span> **below.**
-
-**HINT: Click on** <span class='toggled' style="color: #3399cc;  border-left: 10px solid #3399cc !important;">BLUE BORDER</span> **to open and close the** <span style="background-color:#ffeca0">Details Boxes</span> **below**
+* Click [DATE]() above to toggle the <span  style="background-color:#ffeca0;  border-left: 10px solid #3399cc !important;">Details Boxes</span> below.
+* Click <span style="color: #3399cc;  border-left: 10px solid #3399cc !important;">BLUE BORDER</span> to toggle the <span style="background-color:#ffeca0;  border-left: 10px solid #3399cc !important;">Details Boxes</span> below
 
 <details>
 <summary>## May 11th
