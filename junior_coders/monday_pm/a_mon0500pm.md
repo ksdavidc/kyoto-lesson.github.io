@@ -115,7 +115,7 @@ details summary + * {
 }
 
 details details > p {
-background-color: pink;
+/* background-color: pink; */
 }
 
 /* makes summary content inline, to preserve links and remove extra space */
@@ -153,6 +153,26 @@ details[open] summary ~ * {
     opacity: 0;
     margin-left: -10px
   }
+}
+
+#toc>ul>li>a{
+    font-weight: bold;
+}
+#toc>ul>li>a::before {
+    content: "> ";
+    font-weight: bold;
+}
+
+#toc>ul>li>a.toggled::before {
+    content: "  ";
+}
+#toc>ul>li:hover>a::before {
+    content: "^ ";
+    font-weight: bold;
+
+}
+#toc>ul>li:hover {
+    background-color: #ffcc00;
 }
 
 
@@ -264,7 +284,7 @@ details[open] summary ~ * {
 
 </div>
 
-* Click [Date]() (above or below) or <span style="color: #3399cc;  border-left: 10px solid #3399cc !important;">BLUE BORDERS</span> to toggle the <span style="background-color:#ffeca0; border-left: 10px solid #3399cc !important;"><b>  &nbsp;<span style="font-size: 70%">▶︎</span>&nbsp;&nbsp;Details&nbsp;&nbsp;&nbsp;&nbsp;</b></span>
+* Click [> Date]() (above or below) or <span style="color: #3399cc;  border-left: 9px solid #3399cc!important;border-radius: 4px 4px; ">BLUE BORDERS</span> to toggle the <span style="background-color:#ffeca0; border-left: 10px solid #3399cc !important;border-radius: 4px 4px;"><b>  &nbsp;<span style="font-size: 70%">▶︎</span>&nbsp;&nbsp;Details&nbsp;&nbsp;&nbsp;&nbsp;</b></span>
   
 
 <details>
@@ -573,7 +593,7 @@ When you are done, you can [email it to me](mailto:teacher@kyotolesson.com) from
 
 ### Update Scratchjr
 
-Scratchjr just updated their program[^whywecantdownloadit]. I suggest you update it on your device, here:
+Scratchjr just updated their program[^downloadingprojects]. I suggest you update it on your device, here:
 
 -   <a href="https://itunes.apple.com/us/app/scratchjr/id895485086?ls=1&amp;mt=8">App Store</a>
 
