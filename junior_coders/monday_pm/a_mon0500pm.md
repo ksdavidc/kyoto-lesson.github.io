@@ -204,7 +204,6 @@ details[open] summary ~ * {
       * [Warm-up: Planning for **Message Mania for 3**](#warm-up-planning-for-message-mania-for-3)
       * [Advanced: **Message Mania for 6**](#advanced-message-mania-for-6)
     * [Bonus Puzzle](#bonus-puzzle)
-    * [May 18th Follow the Maze Cake Puzzle Hint](#may-18th-follow-the-maze-cake-puzzle-hint)
 * [May 11th](#may-11th)
   * [May 4th Homework Review](#may-4th-homework-review)
   * [Main Idea: Control Buttons](#main-idea-control-buttons)
@@ -352,12 +351,13 @@ If you are motivated, you can go to the advanced version: **Message Mania for 6*
 At the end of the Follow the Maze Project, the cake appears when Cat enters the last square. I used a special trick to do that. It uses Controls in a special way. Can you figure it out? Click below  for a hint:
 
 <details>
- <summary>#### May 18th Follow the Maze Cake Puzzle Hint
+ <summary>Click for Hint
 </summary>
 
-#### May 18th Follow the Maze Cake Puzzle Hint
+<!-- does not show -->
+<title> Click for hint</title>
 
-What is the little blue line at the edge of the entrance?
+What is the light blue notch (line) at the edge of the entrance?
 
 ![picture of entrance to last square in maze](./images/2020-05-18/CatEnteringMaze.jpg)
 
