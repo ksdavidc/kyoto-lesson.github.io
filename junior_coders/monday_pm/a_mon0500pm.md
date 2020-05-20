@@ -265,11 +265,8 @@ details[open] summary ~ * {
 
 </div>
 
-* Click [Date]() (above or below) or <span style="color: #3399cc;  border-left: 10px solid #3399cc !important;">BLUE BORDERS</span> to toggle <span style="background-color:#ffeca0;  border-left: 10px solid #3399cc !important;">Details</span>
+* Click [Date]() (above or below) or <span style="color: #3399cc;  border-left: 10px solid #3399cc !important;">BLUE BORDERS</span> to toggle the <span style="background-color:#ffeca0; border-left: 10px solid #3399cc !important;"><b>  &nbsp;<span style="font-size: 70%">▶︎</span>&nbsp;&nbsp;Details&nbsp;&nbsp;&nbsp;&nbsp;</b></span>
   
-
-
-</details>
 
 <details>
 <summary>## May 18th
@@ -282,7 +279,7 @@ details[open] summary ~ * {
 I reviewed the homework submissions, and further comments will be sent via email. 
 
 ### May 18th: Follow the Maze Project
-In this class, we continued working on the [Follow the Maze Project](./scratchProjects/3ButtonRaceFollowTheMazeHW.sjr), described on May 11th in  [homework below](#preview-for-may-18th-follow-the-maze-project). I didn't discuss the *surprise* at the end. That is a bonus question for this week.
+In this class, we continued working on the [Follow the Maze Project](./scratchProjects/3ButtonRaceFollowTheMazeHW.sjr), described on May 11th in  [homework below](#preview-for-may-18th-follow-the-maze-project){: .innerlink}. I didn't discuss the *surprise* at the end. That is a bonus question for this week.
 
 
 Kids projects were full of interesting variations. Please email me your finished projects so I can look them over.
@@ -298,33 +295,29 @@ I also explained how to make maze using "squares with holes", the 3rd kind of ma
 
 <div class="slider">
 <!-- These have to be links  -->
-<div class="slides">
-[![ {{ page.gilabel-09 }} ]({{ page.giurl-09 }})]({{ page.giurl-09 }}){: target="_blank"}
-{: #slide-09}
+<div class="slides" style="width: 50%!important;">
+[![ {{ page.gilabel-09 }} ]({{ page.giurl-09 }}){: height="200px"}]({{ page.giurl-09 }}){: target="_blank"}
+{: #slide-09 style="margin-top:0px;"}
 
-[![ {{ page.gilabel-10 }} ]({{ page.giurl-10 }})]({{ page.giurl-10 }}){: target="\_blank"}
-{: #slide-10}
+[![ {{ page.gilabel-10 }} ]({{ page.giurl-10 }}){: height="200px"}]({{ page.giurl-10 }}){: target="\_blank"}
+{: #slide-10 style="margin-top:0px;"}
 
-[![ {{ page.gilabel-11 }} ]({{ page.giurl-11 }})]({{ page.giurl-11 }}){: target="\_blank"}
-{: #slide-11}
-
+[![ {{ page.gilabel-11 }} ]({{ page.giurl-11 }}){: height="200px"}]({{ page.giurl-11 }}){: target="\_blank"}
+{: #slide-11 style="margin-top:0px;"}
 </div>
 <!-- necessary space-->
 [{{ page.gilabel-09 }}](#slide-09) | [{{ page.gilabel-10 }}](#slide-10) | [{{ page.gilabel-11 }}](#slide-11) 
 </div>
 
+Another great question was about how to make the arrows, which is shown below in the [homework for May 11th, below](#preview-for-may-18th-follow-the-maze-project){: .innerlink}, as well.
 
-
-
-Another great question was about how to make the arrows, which is shown below in the [homework for May 11th, below](#preview-for-may-18th-follow-the-maze-project), as well.
-
-Lastly, we also talked about how to modify characters, to make buttons have the characters in them as in: ![Screen 2 of Race to the Finish](./scratchProjects/Images/Y1R25RaceToTheFinish/Game/Y1R25RacetotheFinishGame.gif "Screen 2 of Race to the Finish") 
-
+Lastly, we also talked about how to modify characters, to make buttons have the characters in them as in: ![Screen 2 of Race to the Finish](./scratchProjects/Images/Y1R25RaceToTheFinish/Game/Y1R25RacetotheFinishGame.gif "Screen 2 of Race to the Finish"){: width="50%" } 
+ 
 ### Next Major Project Preview: 3 Little Pigs
 
 Most kids seem to be understanding how to use messages. We now have a basic understanding of almost all the buttons, and are ready to try more creative and advanced projects. Our next big project we will focus more on the creative side, telling stories, creating effects that help us tell the story. Our sample project will begin like this. Can you figure it out?
 
-![3 Little Pigs Preview](./images/2020-05-18/3LittlePigsPreview.gif)
+![3 Little Pigs Preview](./images/2020-05-18/3LittlePigsPreview.gif){: width="50%" }
 
 
 ### May 18th Homework
@@ -358,17 +351,17 @@ If you are motivated, you can go to the advanced version: **Message Mania for 6*
 #### Bonus Puzzle 
 At the end of the Follow the Maze Project, the cake appears when Cat enters the last square. I used a special trick to do that. It uses Controls in a special way. Can you figure it out? Click below  for a hint:
 
-   <details>
-   <summary>#### May 18th Follow the Maze Cake Puzzle Hint
-   </summary>
+<details>
+ <summary>#### May 18th Follow the Maze Cake Puzzle Hint
+</summary>
 
-   #### May 18th Follow the Maze Cake Puzzle Hint
+#### May 18th Follow the Maze Cake Puzzle Hint
 
-   What is the little blue line at the edge of the entrance?
+What is the little blue line at the edge of the entrance?
 
-   ![picture of entrance to last square in maze](./images/2020-05-18/CatEnteringMaze.jpg)
+![picture of entrance to last square in maze](./images/2020-05-18/CatEnteringMaze.jpg)
 
-   </details>
+</details>
 
 This is what the model project looked like:
 
