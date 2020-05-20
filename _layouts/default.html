@@ -108,6 +108,22 @@
             });
 
 
+            $(".innerlink").on("click", function(event) {
+
+                //if closed and inner link open details first then trigger click
+                // TODO: Doesnt work for links to details within details
+                if (!$($(this).attr("href")).closest("details").prop("open")) {
+                    //old way: open without clicking 
+                    //$($(this).attr("href")).closest("details").attr("open", "open")
+                    // now: click
+                    $($(this).attr("href")).closest("details").find("summary").trigger("click");
+                    $($(this).attr("href")).trigger("click");
+                    //$(this).parents("li").last().children("a").first().addClass("toggled");
+                };
+            });
+
+
+
         });
     </script>
 
