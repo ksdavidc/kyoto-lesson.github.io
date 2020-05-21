@@ -22,35 +22,65 @@
             // makes sure details is open before inner click is applied, so link works.
             // Also toggle details but don't follow links on outermost links (for mobile)
             // and throw error if state is unmatched
-            // TODO: Doesn't work for links to details within details
+            // RECETNLY FIXED BUGGY??: Doesn't work for links to details within details
             $("#toc ul li a").on("click", function(event) {
 
                 //if closed and inner link open details first then trigger click
                 // TODO: Doesnt work for links to details within details
-                if (!$($(this).attr("href")).closest("details").prop("open") && $(this).is("ul li ul li a")) {
+                //alert( "prop" + $($(this).attr("href")).parents("details").last().prop("open")  )
+                //alert( "prop" + $($(this).attr("href")).parents("details").first().prop("open") + $($(this).attr("href")).parents("details").first().html() )
+                //old:
+                //if (!$($(this).attr("href")).closest("details").prop("open") && $(this).is("ul li ul li a")) {
+                //new:
+                if (!$($(this).attr("href")).parents("details").last().prop("open") && $(this).is("ul li ul li a")) {
                     //old way: open without clicking 
                     //$($(this).attr("href")).closest("details").attr("open", "open")
                     // now: click
-                    $($(this).attr("href")).closest("details").find("summary").trigger("click");
-                    $($(this).attr("href")).trigger("click");
+                    //wrong: $($(this).attr("href")).closest("details").find("summary").trigger("click");
+                    //via parents last:
+                    $($(this).attr("href")).parents("details").last().children("summary").first().trigger("click");
+
+                    //alert( "is detail is open " +  $($(this).attr("href")).parent().parent().is("details")  + $($(this).attr("href")).parent().parent().prop("open") )
+
+
+                    if (!$($(this).attr("href")).parent().parent().is("details") || ($($(this).attr("href")).parent().parent().is("details") && !$($(this).attr("href")).parent().parent().prop("open"))) {
+                        //alert( "triggering is detail is open " +  $($(this).attr("href")).parent().parent().is("details")  + $($(this).attr("href")).parent().parent().prop("open") )
+
+                        $($(this).attr("href")).trigger("click");
+                        //alert( "triggered is detail is open " +  $($(this).attr("href")).parent().parent().is("details")  + $($(this).attr("href")).parent().parent().prop("open") )
+
+                    };
+
+                    //alert( "via closest" + $($(this).attr("href")).closest("details").prop("open") + "last via parent" + $($(this).attr("href")).parents("details").last().prop("open") + " first via parent" + $($(this).attr("href")).parents("details").first().prop("open") )
                     //$(this).parents("li").last().children("a").first().addClass("toggled");
+                    return true;
                 };
 
                 //if open and inner link just trigger click 
-                if ($($(this).attr("href")).closest("details").prop("open") && $(this).is("ul li ul li a")) {
-                    $($(this).attr("href")).trigger("click");
+                if ($($(this).attr("href")).parents("details").last().prop("open") && $(this).is("ul li ul li a")) {
+
+                    if (!$($(this).attr("href")).parent().parent().is("details") || ($($(this).attr("href")).parent().parent().is("details") && !$($(this).attr("href")).parent().parent().prop("open"))) {
+                        //alert( "triggering is detail is open " +  $($(this).attr("href")).parent().parent().is("details")  + $($(this).attr("href")).parent().parent().prop("open") )
+
+                        $($(this).attr("href")).trigger("click");
+                        //alert( "triggered is detail is open " +  $($(this).attr("href")).parent().parent().is("details")  + $($(this).attr("href")).parent().parent().prop("open") )
+
+                    };
+
+                    //$($(this).attr("href")).trigger("click");
                     //$(this).parents("li").last().children("a").first().addClass("toggled");
+                    return true;
                 };
 
 
                 //if open and outer link close and don't follow link.
-                if ($($(this).attr("href")).closest("details").prop("open") && !$(this).is("ul li ul li a")) {
+                if ($($(this).attr("href")).parents("details").last().prop("open") && !$(this).is("ul li ul li a")) {
                     // checks toggle state
                     // toggled, then close and don't follow
                     // else if not toggled, throw error
                     if ($(this).parents("li").last().children("a").first().hasClass("toggled")) {
                         // close without clicking
-                        $($(this).attr("href")).closest("details").removeAttr("open");
+                        $($(this).attr("href")).parents("details").last().removeAttr("open");
                     } else {
                         alert("This is a minor error (unintended menu state). Please notify webmaster.")
                     }
@@ -59,9 +89,9 @@
                 };
 
                 //if closed and outer link open details don't follow link (for mobile users)
-                if (!$($(this).attr("href")).closest("details").prop("open") && !$(this).is("ul li ul li a")) {
+                if (!$($(this).attr("href")).parents("details").last().prop("open") && !$(this).is("ul li ul li a")) {
                     //open without clicking
-                    $($(this).attr("href")).closest("details").attr("open", "open")
+                    $($(this).attr("href")).parents("details").last().attr("open", "open")
                         // don't follow link
                     return false;
                 };
@@ -78,8 +108,8 @@
             $("nav ul li a").on("click", function(event) {
 
                 //if closed and inner tag-h3 link open details first
-                if (!$($(this).attr("href")).closest("details").prop("open") && $(this).is("nav .tag-h3 a")) {
-                    $($(this).attr("href")).closest("details").find("summary").trigger("click");
+                if (!$($(this).attr("href")).parents("details").last().prop("open") && $(this).is("nav .tag-h3 a")) {
+                    $($(this).attr("href")).parents("details").last().children("summary").first().trigger("click");
                 };
                 $($(this).attr("href")).trigger("click");
             });
@@ -97,7 +127,7 @@
                 if (e.offsetX <= parseInt($(this).css('borderLeftWidth'))) {
                     // needed or parent of details details gets closed too.
                     event.stopPropagation();
-                    $(this).find("summary").trigger("click");
+                    $(this).children("summary").first().trigger("click");
                 };
             });
 
@@ -112,11 +142,11 @@
 
                 //if closed and inner link open details first then trigger click
                 // TODO: Doesnt work for links to details within details
-                if (!$($(this).attr("href")).closest("details").prop("open")) {
+                if (!$($(this).attr("href")).parents("details").last().prop("open")) {
                     //old way: open without clicking 
                     //$($(this).attr("href")).closest("details").attr("open", "open")
                     // now: click
-                    $($(this).attr("href")).closest("details").find("summary").trigger("click");
+                    $($(this).attr("href")).parents("details").last().find("summary").trigger("click");
                     $($(this).attr("href")).trigger("click");
                     //$(this).parents("li").last().children("a").first().addClass("toggled");
                 };
@@ -353,6 +383,9 @@
 
                 {{ content }}
             </div>
+
+            <!-- spacer for inner links -->
+            <div style="height: 600px">&nbsp;</div>
 
         </section>
         <footer>
