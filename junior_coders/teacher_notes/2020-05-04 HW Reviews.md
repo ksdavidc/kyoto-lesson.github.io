@@ -1,7 +1,7 @@
 
 ### Animate My Project. May 4th Homework Review 
 
-#### Seinosuke
+#### Seinosuke Animate My Project. May 4th Homework Review 
 
 Seinosuke sent me a great Animate My Name Project. Let's all look at it. It was perfect. He did more than I asked. It is simple, easy to understand, and cute!
 
@@ -10,7 +10,7 @@ Seinosuke sent me a great Animate My Name Project. Let's all look at it. It was 
 ### The Race. May 4th Homework. Student Reviews
 
 
-#### Mikihiko 
+#### Mikihiko The Race. May 4th Homework. Student Reviews
 
 * This week. 
 
@@ -49,7 +49,7 @@ Seinosuke sent me a great Animate My Name Project. Let's all look at it. It was 
 
 
 
-#### Hugh
+#### Hugh The Race. May 4th Homework. Student Reviews
 
 
 * Project 48 
@@ -66,7 +66,7 @@ Project 49
 * Can you use messages to time teh events instead of timers?
 
   
-#### Leon 
+#### Leon The Race. May 4th Homework. Student Reviews
 
 Great job! 
 Nice Background
@@ -78,7 +78,7 @@ Nice job sending the yellow message to both characters.
 why do you repeat the baby's movement 8 times, instead of moving 8 steps? Same for hte horse...
 
 
-#### Anela
+#### Anela The Race. May 4th Homework. Student Reviews
 
 Great job. 
 
