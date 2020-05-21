@@ -295,7 +295,7 @@ details[open] summary ~ * {
 
 ### May 11th: Homework Review
 
-I reviewed the homework submissions, and further comments will be sent via email. 
+I reviewed the homework submissions, and further comments will be sent via email. We are still working on a better system for this, so bear with us.
 
 ### May 18th: Follow the Maze Project
 In this class, we continued working on the [Follow the Maze Project](./scratchProjects/3ButtonRaceFollowTheMazeHW.sjr), described on May 11th in  [homework below](#preview-for-may-18th-follow-the-maze-project){: .innerlink}. I didn't discuss the *surprise* at the end. That is a bonus question for this week.
