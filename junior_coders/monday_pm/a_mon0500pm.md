@@ -57,159 +57,6 @@ gicaption-11:
 
 
 ---
-<style>
-
-details {
-  
-  width: 93%;
-  margin-bottom: 10px;
-  background-color: white;
-  border-radius: 10px 10px;
-  padding: 0px 1em 0px 1em;
-  margin-bottom: 10px;
-  /* margin: 10px; */
-  border-left: 10px solid #3399cc!important;
-  /* box-shadow: 3px 3px 4px black; */
-}
-
-details[open] {
-  /* border-radius: 10px 10px;
-  background-color: pink;
-  padding: 2px 6px;
-  margin: 0;
-  box-shadow: 3px 3px 4px black; */
-  margin-bottom: 15px;
-  padding-bottom: 10px;
-  border-left: 9px solid #3399cc!important;
-  border-right: 1px solid #3399cc!important;
-  border-bottom: 1px solid #3399cc!important;
-}
-
-
-
-/* give subdetails different color */
-details details {
-  background-color: aliceblue;
-  }
-
-details > summary {
-    padding: 6px 6px 6px 6px;
-    width: calc(100% + 1em + 3px);
-    background-color: #ffeca0;
-    border: none;
-    cursor: pointer;
-    margin-top: -2px;
-    margin-left: -1em;
-    /* between bottom of summary and top of details content */
-    margin-bottom: 10px;
-    border-radius: 0px 10px 0 0;
-}
-
-details > summary:focus {
-outline: -webkit-focus-ring-color auto 0px;
-}
-
-/* The header-link in the summary is not recorded in the toc, so it is manually repeated in the text ( so it is recorded by the toc ), and this css removes the repeat ( next sibling of the summary ) from the output, so it doesn't appear twice. */
-details summary + * {
-    display: none;
-}
-
-details details > p {
-/* background-color: pink; */
-}
-
-/* makes summary content inline, to preserve links and remove extra space */
-summary p, summary h2,summary h3,summary h4, summary h5, summary h6 {
-    display: inline;
-}
-
-details[open] summary ~ * {
-  animation: sweepin 2s ease-in-out;
-}
-
-@keyframes sweep {
-  0%    {opacity: 0; margin-left: -10px}
-  100%  {opacity: 1; margin-left: 0px}
-}
-
-
-@keyframes sweepin {
-  0% {
-    opacity: 0;
-    margin-left: -10px
-  }
-  100% {
-    opacity: 1;
-    margin-left: 0px
-  }
-}
-
-@keyframes sweepout {
-  0% {
-    opacity: 1;
-    margin-left: 0px
-  }
-  100% {
-    opacity: 0;
-    margin-left: -10px
-  }
-}
-
-#toc>ul>li>a{
-    font-weight: bold;
-}
-#toc>ul>li>a::before {
-    content: "> ";
-    font-weight: bold;
-}
-
-#toc>ul>li>a.toggled::before {
-    content: "  ";
-}
-#toc>ul>li:hover>a::before {
-    content: "^ ";
-    font-weight: bold;
-
-}
-#toc>ul>li:hover {
-    background-color: #ffeca0;
-}
-
-
-
-#toc li {
-    display: block;
-    transition-duration: 0.5s;
-}
-
-#toc li:hover {
-    cursor: pointer;
-}
-
-#toc ul li ul {
-    visibility: hidden;
-    opacity: 0;
-    position: relative;
-    transition: all 0.5s ease;
-    margin-left: 1rem;
-    left: 0;
-    display: none;
-    background-color: beige;
-}
-
-#toc ul li:hover>ul,
-#toc ul li:hover ul li ul {
-    visibility: visible;
-    opacity: 1;
-    display: block;
-}
-
-#toc ul li ul li {
-    clear: both;
-    width: 100%;
-}
-
-</style>
 
 <div id="toc">
 
@@ -245,7 +92,7 @@ details[open] summary ~ * {
   * [Teacher Says with Zoom](#teacher-says-with-zoom)
   * [Alien Planet](#alien-planet)
   * [How to send projects](#how-to-send-projects)
-  * [Update Scratchjr](#update-scratchjr)
+  * [Update ScratchJr](#update-scratchjr)
   * [April 27 Homework](#april-27-homework)
   * [Addenda](#addenda)
     * [Addendum: Skill Review Checklist](#addendum-skill-review-checklist)
@@ -314,7 +161,7 @@ I also explained how to make maze using "squares with holes", the 3rd kind of ma
 
 <div class="slider">
 <!-- These have to be links  -->
-<div class="slides" style="width: 50%!important;">
+<div class="slides" style="width: 50%!important; ">
 [![ {{ page.gilabel-09 }} ]({{ page.giurl-09 }}){: height="200px"}]({{ page.giurl-09 }}){: target="_blank"}
 {: #slide-09 style="margin-top:0px;"}
 
@@ -330,7 +177,9 @@ I also explained how to make maze using "squares with holes", the 3rd kind of ma
 
 Another great question was about how to make the arrows, which is shown below in the [homework for May 11th, below](#preview-for-may-18th-follow-the-maze-project){: .innerlink}, as well.
 
-Lastly, we also talked about how to modify characters, to make buttons have the characters in them as in: ![Screen 2 of Race to the Finish](./scratchProjects/Images/Y1R25RaceToTheFinish/Game/Y1R25RacetotheFinishGame.gif "Screen 2 of Race to the Finish"){: width="50%" } 
+Lastly, we also talked about how to modify characters, to make buttons have the characters in them as in:
+
+![Screen 2 of Race to the Finish](./scratchProjects/Images/Y1R25RaceToTheFinish/Game/Y1R25RacetotheFinishGame.gif "Screen 2 of Race to the Finish"){: width="50%" } 
  
 ### Next Major Project Preview: 3 Little Pigs
 
@@ -351,7 +200,7 @@ This week's homework has 3 parts, but **you don't have to do them all**.
 
 ##### Warm-up: Planning for **Message Mania for 3**
 
-Do not use scratchjr for this. Just plan it out. Write down or draw what will happen. Don't use scratchjr.
+Do not use ScratchJr for this. Just plan it out. Write down or draw what will happen. Don't use ScratchJr.
 
 * Design 3 characters. 
   * draw them or describe them in words
@@ -361,7 +210,7 @@ Do not use scratchjr for this. Just plan it out. Write down or draw what will ha
   * yellow: ask a question. What will the question be??
 * NO action can be repeated. 
 
-We will do it in class next week as a warmup. Did I mention not to use scratchjr for this?
+We will do it in class next week as a warmup. Did I mention not to use ScratchJr for this?
 
 ##### Advanced: **Message Mania for 6**
 
@@ -577,7 +426,7 @@ We did a [guided walkthough][] of the [skills review sample project][] [^downloa
 [skills we should all know at this stage]: #addendum-skill-review-checklist
 [skills review sample project]: ./scratchProjects/Project120200427SkillsTest.sjr
 
-[^downloadingprojects]: **Downloading projects**: If you have any difficulty opening projects in Scratchjr, please note two things. 1) Scratchjr must be open when you open the sjr file. 2) You must have the latest version installed. If you still have problems let us know.
+[^downloadingprojects]: **Downloading projects**: If you have any difficulty opening projects in ScratchJr, please note two things. 1) ScratchJr must be open when you open the sjr file. 2) You must have the latest version installed. If you still have problems let us know.
 
 ### Teacher Says with Zoom
 
@@ -591,9 +440,9 @@ I showed everyone the [Alien Planet Project](./scratchProjects/Y1R31Alienplanet.
 
 When you are done, you can [email it to me](mailto:teacher@kyotolesson.com) from the scratch project page. See the [addendum on sending projects](#addendum-sending-projects) for a How-to.
 
-### Update Scratchjr
+### Update ScratchJr
 
-Scratchjr just updated their program[^downloadingprojects]. I suggest you update it on your device, here:
+ScratchJr just updated their program[^downloadingprojects]. I suggest you update it on your device, here:
 
 -   <a href="https://itunes.apple.com/us/app/scratchjr/id895485086?ls=1&amp;mt=8">App Store</a>
 
@@ -701,100 +550,6 @@ Here is my [direct email](mailto:teacher@kyotolesson.com) or email alan or the s
 
 #### Addendum: Code for Alien Planet
 
-<style>
-.slider {
-width: 100%;
-text-align: center;
-overflow: hidden;
-}
-
-.slides  {
-display: flex;
-overflow-x: auto;
-scroll-snap-type: x mandatory;
-scroll-behavior: smooth;
--webkit-overflow-scrolling: touch;
-/*
-scroll-snap-points-x: repeat(300px);
-scroll-snap-type: mandatory;
-*/
-}
-
-.slides::-webkit-scrollbar {
-width: 10px;
-height: 10px;
-}
-
-.slides::-webkit-scrollbar-thumb {
-background: black;
-border-radius: 10px;
-}
-
-.slides::-webkit-scrollbar-track {
-background: transparent;
-}
-
-.slides p  {
-scroll-snap-align: start;
-flex-shrink: 0;
-width: 100%;
-height: auto;
-margin-right: 50px;
-border-radius: 10px;
-background: #eee;
-transform-origin: center center;
-transform: scale(1);
-transition: transform 0.5s; 
-position: relative;
-display: flex;
-justify-content: center;
-align-items: center;
-  padding-top: calc(100% - 350px); 
-  margin-top: calc(350px - 100%);
-}
-
-.slides p:target {
-/*   transform: scale(1); 
-    padding-top: calc(100% - 500px);
-    margin-top: 0px;*/
-}
-.slides ul:target {
-/*   transform: scale(1); */
-}
-
-
-.slider>a {
-display: inline-flex;
-width: 1.5rem;
-height: 1.5rem;
-background: pink;
-text-decoration: none;
-align-items: center;
-justify-content: center;
-border-radius: 50%;
-margin: 0 0 0.5rem 0;
-position: relative;
-}
-
-.slider>a:active {
-top: 1px;
-background-color: pink;
-}
-
-.slider>a:focus {
-background: #00c;
-border: 2px solid red;
-}
-/* Don't need button navigation */
-
-
-@supports (scroll-snap-type) {
-.slider>a {
-display: none;
-}
-}
-
-</style>
 <div class="slider">
 <!-- These have to be links  -->
 <div class="slides">
@@ -1031,7 +786,7 @@ Because this class was partially a remote class, I wasn't able to fully cover th
 Because of concerns about the Corona Virus this class was a combination of student's participating in person and via a Discord session. Though it was the first time doing a remote class, and as a result of patience and cooperation of students and families, I think we were able to have a successful class. However, we did notice some areas where it could be improved, and have discovered that [Zoom](https://zoom.us/) will be able to provide us and students with a better experience. Next class we will start using Zoom.
 
 ### Dragon Maze Demo
-
+ScratchJr
 First, I demonstrated a ScratchJr project demonstrating a character eating a cake in order to make a dragon disappear and being able to exit a maze. The purpose was to show how to use Action Blocks for making characters visible or invisible, sending messages, or initiating actions on Bumps. The rest of the class was a detailed and progressive practice in using each of these blocks by creating 4 characters who used these actions [in various ways](./../lessons/jc_a_003.md). While somewhat silly and arbitrary, the exercise was intended to help the children get ample practice using the blocks, as well as beginning to understand programing logic and sequencing. For reference I have put the details .
 
 With these blocks described [here](./../lessons/jc_a_003.html) we have all we need to create the Disappearing Dragon Maze, which we will begin next week.
@@ -1064,3 +819,8 @@ Class Outline & homework: [Introduction to the computer and ScratchJr](../lesson
 This class went very well. The kids were active and eager to participate. Don't forget to provide a snack for your child!!
 
 </details>
+
+
+<!-- <div class="bottomSpacer">
+
+</div> -->
