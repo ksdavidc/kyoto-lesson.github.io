@@ -166,24 +166,31 @@
         #banner {
             right: 0%;
             top: 110px;
+            border: none;
         }
         
         #topButton {
             position: fixed;
-            right: calc(50% - 295px);
-            top: 111px;
-            width: 24px;
+            /* right: calc(50% - 295px); */
+            left: calc(50% - 0px);
+            top: 151px;
+            /* width: 24px; */
             z-index: 500;
             margin-left: -325px;
+            color: blue;
             padding: 10px 12px;
+            padding: 6px 4px 4px 4px;
             margin-top: 6px;
             line-height: 14px;
             font-size: 14px;
-            background-color: #FFE788;
-            border: 1px solid #dba500;
+            background-color: #ffcc00;
+            /* border: 1px solid #dba500; */
             background: linear_gradient(#ffe788, #ffce38);
-            border-radius: 2px;
-            box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
+            /* border-radius: 18px; */
+            /* border-radius: 10px 0px 0px 0px; */
+            /* box-shadow: 0px 3px 3px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1); */
+            box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+            border-top: none;
         }
         /* makes top button appear in "right" place for mobile */
         
@@ -192,7 +199,8 @@
             #topButton {
                 /* this is a kludge to override theme stylesheet. Better formula needed.  */
                 margin-left: -50vw!important;
-                left: 134vw!important;
+                /* left: 134vw!important; 
+                top: 151px;*/
             }
         }
         
@@ -256,11 +264,6 @@
             padding: 0px 0px 0px 20px; */
         }
         
-        div#contentWrapper ul li ul {
-            padding: 0px 0px 0px 20px;
-            margin-bottom: 0px;
-        }
-        
         a,
         nav ul a {
             color: #3399cc;
@@ -268,6 +271,16 @@
         
         nav ul {
             padding-left: 0px;
+        }
+        
+        div#contentWrapper ul li ul {
+            padding: 0px 0px 0px 20px;
+            margin-bottom: 0px;
+        }
+        
+        div#contentWrapper #toc ul,
+        div#contentWrapper #toc ul li ul {
+            padding-left: 10px;
         }
         
         a:hover,
@@ -343,6 +356,11 @@
     <!-- end banner -->
 
     <div class="wrapper">
+        <div id="topButton">
+            <a href="#contentWrapper" class="button fork"><b>^Top</b></a>
+        </div>
+
+        <!-- necessary for nav section to appear-->
         <nav>
             <ul></ul>
 
@@ -377,15 +395,12 @@
 
             <div id="contentWrapper">
 
-                <div id="topButton">
-                    <a href="#contentWrapper" class="button fork"><strong>Top</strong></a>
-                </div>
 
                 {{ content }}
             </div>
 
             <!-- spacer for inner links -->
-            <div style="height: 600px">&nbsp;</div>
+            <div class="bottomSpacer">&nbsp;</div>
 
         </section>
         <footer>
