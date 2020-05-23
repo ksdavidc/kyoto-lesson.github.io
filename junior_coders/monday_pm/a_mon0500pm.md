@@ -99,8 +99,12 @@ gicaption-11:
     * [Addendum: Alien Planet Project Assignment](#addendum-alien-planet-project-assignment)
     * [Addendum: Sending Projects](#addendum-sending-projects)
     * [Addendum: Code for Alien Planet](#addendum-code-for-alien-planet)
-Proceed to [Monday PM Archives Page 2](./a_mon0500pm-Archives.html)
+
+* Proceed to [Monday PM Archives Page 2](./a_mon0500pm-Archives.html)
+
 </div>
+fix links
+
 
 * Click [> Date]() or <span style="color: #3399cc;  border-left: 9px solid #3399cc!important;border-radius: 4px 4px; font-weight: bold">BLUE</span> borders to toggle the <span style="background-color:#ffeca0; border-left: 10px solid #3399cc !important;border-radius: 4px 4px;"><b>  &nbsp;<span style="font-size: 70%">▶︎</span>&nbsp;&nbsp;Details&nbsp;&nbsp;&nbsp;&nbsp;</b></span>
   
