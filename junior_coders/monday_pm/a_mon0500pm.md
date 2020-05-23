@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Getting Started with Scratch Jr. (Monday PM) LATEST
+title: Getting Started with Scratch Jr.
+title2: (Monday PM) LATEST
 
 # gi= gallery image. Place all the url (required) here, along with an (optional) label (goes above the image)
 # and/or caption (below the image) and then paste the raw markdown in teh appropriate place.
@@ -54,7 +55,6 @@ gicaption-10:
 gilabel-11: Square-with-holes
 giurl-11: ./images/2020-05-11/FollowTheMazeGame.gif
 gicaption-11: 
-
 
 ---
 》 Proceed to [Page 2](./a_mon0500pm-Archives.html)

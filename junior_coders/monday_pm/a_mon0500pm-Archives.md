@@ -1,8 +1,7 @@
 ---
 layout: default
-title: |
-    Getting Started with Scratch Jr. 
-    (Monday PM) ARCHIVES
+title:  Getting Started with Scratch Jr.  
+title2: (Monday PM) ARCHIVES
 
 # gi= gallery image. Place all the url (required) here, along with an (optional) label (goes above the image)
 # and/or caption (below the image) and then paste the raw markdown in teh appropriate place.
