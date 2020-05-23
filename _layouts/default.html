@@ -169,7 +169,8 @@
             border: none;
         }
         
-        #topButton {
+        #topButton,
+        #bottomButton {
             position: fixed;
             /* right: calc(50% - 295px); */
             left: calc(50% - 0px);
@@ -181,7 +182,7 @@
             padding: 10px 12px;
             padding: 6px 4px 4px 4px;
             margin-top: 6px;
-            line-height: 14px;
+            line-height: 22px;
             font-size: 14px;
             background-color: #ffcc00;
             /* border: 1px solid #dba500; */
@@ -191,6 +192,14 @@
             /* box-shadow: 0px 3px 3px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1); */
             box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
             border-top: none;
+        }
+        
+        #bottomButton {
+            top: unset;
+            /* right: calc(50% - 295px); */
+            left: calc(50% - 0px);
+            bottom: 0px;
+            /* width: 24px; */
         }
         /* makes top button appear in "right" place for mobile */
         
@@ -612,6 +621,12 @@ margin-bottom: 80vh;*/
     <div class="wrapper">
         <div id="topButton">
             <a href="#contentWrapper" class="button fork"><b>^Top</b></a>
+            <br>
+            <a href="#bottomSpacer" class="button fork"><b>˅Bottom</b></a>
+
+        </div>
+        <div id="bottomButton">
+            <a href="#bottomSpacer" class="button fork"><b>˅Bottom</b></a>
         </div>
 
         <!-- necessary for nav section to appear-->
@@ -654,7 +669,7 @@ margin-bottom: 80vh;*/
             </div>
 
             <!-- spacer for inner links -->
-            <div class="bottomSpacer">&nbsp;</div>
+            <div id="bottomSpacer" class="bottomSpacer">&nbsp;</div>
 
         </section>
         <footer>
