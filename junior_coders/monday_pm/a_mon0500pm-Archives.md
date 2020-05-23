@@ -57,7 +57,7 @@ gicaption-11:
 
 
 ---
->> Return to [Page 1](./a_mon0500pm.html)
+《 Return to [Page 1](./a_mon0500pm.html)
 
 <div id="toc">
 
