@@ -158,10 +158,16 @@
     </script>
 
     <style>
+        html {
+            scroll-padding-top: 170px;
+        }
+        
         body {
             background-color: ivory;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            scroll-padding-top: 170px;
         }
+        /* fixes bad scrolling on gallery */
         
         #banner {
             right: 0%;
@@ -253,7 +259,14 @@
             font-size: large;
             text-align: center;
             margin-top: 25px;
+        }
+        
+        div#subtitle {
+            text-align: center;
             margin-bottom: 20px;
+            margin-top: 0px;
+            font-size: larger;
+            color: #000;
         }
         
         h2 {
@@ -329,15 +342,6 @@
             top: 190px;
         }
         /* fixes bad scrolling to anchors */
-        
-        html {
-            scroll-padding-top: 170px;
-        }
-        
-        body {
-            scroll-padding-top: 170px;
-        }
-        /* fixes bad scrolling on gallery */
         
         #contentWrapper {
             overflow-x: auto;
@@ -652,6 +656,10 @@ margin-bottom: 80vh;*/
             <div id="contentHeader">
                 <h1>{{ page.title | default: site.title | default: site.github.repository_name }}
                 </h1>
+                <div id="subtitle">
+                    <p>{{ page.title2 }}
+                        <p>
+                </div>
             </div>
 
             <div id="contentWrapper">
