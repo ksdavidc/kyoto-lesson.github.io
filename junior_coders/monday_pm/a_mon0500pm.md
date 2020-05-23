@@ -57,7 +57,7 @@ gicaption-11:
 
 
 ---
->> Proceed to [Page 2](./a_mon0500pm-Archives.html)
+》 Proceed to [Page 2](./a_mon0500pm-Archives.html)
 
 <div id="toc">
 
