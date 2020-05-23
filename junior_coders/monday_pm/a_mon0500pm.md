@@ -57,6 +57,7 @@ gicaption-11:
 
 
 ---
+>> Proceed to [Page 2](./a_mon0500pm-Archives.html)
 
 <div id="toc">
 
@@ -99,8 +100,6 @@ gicaption-11:
     * [Addendum: Alien Planet Project Assignment](#addendum-alien-planet-project-assignment)
     * [Addendum: Sending Projects](#addendum-sending-projects)
     * [Addendum: Code for Alien Planet](#addendum-code-for-alien-planet)
-
-* Proceed to [Monday PM Archives Page 2](./a_mon0500pm-Archives.html)
 
 </div>
 
@@ -564,7 +563,6 @@ Here is my [direct email](mailto:teacher@kyotolesson.com) or email alan or the s
 </details>
 
 
-Proceed to [Monday PM Archives Page 2](./a_mon0500pm-Archives.html)
 <!-- <div class="bottomSpacer">
 
 </div> -->
