@@ -155,6 +155,8 @@ Lastly, we also talked about how to modify characters, to make buttons have the 
 
 ![Screen 2 of Race to the Finish](./scratchProjects/Images/Y1R25RaceToTheFinish/Game/Y1R25RacetotheFinishGame.gif "Screen 2 of Race to the Finish"){: width="50%" } 
  
+
+ <!-- move to lessons -->
 ### Next Major Project Preview: 3 Little Pigs
 
 Most kids seem to be understanding how to use messages. We now have a basic understanding of almost all the buttons, and are ready to try more creative and advanced projects. Our next big project we will focus more on the creative side, telling stories, creating effects that help us tell the story. Our sample project will begin like this. Can you figure it out?
@@ -170,6 +172,7 @@ This week's homework has 3 parts, but **you don't have to do them all**.
 #### Finish up projects from May 11th
 * Keep working on your projects and be prepared to tell me about your project using a small description. It doesn't have to be written. The focus in on the relationship between words/stories and the code. We will do more of this next week.
 
+<!-- move to lessons -->
 #### Intro to Message Mania 
 
 ##### Warm-up: Planning for **Message Mania for 3**
@@ -406,6 +409,8 @@ We did a [guided walkthough][] of the [skills review sample project][] [^downloa
 
 I talked about the game [Zoom version of the Teacher Says game](../lessons/TeacherSays.html), which we played once before. In this version, I walked through the project and students sent reactions, either 1 👍 or 2 👏, showing which button does **the next action**. Everyone did great using the zoom reaction buttons. Just using your hands was okay too.
 
+
+<!-- move to lessons -->
 ### Alien Planet
 
 I showed everyone the [Alien Planet Project](./scratchProjects/Y1R31Alienplanet.sjr). I gave students an assignment modelled on the Alien Planet ([see addendum](#addendum-alien-planet-project-assignment)) . See [this addendum](#addendum-code-for-alien-planet) for the code.
@@ -461,7 +466,7 @@ Go back to [Skills Review](#skills-review)
 
 </details>
 <!-- End Addendum: Skill Review Checklist -->
-
+<!-- move to lessons -->
 <details>
 <summary>#### Addendum: Alien Planet Project Assignment
 </summary>
@@ -519,6 +524,7 @@ Here is my [direct email](mailto:teacher@kyotolesson.com) or email alan or the s
 
 </details>
 
+<!-- move to lessons -->
 <details><summary>#### Addendum: Code for Alien Planet
 </summary>
 
