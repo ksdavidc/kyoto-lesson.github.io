@@ -57,6 +57,35 @@ giurl-11: ./images/2020-05-11/FollowTheMazeGame.gif
 gicaption-11: 
 
 ---
+<style>
+
+a:empty:before {
+  content: "☞";
+  font-size: .93em;
+  vertical-align: super;
+  color: red;
+  font-weight: bold;
+}
+a:empty:after {
+  content: "";
+}
+
+a[title]:hover:after {
+  content: attr(title);
+  position: absolute;
+  background: beige;
+  border: 2px solid maroon;
+  border-radius: 10px;
+  padding: 10px;
+  color: navy;
+  display: block;  
+  max-width:50%;
+  z-index: 100;
+}
+
+
+
+</style>
 
 Proceed to [Page 2](./a_mon0500pm-Archives.html) 》 
 {: style="float: right;"}
@@ -336,7 +365,7 @@ Sometimes I am paying attention to one student, and the part of my screen that s
 
 ### Animate My name
 
-I had students make their own project based on the [Bootup Animate My Name](https://www.youtube.com/watch?v=mQzWGY4xuSY) project, which you can [download here](https://drive.google.com/open?id=0B342uiaCLSS3YzJTUmlha1FQRjF1cldPdjQtUVhGUjFROEFz) [^downloadingprojects]. Students created characters based on the letters in their name.
+I had students make their own project based on the [Bootup Animate My Name](https://www.youtube.com/watch?v=mQzWGY4xuSY) project, which you can [download here](https://drive.google.com/open?id=0B342uiaCLSS3YzJTUmlha1FQRjF1cldPdjQtUVhGUjFROEFz) [](# "If you have any difficulty opening projects in ScratchJr, please note two things. 1) ScratchJr must be open when you open the sjr file. 2) You must have the latest version installed. If you still have problems let us know.") using the [skills we should all know at this stage"). Students created characters based on the letters in their name.
 We talked about what each letter was doing. Then students created their own.
 
 As a follow, we changed it so instead of all the characters moving at once, they moved in turn. Some kids got creative and had the letters say things and do funny things along the way.
@@ -397,13 +426,13 @@ In class we will continue this story. Any ideas?
 
 ### Skills Review
 
-We did a [guided walkthough][] of the [skills review sample project][] [^downloadingprojects] using the [skills we should all know at this stage][]. Can you do them all? You have learned a lot already!!!
+
+We did a [guided walkthough][] of the [skills review sample project][] [](# "If you have any difficulty opening projects in ScratchJr, please note two things. 1) ScratchJr must be open when you open the sjr file. 2) You must have the latest version installed. If you still have problems let us know.") using the [skills we should all know at this stage"][]. Can you do them all? You have learned a lot already!!!
 
 [guided walkthough]: ../lessons/20200427SkillsTest.html
 [skills we should all know at this stage]: #addendum-skill-review-checklist
 [skills review sample project]: ./scratchProjects/Project120200427SkillsTest.sjr
 
-[^downloadingprojects]: **Downloading projects**: If you have any difficulty opening projects in ScratchJr, please note two things. 1) ScratchJr must be open when you open the sjr file. 2) You must have the latest version installed. If you still have problems let us know.
 
 ### Teacher Says with Zoom
 
@@ -421,7 +450,7 @@ When you are done, you can [email it to me](mailto:teacher@kyotolesson.com) from
 
 ### Update ScratchJr
 
-ScratchJr just updated their program[^downloadingprojects]. I suggest you update it on your device, here:
+ScratchJr just updated their program using the [skills we should all know at this stage") [](# "If you have any difficulty opening projects in ScratchJr, please note two things. 1) ScratchJr must be open when you open the sjr file. 2) You must have the latest version installed. If you still have problems let us know."). I suggest you update it on your device, here:
 
 -   <a href="https://itunes.apple.com/us/app/scratchjr/id895485086?ls=1&amp;mt=8">App Store</a>
 
