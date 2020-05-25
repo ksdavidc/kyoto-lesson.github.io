@@ -29,7 +29,7 @@
                 if (!$($(this).attr("href")).parents("details").last().prop("open") && $(this).is("ul li ul li a")) {
                     // open main details for this
                     $($(this).attr("href")).parents("details").last().children("summary").first().trigger("click");
-                    // trigger click only if not a details tag, or if details tag and not open
+                    // trigger link only if not to a details tag, or if to a inner details tag (e.g. "details" details") and this details is not open
                     if (!$($(this).attr("href")).parent().parent().is("details") || ($($(this).attr("href")).parent().parent().is("details") && !$($(this).attr("href")).parent().parent().prop("open"))) {
                         $($(this).attr("href")).trigger("click");
                     };
@@ -38,7 +38,7 @@
 
                 //if open and inner link just trigger click 
                 if ($($(this).attr("href")).parents("details").last().prop("open") && $(this).is("ul li ul li a")) {
-                    // trigger click only if not a details tag, or if details tag and not open
+                    // trigger link only if not to a details tag, or if to a inner details tag (e.g. "details" details") and this details is not open
                     if (!$($(this).attr("href")).parent().parent().is("details") || ($($(this).attr("href")).parent().parent().is("details") && !$($(this).attr("href")).parent().parent().prop("open"))) {
                         $($(this).attr("href")).trigger("click");
                     };
@@ -69,6 +69,7 @@
                 };
 
             });
+            // END TOC SECTION
 
             // NAV SECTION
 
@@ -89,10 +90,11 @@
             // shows tag-h3 when tag-h2 is hovered
             $("nav .tag-h2 a").mouseover(function() {
 
-                // shows contigous tag-h3. Have to skip the extra tag-h2 created by details
+                // shows contiguous tag-h3. Have to skip the extra tag-h2 created by details
                 // by finding next .tag-h3, then selecting contiguous
                 $(this).parent().nextUntil(".tag-h3").nextUntil(".tag-h2").toggle("slow", "swing");
             });
+            // END NAV SECTION
 
             // DETAILS SECTION
 
@@ -105,22 +107,23 @@
                 };
             });
 
-            // This toggles both menu elements when details state changes by finding 
+            // This toggles both menu elements when details state changes by finding links to detail h2 ids.
+            // only details with h2 ids do this. This may need a tweak.
             $('details').on('toggle', function() {
                 var $elementToToggle = "[href='#" + $(this).children("h2").first().attr("id") + "']";
                 $($elementToToggle).toggleClass("toggled");
             });
 
-
+            // .innerlink class allows links in one main details to open links within another main details even if that main details is closed.
             $(".innerlink").on("click", function(event) {
-
                 //if closed and inner link open details first then trigger click
-                // TODO: Doesnt work for links to details within details
+                // TODO: Not checked for links to details within details
                 if (!$($(this).attr("href")).parents("details").last().prop("open")) {
                     $($(this).attr("href")).parents("details").last().find("summary").trigger("click");
                     $($(this).attr("href")).trigger("click");
                 };
             });
+            // END DETAILS SECTION
 
 
 
