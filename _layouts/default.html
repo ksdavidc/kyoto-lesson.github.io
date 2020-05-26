@@ -125,8 +125,10 @@
             });
             // END DETAILS SECTION
 
-
-
+            // Don't follow empty links, like footnotes
+            $('a[href="#"]').on("click", function(event) {
+                return false;
+            });
         });
     </script>
 
