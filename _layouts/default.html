@@ -98,6 +98,9 @@
 
             // DETAILS SECTION
 
+            // open top details on first run
+            $("details").first().children("summary").first().trigger("click")
+
             // This toggles details when border is clicked
             $("details").click(function(e) {
                 if (e.offsetX <= parseInt($(this).css('borderLeftWidth'))) {
