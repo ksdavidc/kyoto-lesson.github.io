@@ -450,7 +450,7 @@ When you are done, you can [email it to me](mailto:teacher@kyotolesson.com) from
 
 ### Update ScratchJr
 
-ScratchJr just updated their program using the [skills we should all know at this stage][]] [](# "If you have any difficulty opening projects in ScratchJr, please note two things. 1) ScratchJr must be open when you open the sjr file. 2) You must have the latest version installed. If you still have problems let us know."). I suggest you update it on your device, here:
+ScratchJr just updated their program using the [skills we should all know at this stage][] [](# "If you have any difficulty opening projects in ScratchJr, please note two things. 1) ScratchJr must be open when you open the sjr file. 2) You must have the latest version installed. If you still have problems let us know."). I suggest you update it on your device, here:
 
 -   <a href="https://itunes.apple.com/us/app/scratchjr/id895485086?ls=1&amp;mt=8">App Store</a>
 
