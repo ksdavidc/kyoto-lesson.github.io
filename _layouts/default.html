@@ -22,53 +22,26 @@
             // makes sure details is open before inner click is applied, so link works.
             // Also toggle details but don't follow links on outermost links (for mobile)
             // and throw error if state is unmatched
-            // RECETNLY FIXED BUGGY??: Doesn't work for links to details within details
+            // RECENTLY FIXED BUGGY??: works for links to details within details
             $("#toc ul li a").on("click", function(event) {
 
-                //if closed and inner link open details first then trigger click
-                // TODO: Doesnt work for links to details within details
-                //alert( "prop" + $($(this).attr("href")).parents("details").last().prop("open")  )
-                //alert( "prop" + $($(this).attr("href")).parents("details").first().prop("open") + $($(this).attr("href")).parents("details").first().html() )
-                //old:
-                //if (!$($(this).attr("href")).closest("details").prop("open") && $(this).is("ul li ul li a")) {
-                //new:
+                //if closed and inner link open main details first then trigger click
                 if (!$($(this).attr("href")).parents("details").last().prop("open") && $(this).is("ul li ul li a")) {
-                    //old way: open without clicking 
-                    //$($(this).attr("href")).closest("details").attr("open", "open")
-                    // now: click
-                    //wrong: $($(this).attr("href")).closest("details").find("summary").trigger("click");
-                    //via parents last:
+                    // open main details for this
                     $($(this).attr("href")).parents("details").last().children("summary").first().trigger("click");
-
-                    //alert( "is detail is open " +  $($(this).attr("href")).parent().parent().is("details")  + $($(this).attr("href")).parent().parent().prop("open") )
-
-
+                    // trigger link only if not to a details tag, or if to a inner details tag (e.g. "details" details") and this details is not open
                     if (!$($(this).attr("href")).parent().parent().is("details") || ($($(this).attr("href")).parent().parent().is("details") && !$($(this).attr("href")).parent().parent().prop("open"))) {
-                        //alert( "triggering is detail is open " +  $($(this).attr("href")).parent().parent().is("details")  + $($(this).attr("href")).parent().parent().prop("open") )
-
                         $($(this).attr("href")).trigger("click");
-                        //alert( "triggered is detail is open " +  $($(this).attr("href")).parent().parent().is("details")  + $($(this).attr("href")).parent().parent().prop("open") )
-
                     };
-
-                    //alert( "via closest" + $($(this).attr("href")).closest("details").prop("open") + "last via parent" + $($(this).attr("href")).parents("details").last().prop("open") + " first via parent" + $($(this).attr("href")).parents("details").first().prop("open") )
-                    //$(this).parents("li").last().children("a").first().addClass("toggled");
                     return true;
                 };
 
                 //if open and inner link just trigger click 
                 if ($($(this).attr("href")).parents("details").last().prop("open") && $(this).is("ul li ul li a")) {
-
+                    // trigger link only if not to a details tag, or if to a inner details tag (e.g. "details" details") and this details is not open
                     if (!$($(this).attr("href")).parent().parent().is("details") || ($($(this).attr("href")).parent().parent().is("details") && !$($(this).attr("href")).parent().parent().prop("open"))) {
-                        //alert( "triggering is detail is open " +  $($(this).attr("href")).parent().parent().is("details")  + $($(this).attr("href")).parent().parent().prop("open") )
-
                         $($(this).attr("href")).trigger("click");
-                        //alert( "triggered is detail is open " +  $($(this).attr("href")).parent().parent().is("details")  + $($(this).attr("href")).parent().parent().prop("open") )
-
                     };
-
-                    //$($(this).attr("href")).trigger("click");
-                    //$(this).parents("li").last().children("a").first().addClass("toggled");
                     return true;
                 };
 
@@ -79,7 +52,6 @@
                     // toggled, then close and don't follow
                     // else if not toggled, throw error
                     if ($(this).parents("li").last().children("a").first().hasClass("toggled")) {
-                        // close without clicking
                         $($(this).attr("href")).parents("details").last().removeAttr("open");
                     } else {
                         alert("This is a minor error (unintended menu state). Please notify webmaster.")
@@ -97,6 +69,7 @@
                 };
 
             });
+            // END TOC SECTION
 
             // NAV SECTION
 
@@ -116,11 +89,17 @@
 
             // shows tag-h3 when tag-h2 is hovered
             $("nav .tag-h2 a").mouseover(function() {
-                // shows contigous tag-h3
-                $(this).parent().next().nextUntil(".tag-h2").toggle("slow", "swing");
+
+                // shows contiguous tag-h3. Have to skip the extra tag-h2 created by details
+                // by finding next .tag-h3, then selecting contiguous
+                $(this).parent().nextUntil(".tag-h3").nextUntil(".tag-h2").toggle("slow", "swing");
             });
+            // END NAV SECTION
 
             // DETAILS SECTION
+
+            // open top details on first run
+            $("details").first().children("summary").first().trigger("click")
 
             // This toggles details when border is clicked
             $("details").click(function(e) {
@@ -131,29 +110,28 @@
                 };
             });
 
-            // This toggles both menu elements when details state changes
+            // This toggles both menu elements when details state changes by finding links to detail h2 ids.
+            // only details with h2 ids do this. This may need a tweak.
             $('details').on('toggle', function() {
-                var $elementToToggle = "[href='#" + $(this).children("h2").attr("id") + "']";
+                var $elementToToggle = "[href='#" + $(this).children("h2").first().attr("id") + "']";
                 $($elementToToggle).toggleClass("toggled");
             });
 
-
+            // .innerlink class allows links in one main details to open links within another main details even if that main details is closed.
             $(".innerlink").on("click", function(event) {
-
                 //if closed and inner link open details first then trigger click
-                // TODO: Doesnt work for links to details within details
+                // TODO: Not checked for links to details within details
                 if (!$($(this).attr("href")).parents("details").last().prop("open")) {
-                    //old way: open without clicking 
-                    //$($(this).attr("href")).closest("details").attr("open", "open")
-                    // now: click
                     $($(this).attr("href")).parents("details").last().find("summary").trigger("click");
                     $($(this).attr("href")).trigger("click");
-                    //$(this).parents("li").last().children("a").first().addClass("toggled");
                 };
             });
+            // END DETAILS SECTION
 
-
-
+            // Don't follow empty links, like footnotes
+            $('a[href="#"]').on("click", function(event) {
+                return false;
+            });
         });
     </script>
 
@@ -304,6 +282,31 @@
             color: #3e71b2;
             background-color: #ffec9f;
             /* border: 1px solid blue; */
+        }
+        
+        a:empty:before {
+            content: "☞";
+            font-size: .93em;
+            vertical-align: super;
+            color: red;
+            font-weight: bold;
+        }
+        
+        a:empty:after {
+            content: "";
+        }
+        
+        a[title]:hover:after {
+            content: attr(title);
+            position: absolute;
+            background: beige;
+            border: 2px solid maroon;
+            border-radius: 10px;
+            padding: 10px;
+            color: navy;
+            display: block;
+            max-width: 50%;
+            z-index: 100;
         }
         
         nav ul .tag-h1 a:hover {
@@ -602,8 +605,12 @@ scroll-snap-type: mandatory;
         
         .bottomSpacer {
             /* padding-bottom: 80vh;
-margin-bottom: 80vh;*/
+            margin-bottom: 80vh;*/
             background-color: aliceblue;
+        }
+        
+        section#mainsection {
+            height: fit-content!important;
         }
     </style>
 </head>
@@ -632,7 +639,7 @@ margin-bottom: 80vh;*/
 
         </nav>
 
-        <section>
+        <section id="mainsection" style="height:auto;">
 
             <header id="header1">
                 <h1 class="ournav">
@@ -658,8 +665,10 @@ margin-bottom: 80vh;*/
                 <h1>{{ page.title | default: site.title | default: site.github.repository_name }}
                 </h1>
                 <div id="subtitle">
+
                     <p>{{ page.title2 }}
                         <p>
+
                 </div>
             </div>
 

@@ -57,7 +57,37 @@ giurl-11: ./images/2020-05-11/FollowTheMazeGame.gif
 gicaption-11: 
 
 ---
-》 Proceed to [Page 2](./a_mon0500pm-Archives.html)
+
+<style> 
+    a:empty:before {
+        content: "☞";
+        font-size: .93em;
+        vertical-align: super;
+        color: red;
+        font-weight: bold;
+    }
+
+    a:empty:after {
+        content: "";
+    }
+
+    a[title]:hover:after {
+        content: attr(title);
+        position: absolute;
+        background: beige;
+        border: 2px solid maroon;
+        border-radius: 10px;
+        padding: 10px;
+        color: navy;
+        display: block;  
+        max-width:50%;
+        z-index: 100; 
+    } 
+</style> 
+ 
+Proceed to [Archives](./a_mon0500pm-Archives.html) 》 
+{: style="float: right;"}
+<br clear="both">
 
 <div id="toc">
 
@@ -153,6 +183,8 @@ Lastly, we also talked about how to modify characters, to make buttons have the 
 
 ![Screen 2 of Race to the Finish](./scratchProjects/Images/Y1R25RaceToTheFinish/Game/Y1R25RacetotheFinishGame.gif "Screen 2 of Race to the Finish"){: width="50%" } 
  
+
+ <!-- move to lessons -->
 ### Next Major Project Preview: 3 Little Pigs
 
 Most kids seem to be understanding how to use messages. We now have a basic understanding of almost all the buttons, and are ready to try more creative and advanced projects. Our next big project we will focus more on the creative side, telling stories, creating effects that help us tell the story. Our sample project will begin like this. Can you figure it out?
@@ -168,6 +200,7 @@ This week's homework has 3 parts, but **you don't have to do them all**.
 #### Finish up projects from May 11th
 * Keep working on your projects and be prepared to tell me about your project using a small description. It doesn't have to be written. The focus in on the relationship between words/stories and the code. We will do more of this next week.
 
+<!-- move to lessons -->
 #### Intro to Message Mania 
 
 ##### Warm-up: Planning for **Message Mania for 3**
@@ -331,7 +364,7 @@ Sometimes I am paying attention to one student, and the part of my screen that s
 
 ### Animate My name
 
-I had students make their own project based on the [Bootup Animate My Name](https://www.youtube.com/watch?v=mQzWGY4xuSY) project, which you can [download here](https://drive.google.com/open?id=0B342uiaCLSS3YzJTUmlha1FQRjF1cldPdjQtUVhGUjFROEFz) [^downloadingprojects]. Students created characters based on the letters in their name.
+I had students make their own project based on the [Bootup Animate My Name](https://www.youtube.com/watch?v=mQzWGY4xuSY) project, which you can [download here](https://drive.google.com/open?id=0B342uiaCLSS3YzJTUmlha1FQRjF1cldPdjQtUVhGUjFROEFz) [](# "If you have any difficulty opening projects in ScratchJr, please note two things. 1) ScratchJr must be open when you open the sjr file. 2) You must have the latest version installed. If you still have problems let us know.") using the [skills we should all know at this stage][]. Students created characters based on the letters in their name.
 We talked about what each letter was doing. Then students created their own.
 
 As a follow, we changed it so instead of all the characters moving at once, they moved in turn. Some kids got creative and had the letters say things and do funny things along the way.
@@ -392,18 +425,20 @@ In class we will continue this story. Any ideas?
 
 ### Skills Review
 
-We did a [guided walkthough][] of the [skills review sample project][] [^downloadingprojects] using the [skills we should all know at this stage][]. Can you do them all? You have learned a lot already!!!
+
+We did a [guided walkthough][] of the [skills review sample project][] [](# "If you have any difficulty opening projects in ScratchJr, please note two things. 1) ScratchJr must be open when you open the sjr file. 2) You must have the latest version installed. If you still have problems let us know.") using the [skills we should all know at this stage][]. Can you do them all? You have learned a lot already!!!
 
 [guided walkthough]: ../lessons/20200427SkillsTest.html
 [skills we should all know at this stage]: #addendum-skill-review-checklist
 [skills review sample project]: ./scratchProjects/Project120200427SkillsTest.sjr
 
-[^downloadingprojects]: **Downloading projects**: If you have any difficulty opening projects in ScratchJr, please note two things. 1) ScratchJr must be open when you open the sjr file. 2) You must have the latest version installed. If you still have problems let us know.
 
 ### Teacher Says with Zoom
 
 I talked about the game [Zoom version of the Teacher Says game](../lessons/TeacherSays.html), which we played once before. In this version, I walked through the project and students sent reactions, either 1 👍 or 2 👏, showing which button does **the next action**. Everyone did great using the zoom reaction buttons. Just using your hands was okay too.
 
+
+<!-- move to lessons -->
 ### Alien Planet
 
 I showed everyone the [Alien Planet Project](./scratchProjects/Y1R31Alienplanet.sjr). I gave students an assignment modelled on the Alien Planet ([see addendum](#addendum-alien-planet-project-assignment)) . See [this addendum](#addendum-code-for-alien-planet) for the code.
@@ -414,7 +449,7 @@ When you are done, you can [email it to me](mailto:teacher@kyotolesson.com) from
 
 ### Update ScratchJr
 
-ScratchJr just updated their program[^downloadingprojects]. I suggest you update it on your device, here:
+ScratchJr just updated their program using the [skills we should all know at this stage][] [](# "If you have any difficulty opening projects in ScratchJr, please note two things. 1) ScratchJr must be open when you open the sjr file. 2) You must have the latest version installed. If you still have problems let us know."). I suggest you update it on your device, here:
 
 -   <a href="https://itunes.apple.com/us/app/scratchjr/id895485086?ls=1&amp;mt=8">App Store</a>
 
@@ -459,7 +494,7 @@ Go back to [Skills Review](#skills-review)
 
 </details>
 <!-- End Addendum: Skill Review Checklist -->
-
+<!-- move to lessons -->
 <details>
 <summary>#### Addendum: Alien Planet Project Assignment
 </summary>
@@ -517,6 +552,7 @@ Here is my [direct email](mailto:teacher@kyotolesson.com) or email alan or the s
 
 </details>
 
+<!-- move to lessons -->
 <details><summary>#### Addendum: Code for Alien Planet
 </summary>
 
