@@ -91,6 +91,12 @@ Proceed to [Archives](./a_mon0500pm-Archives.html) 》
 
 <div id="toc">
 
+* [May 25th](#may-25th)
+  * [Homework Review](#homework-review)
+  * [Message Mania Part 1](#message-mania-part-1)
+    * [[UPDATE]](#update)
+  * [May 25th Homework](#may-25th-homework)
+  * [Also Coming Up on June 1st](#also-coming-up-on-june-1st)
 * [May 18th](#may-18th)
   * [May 11th: Homework Review](#may-11th-homework-review)
   * [May 18th: Follow the Maze Project](#may-18th-follow-the-maze-project)
@@ -136,6 +142,77 @@ Proceed to [Archives](./a_mon0500pm-Archives.html) 》
 * Click [> Date]() or <span style="color: #3399cc;  border-left: 9px solid #3399cc!important;border-radius: 4px 4px; font-weight: bold">BLUE</span> borders to toggle the <span style="background-color:#ffeca0; border-left: 10px solid #3399cc !important;border-radius: 4px 4px;"><b>  &nbsp;<span style="font-size: 70%">▶︎</span>&nbsp;&nbsp;Details&nbsp;&nbsp;&nbsp;&nbsp;</b></span>
   
 
+<details>
+<summary>## May 25th
+</summary>
+
+## May 25th
+
+### Homework Review
+
+We reviewed homework. Great work telling me what your stories were about! 
+
+Everyone was using English well. Gambatte! Ooops, I mean Try Hard! ;-)
+
+### Message Mania Part 1
+
+We ran through the Message Mania HW assignment.  The purpose of the HW was to:
+
+* Plan/think about the story before you code it. That is why the assignment was NOT to do it in ScratchJr.
+
+My explanation was poor. I blame Zoom ;-) 
+
+Many children did this: 
+
+* One character has: Green flag, orange message, red message, yellow message.
+
+![Green Flag 3 Messages](./images/2020-05-25/GreenFlag3Messages.jpg){: height="100px"}
+
+What I wanted was:
+
+* Each character has a green flag. No message. Messages will be sent by Buttons.
+* Each character receives 3 messages
+* Each reactions is a different type
+
+![Each Character Has This in Message Mania](./images/2020-05-25/EachCharacterHas.jpg){: height="100px"}
+
+
+The purpose of the project was:
+
+* to show that messages can go to more than one character at a time. 
+* to continue getting practice coding messages and buttons.
+* Clicking a button can make several characters move at once.
+* Help some students use Messages instead of Wait buttons to control sequence and timing. 
+
+#### [UPDATE]
+I could see that some kids were struggling with this so I called in the Big Dogs. Here is a video showing what to do. If you have any questions, let me know. 
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WA4_xoRt1r8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[A direct link](https://youtu.be/WA4_xoRt1r) to the video.
+
+### May 25th Homework
+
+* Work on HW I gave you in class (if I did). 
+* Continue adding to Message Mania.
+* Send me your Message Mania project. 
+* Download and install MY SAMPLE Message Mania. Try to understand it and we will work on it next week.
+
+If you don't know what to do, just PLAY with ScratchJr. There is no correct answer! It's all good! 
+
+Ideas: 
+
+* Turn Message mania into a story. What happens next? What is the situation? What is the goal?
+* Think about characters/actions you want first. Then code it.
+* Send messages to more than one character at a time. Why would you do this?
+* Use different color messages to control sequence of events. One character orange. Then red, etc.
+
+### Also Coming Up on June 1st
+
+Do you know the story of the 3 little pigs? If not, try to read it.
+
+
+</details>
 <details>
 <summary>## May 18th
 </summary>
