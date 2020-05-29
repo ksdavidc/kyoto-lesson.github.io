@@ -94,6 +94,7 @@ Proceed to [Archives](./a_mon0500pm-Archives.html) 》
 * [May 25th](#may-25th)
   * [Homework Review](#homework-review)
   * [Message Mania Part 1](#message-mania-part-1)
+    * [[UPDATE]](#update)
   * [May 25th Homework](#may-25th-homework)
   * [Also Coming Up on June 1st](#also-coming-up-on-june-1st)
 * [May 18th](#may-18th)
@@ -183,7 +184,12 @@ The purpose of the project was:
 * Clicking a button can make several characters move at once.
 * Help some students use Messages instead of Wait buttons to control sequence and timing. 
 
-I will post a samole project here later in the week.
+#### [UPDATE]
+I could see that some kids were struggling with this so I called in the Big Dogs. Here is a video showing what to do. If you have any questions, let me know. 
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WA4_xoRt1r8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[A direct link](https://youtu.be/WA4_xoRt1r) to the video.
 
 ### May 25th Homework
 
