@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to HomeWorks 👋</h1>
+<h1 align="center">Welcome to HomeWorks</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/Kyoto-Lesson-Class/HomeWork/wiki">
@@ -9,12 +9,6 @@
 > Kyoto Lesson Homeworks
 
 ### 🏠 [Homepage](https://kyoto-lesson-class.github.io/HomeWork/)
-
-## Author
-
-👤 **Farid Hammouten**
-
-* Github: [@farid212](https://github.com/farid212)
 
 ## 🤝 Contributing
 
