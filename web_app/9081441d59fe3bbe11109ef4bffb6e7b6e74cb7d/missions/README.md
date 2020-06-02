@@ -8,12 +8,6 @@
 
 ### 🏠 [Homepage](https://kyoto-lesson-class.github.com/Mission/)
 
-## Author
-
-👤 **Farid Hammouten**
-
-* Github: [@faridh212](https://github.com/faridh212)
-
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Kyoto-Lesson-Class/Mission/issues).
