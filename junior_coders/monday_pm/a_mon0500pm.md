@@ -91,10 +91,15 @@ Proceed to [Archives](./a_mon0500pm-Archives.html) 》
 
 <div id="toc">
 
+* [June 1st](#june-1st)
+  * [Message Mania Part 1](#message-mania-part-1)
+  * [May 25th Homework Review](#may-25th-homework-review)
+  * [3 Little Pigs in ScratchJr](#3-little-pigs-in-scratchjr)
+  * [June 1st homework](#june-1st-homework)
 * [May 25th](#may-25th)
   * [Homework Review](#homework-review)
-  * [Message Mania Part 1](#message-mania-part-1)
-    * [[UPDATE]](#update)
+  * [Message Mania Part 1](#message-mania-part-1-1)
+    * [[UPDATE to Message Mania Part 1]](#update-to-message-mania-part-1)
   * [May 25th Homework](#may-25th-homework)
   * [Also Coming Up on June 1st](#also-coming-up-on-june-1st)
 * [May 18th](#may-18th)
@@ -143,6 +148,55 @@ Proceed to [Archives](./a_mon0500pm-Archives.html) 》
   
 
 <details>
+<summary>## June 1st
+</summary>
+
+## June 1st
+
+
+### Message Mania Part 1
+
+We watched the video about [Message Mania Part 1](#update-to-message-mania-part-1){: .innerlink}
+
+### May 25th Homework Review
+
+We reviewed the homework assignments the kids submitted. They were great and kids enjoy talking about their projects with the class. Kids worked together to fix some problems.
+
+### 3 Little Pigs in ScratchJr
+
+Some kids told their own version of the 3 Little Pigs. The assignment was to plan, on paper, without using ScratchJr, how they would tell the story. This included:
+
++ Designing the characters and houses
++ Plotting out the actions
++ Writing dialogue
+
+The purpose was to think about the project before actually starting to code it. I reviewed their plans, and when they were ready they started coding. Here is my example of what my plan and first screen look like. 
+
+1. There were three little pigs.
+   1. One pig goes to the center and introduces themselves
+        1. Draw each pig a little differently
+        2. Each pig says something different: name, why my house is good, ?
+   2. They become small
+   3. The pig then goes to their house
+   4. They ask/tell the house they are going in　
+   5. The house lets them . How would you show that????
+   6. The next pig goes and does the same
+
+
+![3 Little Pigs first screen](/junior_coders/monday_pm/images/SnapNDrag%20Library.snapndraglibrary/e401a28ed-bd/3PigsScreen1.jpg)
+
+I had some technical difficulties with my computer but in the end I was able to show them my example project (to be posted later). At this point they had pretty much all begun their own work and didn't need the sample.
+
+### June 1st homework
+
+The homework is:
+
+a. Complete and submit their final project to me.
+b. (**DO NOT USE SCRATCHJR. PLANNING ONLY.**) Think about other stories you might want to tell in scratch. Be ready to tell the story in class! 
+
+</details>
+
+<details>
 <summary>## May 25th
 </summary>
 
@@ -184,7 +238,7 @@ The purpose of the project was:
 * Clicking a button can make several characters move at once.
 * Help some students use Messages instead of Wait buttons to control sequence and timing. 
 
-#### [UPDATE]
+#### [UPDATE to Message Mania Part 1]
 I could see that some kids were struggling with this so I called in the Big Dogs. Here is a video showing what to do. If you have any questions, let me know. 
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WA4_xoRt1r8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
