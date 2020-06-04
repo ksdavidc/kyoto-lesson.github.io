@@ -170,22 +170,7 @@ Some kids told their own version of the 3 Little Pigs. The assignment was to pla
 + Plotting out the actions
 + Writing dialogue
 
-The purpose was to think about the project before actually starting to code it. I reviewed their plans, and when they were ready they started coding. Here is my example of what my plan and first screen look like. 
-
-1. There were three little pigs.
-   1. One pig goes to the center and introduces themselves
-        1. Draw each pig a little differently
-        2. Each pig says something different: name, why my house is good, ?
-   2. They become small
-   3. The pig then goes to their house
-   4. They ask/tell the house they are going in　
-   5. The house lets them . How would you show that????
-   6. The next pig goes and does the same
-
-
-![3 Little Pigs first screen](/junior_coders/monday_pm/images/SnapNDrag%20Library.snapndraglibrary/e401a28ed-bd/3PigsScreen1.jpg)
-
-I had some technical difficulties with my computer but in the end I was able to show them my example project (to be posted later). At this point they had pretty much all begun their own work and didn't need the sample.
+The purpose was to think about the project before actually starting to code it. I reviewed their plans, and when they were ready they started coding. Here is my example of what my plan and first screen look like. See [here](../lessons/3LittlePigsInScratchJr.html) for more information.
 
 ### June 1st homework
 
