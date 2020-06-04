@@ -176,8 +176,9 @@ The purpose was to think about the project before actually starting to code it. 
 
 The homework is:
 
-a. Complete and submit their final project to me.
-b. (**DO NOT USE SCRATCHJR. PLANNING ONLY.**) Think about other stories you might want to tell in scratch. Be ready to tell the story in class! 
+1. Complete and submit their final project to me.
+
+2. (**DO NOT USE SCRATCHJR. PLANNING ONLY.**) Think about other stories you might want to tell in scratch. Be ready to tell the story in class! 
 
 </details>
 
