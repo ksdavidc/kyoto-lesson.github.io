@@ -13,6 +13,7 @@ gicaption-01: Code for this character
 gilabel-02: Alien Cat
 giurl-02: ./scratchProjects/Images/Y1R31AlienPlanetImages/Alien%20Cat.jpg
 gicaption-02: Code for this character
+title: Junior Coders Monday PM Class Notes
 
 gilabel-03: Alien Bat
 giurl-03: ./scratchProjects/Images/Y1R31AlienPlanetImages/Alien%20Bat.jpg
